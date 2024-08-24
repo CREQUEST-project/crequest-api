@@ -7,7 +7,6 @@ python backend_pre_start.py
 python initial_data.py
 uvicorn main:app --reload
 
-
 ```
 Create a Migration Script
 ```

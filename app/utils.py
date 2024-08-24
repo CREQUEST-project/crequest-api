@@ -1,6 +1,5 @@
 import random
 
-
 def random_color():
     r = random.randint(0, 255)
     g = random.randint(0, 255)

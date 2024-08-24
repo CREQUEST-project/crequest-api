@@ -16,6 +16,11 @@ class User(UserBase, table=True):
     created_at: datetime | None = Field(default_factory=datetime.now)
     updated_at: datetime | None = Field(default_factory=datetime.now)
     
+class UserOut(UserBase):
+    id: int
+    created_at: datetime
+    updated_at: datetime
+
 class UserCreate(SQLModel):
     user_name: str
     password: str

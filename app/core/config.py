@@ -1,8 +1,6 @@
 import secrets
 from typing import Annotated, Any, Literal
 
-import os
-
 from pydantic import (
     AnyUrl,
     BeforeValidator,
@@ -33,10 +31,10 @@ class Settings(BaseSettings):
     DOMAIN: str = "localhost"
     ENVIRONMENT: Literal["local", "staging", "production"] = "local"
     RECORD_LIMIT: int = 100
-    PROJECT_NAME: str = os.environ.get("PROJECT_NAME")
-    FIRST_SUPERUSER: str = os.environ.get("FIRST_SUPERUSER", "admin")
-    DEFAULT_PW_FOR_DEV: str = os.environ.get("DEFAULT_PW_FOR_DEV")
-    PW_KEY: str = os.environ.get("PW_KEY")
+    PROJECT_NAME: str 
+    FIRST_SUPERUSER: str 
+    DEFAULT_PW_FOR_DEV: str 
+    PW_KEY: str 
 
     @computed_field  # type: ignore[misc]
     @property
@@ -51,11 +49,11 @@ class Settings(BaseSettings):
     ] = []
     
 
-    POSTGRES_SERVER: str = os.environ.get("POSTGRES_SERVER")
-    POSTGRES_PORT: int = os.environ.get("POSTGRES_PORT")
-    POSTGRES_USER: str = os.environ.get("POSTGRES_USER")
-    POSTGRES_PASSWORD: str = os.environ.get("POSTGRES_PASSWORD")
-    POSTGRES_DB: str = os.environ.get("POSTGRES_DB")
+    POSTGRES_SERVER: str 
+    POSTGRES_PORT: int 
+    POSTGRES_USER: str 
+    POSTGRES_PASSWORD: str 
+    POSTGRES_DB: str 
     
     @computed_field  # type: ignore[misc]
     @property
