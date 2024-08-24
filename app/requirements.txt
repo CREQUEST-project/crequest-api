@@ -8,3 +8,4 @@ tenacity==8.2.3
 python-jose==3.3.0
 cryptography==43.0.0
 python-multipart==0.0.9
+pre-commit==3.8.0

@@ -8,6 +8,7 @@ ALGORITHM = "HS256"
 
 cipher = Fernet(settings.PW_KEY)
 
+
 def create_access_token(
     data: str | Any,  # The subject of the token, can be any string
     expires_delta: timedelta,  # The time-to-live of the token, in seconds
@@ -36,6 +37,7 @@ def create_access_token(
     encoded_jwt = jwt.encode(to_encode, settings.SECRET_KEY, algorithm=ALGORITHM)
     return encoded_jwt
 
+
 def verify_password(plain_password: str, hashed_password: str) -> bool:
     """
     This function verifies if the given plain password matches the hashed password.
@@ -48,6 +50,7 @@ def verify_password(plain_password: str, hashed_password: str) -> bool:
     bool: True if the plain password matches the hashed password, False otherwise.
     """
     return cipher.decrypt(hashed_password.encode()).decode() == plain_password
+
 
 def get_password_hash(password: str) -> str:
     """

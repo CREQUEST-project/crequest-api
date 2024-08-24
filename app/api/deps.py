@@ -18,6 +18,7 @@ reusable_oauth2 = OAuth2PasswordBearer(
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+
 def get_db() -> Generator[Session, None, None]:
     """
     This function provides a database session object for use in other functions.
@@ -43,6 +44,7 @@ def get_db() -> Generator[Session, None, None]:
 
 SessionDep = Annotated[Session, Depends(get_db)]
 TokenDep = Annotated[str, Depends(reusable_oauth2)]
+
 
 def get_current_user(session: SessionDep, token: TokenDep) -> UserOut:
     try:
@@ -71,5 +73,6 @@ def get_current_user(session: SessionDep, token: TokenDep) -> UserOut:
             status_code=status.HTTP_403_FORBIDDEN,
             detail="Could not validate credentials",
         )
+
 
 CurrentUser = Annotated[UserOut, Depends(get_current_user)]

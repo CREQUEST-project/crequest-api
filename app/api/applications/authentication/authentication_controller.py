@@ -6,7 +6,10 @@ from core.security import verify_password, create_access_token, get_password_has
 from core.config import settings
 from fastapi import HTTPException
 
-def login_for_access_token(session: Session, user_name: str, password: str) -> Token | None:
+
+def login_for_access_token(
+    session: Session, user_name: str, password: str
+) -> Token | None:
     db_user = session.exec(select(User).where(User.user_name == user_name)).first()
     if not db_user:
         raise HTTPException(status_code=400, detail="Incorrect username or password")
@@ -20,7 +23,8 @@ def login_for_access_token(session: Session, user_name: str, password: str) -> T
     return Token(
         access_token=access_token, refresh_token=access_token, token_type="bearer"
     )
-    
+
+
 def register_user(session: Session, data_in: UserCreate) -> UserRegisterResponse:
     """
     Registers a user by their email address, password and username.
@@ -39,10 +43,10 @@ def register_user(session: Session, data_in: UserCreate) -> UserRegisterResponse
         raise HTTPException(status_code=400, detail="User name already registered")
 
     valid_user_roles = [2, 3]
-    
+
     if data_in.user_role_id not in valid_user_roles:
         raise HTTPException(status_code=400, detail="Invalid user role ID")
-    
+
     user = User(
         user_name=data_in.user_name,
         user_role_id=data_in.user_role_id,

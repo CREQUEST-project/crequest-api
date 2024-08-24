@@ -31,10 +31,10 @@ class Settings(BaseSettings):
     DOMAIN: str = "localhost"
     ENVIRONMENT: Literal["local", "staging", "production"] = "local"
     RECORD_LIMIT: int = 100
-    PROJECT_NAME: str 
-    FIRST_SUPERUSER: str 
-    DEFAULT_PW_FOR_DEV: str 
-    PW_KEY: str 
+    PROJECT_NAME: str
+    FIRST_SUPERUSER: str
+    DEFAULT_PW_FOR_DEV: str
+    PW_KEY: str
 
     @computed_field  # type: ignore[misc]
     @property
@@ -47,14 +47,13 @@ class Settings(BaseSettings):
     BACKEND_CORS_ORIGINS: Annotated[
         list[AnyUrl] | str, BeforeValidator(parse_cors)
     ] = []
-    
 
-    POSTGRES_SERVER: str 
-    POSTGRES_PORT: int 
-    POSTGRES_USER: str 
-    POSTGRES_PASSWORD: str 
-    POSTGRES_DB: str 
-    
+    POSTGRES_SERVER: str
+    POSTGRES_PORT: int
+    POSTGRES_USER: str
+    POSTGRES_PASSWORD: str
+    POSTGRES_DB: str
+
     @computed_field  # type: ignore[misc]
     @property
     def SQLALCHEMY_DATABASE_URI(self) -> PostgresDsn:
@@ -66,5 +65,6 @@ class Settings(BaseSettings):
             port=self.POSTGRES_PORT,
             path=self.POSTGRES_DB,
         )
+
 
 settings = Settings()  # type: ignore

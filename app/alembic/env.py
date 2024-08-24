@@ -19,10 +19,6 @@ fileConfig(config.config_file_name)
 # target_metadata = mymodel.Base.metadata
 # target_metadata = None
 
-from models import (
-    users,
-    factors
-)
 
 target_metadata = SQLModel.metadata
 
