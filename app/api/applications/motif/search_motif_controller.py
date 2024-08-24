@@ -1,9 +1,10 @@
 import re
-from sqlmodel import select
+from sqlmodel import select, func
 from fastapi import HTTPException, status
 from sqlmodel import Session
 
-from models.factors import Factors, MotifSearch, MotifSearchOut
+from models.factors import Factors, FactorsListOut, FactorsOut, MotifSearch, MotifSearchOut, QueryCareSearchIn
+from core.config import settings
 
 
 def search_for_care(session: Session, data_in: MotifSearch) -> MotifSearchOut:
@@ -94,3 +95,38 @@ def find_sequence_in_database(fragment_dna, database):
             end = start + len(value)
             found_sequences.append((value, key, start, end))
     return found_sequences
+
+def query_care(session: Session, data_in: QueryCareSearchIn, skip: int = 0, limit: int = settings.RECORD_LIMIT) -> FactorsListOut:
+    factors = select(Factors)
+    
+    if data_in.id:
+        factors = factors.where(Factors.id == data_in.id)
+    if data_in.ac:
+        factors = factors.where(Factors.ac.ilike(f"%{data_in.ac}%"))
+    if data_in.dt:
+        factors = factors.where(Factors.dt.ilike(f"%{data_in.dt}%"))
+    if data_in.de:
+        factors = factors.where(Factors.de.ilike(f"%{data_in.de}%"))
+    if data_in.kw:
+        factors = factors.where(Factors.kw.ilike(f"%{data_in.kw}%"))
+    if data_in.os:
+        factors = factors.where(Factors.os.ilike(f"%{data_in.os}%"))
+    if data_in.ra:
+        factors = factors.where(Factors.ra.ilike(f"%{data_in.ra}%"))
+    if data_in.rt:
+        factors = factors.where(Factors.rt.ilike(f"%{data_in.rt}%"))
+    if data_in.rl:
+        factors = factors.where(Factors.rl.ilike(f"%{data_in.rl}%"))
+    if data_in.rd:
+        factors = factors.where(Factors.rd.ilike(f"%{data_in.rd}%"))
+    if data_in.sq:
+        factors = factors.where(Factors.sq.ilike(f"%{data_in.sq}%"))
+        
+    count_subquery = factors.subquery()
+    count_statement = select(func.count()).select_from(count_subquery)
+    count = session.exec(count_statement).one()
+    
+    factors = factors.offset(skip).limit(limit)
+    db_factors = session.exec(factors).all()
+    
+    return FactorsListOut(data=db_factors, count=count)
