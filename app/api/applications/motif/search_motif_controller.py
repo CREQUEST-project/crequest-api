@@ -6,7 +6,7 @@ from sqlmodel import Session
 from models.factors import Factors, MotifSearch, MotifSearchOut
 
 
-def search_motif(session: Session, data_in: MotifSearch) -> MotifSearchOut:
+def search_for_care(session: Session, data_in: MotifSearch) -> MotifSearchOut:
     reverse_complement = rev_comp_st(data_in.sequence)
     db_factors = session.exec(select(Factors)).all()
     database = {factor.ac: factor.sq for factor in db_factors}
