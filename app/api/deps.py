@@ -111,3 +111,11 @@ def get_current_active_biologist(current_user: CurrentUser) -> UserOut:
             status_code=status.HTTP_403_FORBIDDEN,
             detail="The user doesn't have enough privileges",
         )
+
+
+def verify_user_id(user_id: int, current_user: User = Depends(get_current_active_user)):
+    if current_user.id != user_id:
+        raise HTTPException(
+            status_code=403, detail="The user doesn't have enough privileges"
+        )
+    return current_user

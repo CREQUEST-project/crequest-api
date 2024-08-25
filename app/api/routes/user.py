@@ -1,6 +1,11 @@
 from fastapi import APIRouter, Depends, File, Form, UploadFile
 
-from api.deps import SessionDep, get_current_active_user
+from api.deps import SessionDep, get_current_active_user, verify_user_id
+from models.base import Message
+from models.search_for_care_history import (
+    SearchForCareHistoryListOut,
+    SearchForCareHistoryOut,
+)
 from models.factors import (
     FactorsListOut,
     MotifSamplerResponse,
@@ -11,6 +16,7 @@ from models.factors import (
 from core.config import settings
 
 import api.applications.motif.search_motif_controller as SearchMotifController
+import api.applications.history.history_controller as HistoryController
 
 router = APIRouter()
 
@@ -42,9 +48,9 @@ def query_care(
 
 
 @router.post(
-    "/search-for-care",
+    "/{user_id}/search-for-care",
     response_model=MotifSearchOut,
-    dependencies=[Depends(get_current_active_user)],
+    dependencies=[Depends(get_current_active_user), Depends(verify_user_id)],
 )
 def search_for_care_and_save_history(
     *, session: SessionDep, data_in: MotifSearch, user_id: int
@@ -62,6 +68,70 @@ def search_for_care_and_save_history(
     """
     return SearchMotifController.search_for_care_and_save_history(
         session, data_in, user_id
+    )
+
+
+@router.get(
+    "/{user_id}/search-for-care/histories",
+    response_model=SearchForCareHistoryListOut,
+    dependencies=[Depends(get_current_active_user), Depends(verify_user_id)],
+)
+def read_search_for_care_histories(*, session: SessionDep, user_id: int):
+    """
+    Get the search history for the user.
+
+    Parameters:
+    - session: The database session.
+    - user_id: The user ID.
+
+    Returns:
+    - The search history for the user.
+
+    """
+    return HistoryController.read_search_for_care_histories(session, user_id)
+
+
+@router.get(
+    "/{user_id}/search-for-care/histories/{history_id}",
+    response_model=SearchForCareHistoryOut,
+    dependencies=[Depends(get_current_active_user), Depends(verify_user_id)],
+)
+def read_search_for_care_history(*, session: SessionDep, user_id: int, history_id: int):
+    """
+    Get the search history for the user.
+
+    Parameters:
+    - session: The database session.
+    - user_id: The user ID.
+
+    Returns:
+    - The search history for the user.
+
+    """
+    return HistoryController.read_search_for_care_history(session, user_id, history_id)
+
+
+@router.delete(
+    "/{user_id}/search-for-care/histories/{history_id}",
+    response_model=Message,
+    dependencies=[Depends(get_current_active_user), Depends(verify_user_id)],
+)
+def delete_search_for_care_history(
+    *, session: SessionDep, user_id: int, history_id: int
+):
+    """
+    Delete the search history for the user.
+
+    Parameters:
+    - session: The database session.
+    - user_id: The user ID.
+
+    Returns:
+    - The search history for the user.
+
+    """
+    return HistoryController.delete_search_for_care_history(
+        session, user_id, history_id
     )
 
 
