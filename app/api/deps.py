@@ -4,6 +4,7 @@ from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
 from pydantic import ValidationError
 from sqlmodel import Session, select
+from core.const import UserRoleType
 from core.config import settings
 from collections.abc import Generator
 from core.db import engine
@@ -76,3 +77,37 @@ def get_current_user(session: SessionDep, token: TokenDep) -> UserOut:
 
 
 CurrentUser = Annotated[UserOut, Depends(get_current_user)]
+
+
+def get_current_active_admin(current_user: CurrentUser) -> UserOut:
+    if current_user and current_user.user_role_id == UserRoleType.ADMIN.value:
+        return current_user
+    else:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="The user doesn't have enough privileges",
+        )
+
+
+def get_current_active_user(current_user: CurrentUser) -> UserOut:
+    if current_user and current_user.user_role_id in [
+        UserRoleType.USER.value,
+        UserRoleType.ADMIN.value,
+        UserRoleType.BIOLOGIST.value,
+    ]:
+        return current_user
+    else:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="The user doesn't have enough privileges",
+        )
+
+
+def get_current_active_biologist(current_user: CurrentUser) -> UserOut:
+    if current_user and current_user.user_role_id == UserRoleType.BIOLOGIST.value:
+        return current_user
+    else:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="The user doesn't have enough privileges",
+        )

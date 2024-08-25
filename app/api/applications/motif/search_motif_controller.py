@@ -5,6 +5,8 @@ from sqlmodel import select, func
 from fastapi import File, Form, HTTPException, UploadFile, status
 from sqlmodel import Session
 
+from models.search_for_care_history import SearchForCareHistory
+from models.users import User
 from models.factors import (
     Factors,
     FactorsListOut,
@@ -77,6 +79,88 @@ def search_for_care(session: Session, data_in: MotifSearch) -> MotifSearchOut:
         "reverse_strand_matches": reverse_matches_with_color,
         "factors": found_factors,
     }
+    return data
+
+
+def search_for_care_and_save_history(
+    session: Session, data_in: MotifSearch, user_id: int
+) -> MotifSearchOut:
+    db_user = session.exec(select(User).where(User.id == user_id)).first()
+    if not db_user:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="User not found.",
+        )
+    reverse_complement = rev_comp_st(data_in.sequence)
+    db_factors = session.exec(select(Factors)).all()
+    database = {factor.ac: factor.sq for factor in db_factors}
+
+    # Find matches on both strands
+    forward_matches = find_sequence_in_database(data_in.sequence, database)
+    reverse_matches = find_sequence_in_database(reverse_complement, database)
+
+    # Prepare data for matches with color
+    forward_matches_with_color = []
+    for match in forward_matches:
+        factor_id = match[1]
+        factor = session.exec(select(Factors).where(Factors.ac == factor_id)).first()
+        if not factor:
+            raise HTTPException(
+                status_code=status.HTTP_404_NOT_FOUND,
+                detail=f"Factor with AC {factor_id} not found.",
+            )
+
+        forward_matches_with_color.append(
+            {
+                "factor_id": factor_id,
+                "start": match[2],
+                "end": match[3],
+                "color": factor.color,
+            }
+        )
+
+    reverse_matches_with_color = []
+    for match in reverse_matches:
+        factor_id = match[1]
+        factor = session.exec(select(Factors).where(Factors.ac == factor_id)).first()
+        if not factor:
+            raise HTTPException(
+                status_code=status.HTTP_404_NOT_FOUND,
+                detail=f"Factor with AC {factor_id} not found.",
+            )
+
+        reverse_matches_with_color.append(
+            {
+                "factor_id": factor_id,
+                "start": match[2],
+                "end": match[3],
+                "color": factor.color,
+            }
+        )
+
+    # Serialize factors
+    found_factor_ids = {match[1] for match in forward_matches + reverse_matches}
+    found_factors = session.exec(
+        select(Factors).where(Factors.ac.in_(found_factor_ids))
+    ).all()
+
+    data = {
+        "original_sequence": data_in.sequence,
+        "reverse_complement_sequence": reverse_complement,
+        "forward_strand_matches": forward_matches_with_color,
+        "reverse_strand_matches": reverse_matches_with_color,
+        "factors": found_factors,
+    }
+
+    # Save search history
+    db_search_history = SearchForCareHistory(
+        sequences=data_in.sequence,
+        user_id=user_id,
+    )
+    session.add(db_search_history)
+    session.commit()
+    session.refresh(db_search_history)
+
     return data
 
 

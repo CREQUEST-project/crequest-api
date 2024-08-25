@@ -1,3 +1,4 @@
+# flake8: noqa
 import os
 from logging.config import fileConfig
 
@@ -18,7 +19,7 @@ fileConfig(config.config_file_name)
 # from myapp import mymodel
 # target_metadata = mymodel.Base.metadata
 # target_metadata = None
-
+from models import factors, users, search_for_care_history
 
 target_metadata = SQLModel.metadata
 

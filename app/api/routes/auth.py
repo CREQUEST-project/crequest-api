@@ -2,9 +2,9 @@ from typing import Annotated
 from fastapi import APIRouter, Depends
 from fastapi.security import OAuth2PasswordRequestForm
 
-from api.deps import SessionDep
+from api.deps import CurrentUser, SessionDep
 from models.base import Token
-from models.users import UserCreate, UserRegisterResponse
+from models.users import UserCreate, UserOut, UserRegisterResponse
 
 import api.applications.authentication.authentication_controller as AuthenticationController
 
@@ -23,3 +23,8 @@ def login_get_access_token(
 @router.post("/register", response_model=UserRegisterResponse)
 def register_user(session: SessionDep, data_in: UserCreate) -> UserRegisterResponse:
     return AuthenticationController.register_user(session, data_in)
+
+
+@router.get("/me", response_model=UserOut)
+def read_user_me(current_user: CurrentUser) -> UserOut:
+    return current_user
