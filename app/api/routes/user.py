@@ -10,7 +10,7 @@ from models.factors import (
     FactorsListOut,
     MotifSamplerResponse,
     MotifSearch,
-    MotifSearchOut,
+    MotifSearchAndSaveHistoryOut,
     QueryCareSearchIn,
 )
 from core.config import settings
@@ -49,7 +49,7 @@ def query_care(
 
 @router.post(
     "/{user_id}/search-for-care",
-    response_model=MotifSearchOut,
+    response_model=MotifSearchAndSaveHistoryOut,
     dependencies=[Depends(get_current_active_user), Depends(verify_user_id)],
 )
 def search_for_care_and_save_history(

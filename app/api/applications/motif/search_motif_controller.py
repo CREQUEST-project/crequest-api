@@ -12,6 +12,7 @@ from models.factors import (
     FactorsListOut,
     MotifSamplerResponse,
     MotifSearch,
+    MotifSearchAndSaveHistoryOut,
     MotifSearchOut,
     QueryCareSearchIn,
 )
@@ -84,7 +85,7 @@ def search_for_care(session: Session, data_in: MotifSearch) -> MotifSearchOut:
 
 def search_for_care_and_save_history(
     session: Session, data_in: MotifSearch, user_id: int
-) -> MotifSearchOut:
+) -> MotifSearchAndSaveHistoryOut:
     db_user = session.exec(select(User).where(User.id == user_id)).first()
     if not db_user:
         raise HTTPException(
@@ -144,14 +145,6 @@ def search_for_care_and_save_history(
         select(Factors).where(Factors.ac.in_(found_factor_ids))
     ).all()
 
-    data = {
-        "original_sequence": data_in.sequence,
-        "reverse_complement_sequence": reverse_complement,
-        "forward_strand_matches": forward_matches_with_color,
-        "reverse_strand_matches": reverse_matches_with_color,
-        "factors": found_factors,
-    }
-
     # Save search history
     db_search_history = SearchForCareHistory(
         sequences=data_in.sequence,
@@ -160,6 +153,14 @@ def search_for_care_and_save_history(
     session.add(db_search_history)
     session.commit()
     session.refresh(db_search_history)
+    data = {
+        "original_sequence": data_in.sequence,
+        "reverse_complement_sequence": reverse_complement,
+        "forward_strand_matches": forward_matches_with_color,
+        "reverse_strand_matches": reverse_matches_with_color,
+        "factors": found_factors,
+        "history_id": db_search_history.id,
+    }
 
     return data
 

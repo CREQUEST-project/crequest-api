@@ -57,6 +57,10 @@ class MotifSearchOut(SQLModel):
     factors: list[FactorsOut]
 
 
+class MotifSearchAndSaveHistoryOut(MotifSearchOut):
+    history_id: int
+
+
 class QueryCareSearchIn(SQLModel):
     id: str | None = None
     ac: str | None = None
