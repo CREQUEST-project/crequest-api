@@ -6,6 +6,8 @@ from alembic import context
 from sqlalchemy import engine_from_config, pool
 from sqlmodel import SQLModel
 
+from core.config import settings
+
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
 config = context.config
@@ -30,11 +32,11 @@ target_metadata = SQLModel.metadata
 
 
 def get_url():
-    user = os.getenv("POSTGRES_USER")
-    password = os.getenv("POSTGRES_PASSWORD")
-    server = os.getenv("POSTGRES_SERVER")
-    port = os.getenv("POSTGRES_PORT")
-    db = os.getenv("POSTGRES_DB")
+    user = settings.POSTGRES_USER
+    password = settings.POSTGRES_PASSWORD
+    server = settings.POSTGRES_SERVER
+    port = settings.POSTGRES_PORT
+    db = settings.POSTGRES_DB
     return f"postgresql+psycopg://{user}:{password}@{server}:{port}/{db}"
 
 
