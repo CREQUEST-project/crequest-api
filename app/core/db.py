@@ -31,7 +31,7 @@ def init_db(session: Session) -> None:
     db_factors = session.exec(select(func.count(Factors.id)).select_from(Factors)).one()
     if not db_factors:
         # load data from JSON file
-        with open("db.json") as f:
+        with open("./app/db.json") as f:
             data = json.load(f)
 
         data_in = []

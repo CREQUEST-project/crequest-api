@@ -1,0 +1,51 @@
+services:
+  db:
+    image: postgres:15-alpine
+    restart: always
+    volumes:
+      - app-db-data:/var/lib/postgresql/data/pgdata
+    env_file:
+      - .env
+    ports:
+      - "5432:5432"
+    environment:
+      - PGDATA=/var/lib/postgresql/data/pgdata
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD?Variable not set}
+      - POSTGRES_USER=${POSTGRES_USER?Variable not set}
+      - POSTGRES_DB=${POSTGRES_DB?Variable not set}
+
+  backend:
+    image: "${DOCKER_IMAGE_BACKEND?Variable not set}:${TAG-latest}"
+    entrypoint: ["bash", "/start-reload.sh"]
+    restart: always
+    networks:
+      - default
+    depends_on:
+      - db
+    env_file:
+      - .env
+    ports:
+      - "8080:80"
+      - "5678:5678"
+    environment:
+      - PYDEVD_DISABLE_FILE_VALIDATION=1
+      - BACKEND_CORS_ORIGINS=${BACKEND_CORS_ORIGINS}
+      - SECRET_KEY=${SECRET_KEY?Variable not set}
+      - FIRST_SUPERUSER=${FIRST_SUPERUSER?Variable not set}
+      - POSTGRES_SERVER=${POSTGRES_SERVER?db}
+      - POSTGRES_PORT=${POSTGRES_PORT}
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER?Variable not set}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD?Variable not set}
+      - RECORD_LIMIT=${RECORD_LIMIT}
+      - DEFAULT_PW_FOR_DEV=${DEFAULT_PW_FOR_DEV}
+    build:
+      context: ./
+    # platform: linux/amd64 # Patch for M1 Mac
+    platform: ${DOCKER_DEFAULT_PLATFORM-linux/amd64}
+    volumes:
+      - ./:/app
+      - ./scripts/start-reload.sh:/start-reload.sh
+    command: /start-reload.sh
+volumes:
+  app-db-data:
