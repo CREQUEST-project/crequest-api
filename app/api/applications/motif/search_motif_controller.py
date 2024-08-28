@@ -1,6 +1,8 @@
 import asyncio
+import subprocess
 import os
 import re
+from typing import Optional
 from sqlmodel import select, func
 from fastapi import File, Form, HTTPException, UploadFile, status
 from sqlmodel import Session
@@ -277,7 +279,7 @@ def query_care(
 
 async def motif_sampler(
     f_file: UploadFile = File(...),
-    b_file: UploadFile = File(...),
+    b_file: UploadFile = File(...), 
     output_o: str = Form(...),
     output_m: str = Form(...),
     r: int | None = Form(100),
@@ -306,9 +308,15 @@ async def motif_sampler(
         "z": z,
     }
 
-    motifs = await run_motif_sampler(
-        f_file_path, b_file_path, output_o, output_m, **parameters
-    )
+    try:
+        motifs = await run_motif_sampler(
+            f_file_path, b_file_path, output_o, output_m, **parameters
+        )
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=str(e),
+        )
 
     return MotifSamplerResponse(
         status="success",
@@ -319,7 +327,7 @@ async def motif_sampler(
 
 async def save_upload_file(uploaded_file: UploadFile):
     # Create media_motifsampler directory if not exists
-    save_dir = "media_motifsampler"
+    save_dir = "./app/media_motifsampler"
     os.makedirs(save_dir, exist_ok=True)
 
     file_path = os.path.join(save_dir, uploaded_file.filename)
@@ -329,8 +337,7 @@ async def save_upload_file(uploaded_file: UploadFile):
         content = await uploaded_file.read()
         f.write(content)
 
-    return file_path
-
+    return uploaded_file.filename
 
 async def run_motif_sampler(
     f_file_path: str,
@@ -340,20 +347,23 @@ async def run_motif_sampler(
     **parameters,
 ) -> list[str]:
     """
-    Thực thi chương trình motif-sampler và trả về danh sách chuỗi consensus.
+    Runs the motif sampler tool with the given parameters.
 
     Args:
-        f_file_path: Đường dẫn đến file chứa chuỗi DNA (fasta).
-        b_file_path: Đường dẫn đến file background genome (optional).
-        output_o: Tên file output cho kết quả annotated instances.
-        output_m: Tên file output cho kết quả PWM.
-        **parameters: Các tham số khác cho motif-sampler.
+        f_file_path (str): The file path of the input file.
+        b_file_path (str, optional): The file path of the background file. Defaults to None.
+        output_o (str, optional): The output file path for the motifs. Defaults to "output.txt".
+        output_m (str, optional): The output file path for the motif matrix. Defaults to "output.mtrx".
+        **parameters: Additional parameters to be passed to the motif sampler tool.
 
     Returns:
-        Danh sách các chuỗi consensus của motif được tìm thấy.
-    """
+        list[str]: A list of motifs extracted by the motif sampler tool.
 
-    # Xây dựng command line
+    Raises:
+        Exception: If the motif sampler fails with an error.
+
+    """
+    # Construct command line
     command = [
         "cd",
         "./app/media_motifsampler",
@@ -369,20 +379,18 @@ async def run_motif_sampler(
         if value is not None:
             command.extend([f"-{key}", str(value)])
 
-    # Thực thi command line
-    process = await asyncio.create_subprocess_exec(
-        *command, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
-    )
-    stdout, stderr = await process.communicate()
+    # Execute command line
+    command = " ".join(command)
+    process = subprocess.run(command, capture_output=True, text=True, shell=True)
 
-    # Xử lý kết quả
+    # Handle reusults
     if process.returncode == 0:
         motifs = []
-        for line in stdout.decode().splitlines():
+        for line in process.stdout.splitlines():
             if line.startswith("#Consensus"):
                 motif = line.split(":")[1].strip()
                 motifs.append(motif)
         return motifs
     else:
-        error_message = stderr.decode().strip()
+        error_message = process.stderr.strip()
         raise Exception(f"Motif sampler failed with error: {error_message}")

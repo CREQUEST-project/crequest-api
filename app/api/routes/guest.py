@@ -1,3 +1,4 @@
+from typing import Optional
 from fastapi import APIRouter, File, Form, UploadFile
 from api.deps import SessionDep
 from core.config import settings
@@ -33,7 +34,7 @@ def query_care(
 @router.post("/motif-sampler", response_model=MotifSamplerResponse)
 async def motif_sampler(
     f_file: UploadFile = File(...),
-    b_file: UploadFile = File(...),
+    b_file: UploadFile = File(...), 
     output_o: str = Form(...),
     output_m: str = Form(...),
     r: int | None = Form(100),
