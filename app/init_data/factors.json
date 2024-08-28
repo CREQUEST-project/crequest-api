@@ -1452,7 +1452,8 @@
       "rl": "Plant Cell 15: 2181-2191 (2003)Annu Rev Plant Physiol Plant Mol Biol 46:445-474 (1995)Science 250:959-966 (1990)Nature 31: 727-730 (1989)Plant Mol Biol 34: 403-415 (1997)Plant Mol Biol 42: 679-688 (2000)Plant Cell Rep. 21: 180-185 (2002)",
       "rc": "",
       "rd": "PubMed: 12953119;PubMed: 2528073;PubMed: 9225852PubMed: 10809441;",
-      "sq": "TGACG"
+      "sq": "TGACG",
+      "ft_id": "005018ab-8805-4d24-bf61-8505875d6f3a"
     }
   },
   {
@@ -2012,7 +2013,8 @@
       "rl": "Plant J. 33: 853-866 (2003)Plant Mol Biol 37:425-435 (1998)Plant Physiol. 133: 1605-1616 (2003)Plant Mol Biol 39:1299-1310 (1999)Trends in Biochemistry 20:506-510 (1995)Plant Cell 15: 3033-3050 (2003)Plant Mol Biol 45: 477-488 (2001)",
       "rc": "Reviewin silico; over-represented motif;Review",
       "rd": "PubMed: 12609027;PubMed: 9617810;PubMed: 14681527PubMed: 10380815;PubMed: 8571452;PubMed: 14630974;PubMed: 11352466;",
-      "sq": "CACGTG"
+      "sq": "CACGTG",
+      "ft_id": "dc6a4b72-b456-451a-9f3e-549af1cd23cc"
     }
   },
   {
@@ -2716,7 +2718,8 @@
       "rl": "Plant J. 11: 1285-1295 (1997)Plant J. 30 :679-689 (2002)Plant J. 33: 751-763 (2003)",
       "rc": "",
       "rd": "PubMed: 9225468;PubMed: 12061899;PubMed: 12609047;",
-      "sq": "ACCGAC"
+      "sq": "ACCGAC",
+      "ft_id": "eb05ebab-959b-45bd-954b-481c4735d4db"
     }
   },
   {
@@ -4364,7 +4367,8 @@
       "rl": "Plant Mol Biol  38:551-564 (1998)",
       "rc": "",
       "rd": "PubMed: 9747801;",
-      "sq": "CCGAAA"
+      "sq": "CCGAAA",
+      "ft_id": "49b6f747-7d80-48a2-9a05-c9acc7660ebe"
     }
   },
   {
@@ -4636,7 +4640,8 @@
       "rl": "Plant Cell 5:1529-1539 (1993)",
       "rc": "",
       "rd": "PubMed: 8312738; GenBank: D14712;",
-      "sq": "TAACTG"
+      "sq": "TAACTG",
+      "ft_id": "4d4bf5bb-c61b-44b3-a0ff-1fa95a983ba8"
     }
   },
   {
@@ -4796,7 +4801,8 @@
       "rl": "Plant Cell 9:1859-1868 (1997)Plant Mol Biol 37:425-435 (1998)",
       "rc": "Review",
       "rd": "PubMed: 9368419;PubMed: 9617810;",
-      "sq": "CACATG"
+      "sq": "CACATG",
+      "ft_id": "811aaa3f-e68e-493b-b75e-7a4ef238f617"
     }
   },
   {
