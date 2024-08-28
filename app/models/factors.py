@@ -1,7 +1,8 @@
 from fastapi import File, Form, UploadFile
 from pydantic import field_validator
-from sqlmodel import Field, SQLModel
+from sqlmodel import Field, Relationship, SQLModel
 import uuid
+from models.factors_function_labels import FactorsFunctionLabels
 
 
 class FactorsBase(SQLModel):
@@ -18,11 +19,16 @@ class FactorsBase(SQLModel):
     sq: str
     note: str | None = Field(default=None, nullable=True)
     color: str
-    ft_id: uuid.UUID | None = Field(default=None, nullable=True)
 
 
 class Factors(FactorsBase, table=True):
     id: uuid.UUID = Field(default_factory=uuid.uuid4, primary_key=True)
+    ft_id: uuid.UUID | None = Field(
+        default=None, nullable=True, foreign_key="factorsfunctionlabels.id"
+    )
+    factors_function_label: list["FactorsFunctionLabels"] = Relationship(
+        back_populates="factors"
+    )
 
 
 class FactorsIn(FactorsBase):
@@ -46,7 +52,7 @@ class StrandMatch(SQLModel):
     factor_id: str
     sq: str
     de: str
-    ft_id: str | None = None
+    function_label: FactorsFunctionLabels | None = None
     start: int
     end: int
     color: str

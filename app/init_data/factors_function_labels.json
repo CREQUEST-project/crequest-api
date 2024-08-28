@@ -1,0 +1,97 @@
+[
+	{
+		"id" : "4d4bf5bb-c61b-44b3-a0ff-1fa95a983ba8",
+		"label" : "MBS",
+		"detail_label" : "MYB-binding site"
+	},
+	{
+		"id" : "eb05ebab-959b-45bd-954b-481c4735d4db",
+		"label" : "DRE",
+		"detail_label" : "Dehydration responsive element"
+	},
+	{
+		"id" : "811aaa3f-e68e-493b-b75e-7a4ef238f617",
+		"label" : "MYCR",
+		"detail_label" : "MYC-binding site"
+	},
+	{
+		"id" : "f41ed7ad-2c4f-48e9-a2b9-bcb1f1d5cd94",
+		"label" : "T\/G Box",
+		"detail_label" : "T\/G Box"
+	},
+	{
+		"id" : "4226982f-b6f2-4839-ae05-51d0b2f09425",
+		"label" : "EE",
+		"detail_label" : "Evening element"
+	},
+	{
+		"id" : "dcb4ca96-0b41-433e-9e61-5fce0a526a2f",
+		"label" : "NACR",
+		"detail_label" : "Binding site of drought-inducible NAC transcription factors"
+	},
+	{
+		"id" : "79cc5947-d28f-455f-83aa-a25e0d5b9fae",
+		"label" : "CE3",
+		"detail_label" : "Coupling element 3"
+	},
+	{
+		"id" : "49b6f747-7d80-48a2-9a05-c9acc7660ebe",
+		"label" : "LTRE",
+		"detail_label" : "Cis-acting element involved in low-temperature responsiveness"
+	},
+	{
+		"id" : "76668c6b-a25d-429e-8d2d-c82161bffdd3",
+		"label" : "ICEr2",
+		"detail_label" : "Induction of CBF expression region 2"
+	},
+	{
+		"id" : "02eb98d9-05e2-4099-b9d1-606c89b1e446",
+		"label" : "HSE",
+		"detail_label" : "Cis-acting element involved in heat stress responsiveness"
+	},
+	{
+		"id" : "ea4e4057-15a7-4d75-8c79-e1fdc5f3563b",
+		"label" : "TC-rich repeats",
+		"detail_label" : "Cis-acting element involved in defense and stress responsiveness"
+	},
+	{
+		"id" : "dc6a4b72-b456-451a-9f3e-549af1cd23cc",
+		"label" : "ABRE",
+		"detail_label" : "Cis-acting element involved in the abscisic acid responsiveness"
+	},
+	{
+		"id" : "4f22ea2c-5c0e-49e8-bbb4-c4c2ca4c7097",
+		"label" : "ERE",
+		"detail_label" : "Ethylene responsive element"
+	},
+	{
+		"id" : "99b33cc2-079b-4b58-b38d-72617b92ae7f",
+		"label" : "GARE-motif",
+		"detail_label" : "Gibberellin responsive element"
+	},
+	{
+		"id" : "a4de1f26-9863-42ed-97ee-cb66f23962c2",
+		"label" : "P-box",
+		"detail_label" : "Gibberellin responsive element"
+	},
+	{
+		"id" : "a58c858f-fb2f-4a2d-9f09-843e71c77b94",
+		"label" : "TGA-element",
+		"detail_label" : "Auxin responsive element"
+	},
+	{
+		"id" : "743628c6-a32f-4ae8-87e4-0fee74294e39",
+		"label" : "TCA-element (2）",
+		"detail_label" : "Cis-acting element involved in salicylic acid responsiveness"
+	},
+	{
+		"id" : "005018ab-8805-4d24-bf61-8505875d6f3a",
+		"label" : "TGACG-motif",
+		"detail_label" : "Cis-acting regulatory element involved in the MeJA-responsiveness"
+	},
+	{
+		"id" : "98cfd489-2b3c-446f-a37e-51395c787859",
+		"label" : "CGTCA-motif",
+		"detail_label" : "Cis-acting regulatory element involved in the MeJA-responsiveness"
+	}
+]

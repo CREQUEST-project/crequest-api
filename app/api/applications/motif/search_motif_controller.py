@@ -16,6 +16,7 @@ from models.factors import (
     MotifSearchOut,
     QueryCareSearchIn,
 )
+from models.factors_function_labels import FactorsFunctionLabels
 from core.config import settings
 
 
@@ -39,12 +40,20 @@ def search_for_care(session: Session, data_in: MotifSearch) -> MotifSearchOut:
                 detail=f"Factor with AC {factor_id} not found.",
             )
 
+        function_label = None
+        if factor.ft_id:
+            function_label = session.exec(
+                select(FactorsFunctionLabels).where(
+                    FactorsFunctionLabels.id == factor.ft_id
+                )
+            ).first()
+
         forward_matches_with_color.append(
             {
                 "factor_id": factor_id,
                 "sq": factor.sq,
                 "de": factor.de,
-                "ft_id": factor.ft_id,
+                "function_label": function_label,
                 "start": match[2],
                 "end": match[3],
                 "color": factor.color,
@@ -60,13 +69,20 @@ def search_for_care(session: Session, data_in: MotifSearch) -> MotifSearchOut:
                 status_code=status.HTTP_404_NOT_FOUND,
                 detail=f"Factor with AC {factor_id} not found.",
             )
+        function_label = None
+        if factor.ft_id:
+            function_label = session.exec(
+                select(FactorsFunctionLabels).where(
+                    FactorsFunctionLabels.id == factor.ft_id
+                )
+            ).first()
 
         reverse_matches_with_color.append(
             {
                 "factor_id": factor_id,
                 "sq": factor.sq,
                 "de": factor.de,
-                "ft_id": factor.ft_id,
+                "function_label": function_label,
                 "start": match[2],
                 "end": match[3],
                 "color": factor.color,
@@ -109,13 +125,20 @@ def search_for_care_and_save_history(
                 status_code=status.HTTP_404_NOT_FOUND,
                 detail=f"Factor with AC {factor_id} not found.",
             )
+        function_label = None
+        if factor.ft_id:
+            function_label = session.exec(
+                select(FactorsFunctionLabels).where(
+                    FactorsFunctionLabels.id == factor.ft_id
+                )
+            ).first()
 
         forward_matches_with_color.append(
             {
                 "factor_id": factor_id,
                 "sq": factor.sq,
                 "de": factor.de,
-                "ft_id": factor.ft_id,
+                "function_label": function_label,
                 "start": match[2],
                 "end": match[3],
                 "color": factor.color,
@@ -131,13 +154,20 @@ def search_for_care_and_save_history(
                 status_code=status.HTTP_404_NOT_FOUND,
                 detail=f"Factor with AC {factor_id} not found.",
             )
+        function_label = None
+        if factor.ft_id:
+            function_label = session.exec(
+                select(FactorsFunctionLabels).where(
+                    FactorsFunctionLabels.id == factor.ft_id
+                )
+            ).first()
 
         reverse_matches_with_color.append(
             {
                 "factor_id": factor_id,
                 "sq": factor.sq,
                 "de": factor.de,
-                "ft_id": factor.ft_id,
+                "function_label": function_label,
                 "start": match[2],
                 "end": match[3],
                 "color": factor.color,
