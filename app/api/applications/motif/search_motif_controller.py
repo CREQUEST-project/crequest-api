@@ -42,6 +42,9 @@ def search_for_care(session: Session, data_in: MotifSearch) -> MotifSearchOut:
         forward_matches_with_color.append(
             {
                 "factor_id": factor_id,
+                "sq": factor.sq,
+                "de": factor.de,
+                "ft_id": factor.ft_id,
                 "start": match[2],
                 "end": match[3],
                 "color": factor.color,
@@ -61,24 +64,20 @@ def search_for_care(session: Session, data_in: MotifSearch) -> MotifSearchOut:
         reverse_matches_with_color.append(
             {
                 "factor_id": factor_id,
+                "sq": factor.sq,
+                "de": factor.de,
+                "ft_id": factor.ft_id,
                 "start": match[2],
                 "end": match[3],
                 "color": factor.color,
             }
         )
 
-    # Serialize factors
-    found_factor_ids = {match[1] for match in forward_matches + reverse_matches}
-    found_factors = session.exec(
-        select(Factors).where(Factors.ac.in_(found_factor_ids))
-    ).all()
-
     data = {
         "original_sequence": data_in.sequence,
         "reverse_complement_sequence": reverse_complement,
         "forward_strand_matches": forward_matches_with_color,
         "reverse_strand_matches": reverse_matches_with_color,
-        "factors": found_factors,
     }
     return data
 
@@ -114,6 +113,9 @@ def search_for_care_and_save_history(
         forward_matches_with_color.append(
             {
                 "factor_id": factor_id,
+                "sq": factor.sq,
+                "de": factor.de,
+                "ft_id": factor.ft_id,
                 "start": match[2],
                 "end": match[3],
                 "color": factor.color,
@@ -133,17 +135,14 @@ def search_for_care_and_save_history(
         reverse_matches_with_color.append(
             {
                 "factor_id": factor_id,
+                "sq": factor.sq,
+                "de": factor.de,
+                "ft_id": factor.ft_id,
                 "start": match[2],
                 "end": match[3],
                 "color": factor.color,
             }
         )
-
-    # Serialize factors
-    found_factor_ids = {match[1] for match in forward_matches + reverse_matches}
-    found_factors = session.exec(
-        select(Factors).where(Factors.ac.in_(found_factor_ids))
-    ).all()
 
     # Save search history
     db_search_history = SearchForCareHistory(
@@ -158,7 +157,6 @@ def search_for_care_and_save_history(
         "reverse_complement_sequence": reverse_complement,
         "forward_strand_matches": forward_matches_with_color,
         "reverse_strand_matches": reverse_matches_with_color,
-        "factors": found_factors,
         "history_id": db_search_history.id,
     }
 
@@ -278,7 +276,6 @@ async def motif_sampler(
         "z": z,
     }
 
-    # try:
     motifs = await run_motif_sampler(
         f_file_path, b_file_path, output_o, output_m, **parameters
     )
@@ -288,8 +285,6 @@ async def motif_sampler(
         message="Motif sampler completed successfully.",
         results=motifs,
     )
-    # except Exception as e:
-    #     raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(e))
 
 
 async def save_upload_file(uploaded_file: UploadFile):
@@ -329,7 +324,14 @@ async def run_motif_sampler(
     """
 
     # Xây dựng command line
-    command = ["motif-sampler", "-f", f_file_path]
+    command = [
+        "cd",
+        "./app/media_motifsampler",
+        "&&",
+        "./motif-sampler",
+        "-f",
+        f_file_path,
+    ]
     if b_file_path:
         command.extend(["-b", b_file_path])
     command.extend(["-o", output_o, "-m", output_m])

@@ -44,6 +44,9 @@ class MotifSearch(SQLModel):
 
 class StrandMatch(SQLModel):
     factor_id: str
+    sq: str
+    de: str
+    ft_id: str | None = None
     start: int
     end: int
     color: str
@@ -54,7 +57,6 @@ class MotifSearchOut(SQLModel):
     reverse_complement_sequence: str
     forward_strand_matches: list[StrandMatch]
     reverse_strand_matches: list[StrandMatch]
-    factors: list[FactorsOut]
 
 
 class MotifSearchAndSaveHistoryOut(MotifSearchOut):
