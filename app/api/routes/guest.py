@@ -1,4 +1,5 @@
 from fastapi import APIRouter, File, Form, UploadFile
+from fastapi.responses import StreamingResponse
 from api.deps import SessionDep
 from core.config import settings
 
@@ -11,6 +12,7 @@ from models.factors import (
 )
 import api.applications.cre.search_cre_controller as SearchMotifController
 import api.applications.motif.motif_controller as MotifController
+import api.applications.cre.export_cre_controller as ExportCreController
 
 
 router = APIRouter()
@@ -51,3 +53,23 @@ async def motif_sampler(
     return await MotifController.motif_sampler(
         session, f_file, b_file, output_o, output_m, r, s, w, n, x, M, p, Q, z
     )
+
+
+@router.post("/cre/export-excel")
+def export_cre_excel(session: SessionDep, data_in: MotifSearch):
+    """
+    Export CRE data to an Excel file.
+
+    Returns:
+    - The Excel file containing the CRE data.
+
+    """
+    output = ExportCreController.export_excel(session, data_in)
+
+    # Return byte stream as StreamingResponse
+    headers = {
+        "Content-Disposition": "attachment; filename=cre.xlsx",
+        "Content-Type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    }
+
+    return StreamingResponse(output, headers=headers)
