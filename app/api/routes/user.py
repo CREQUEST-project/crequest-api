@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends, File, Form, UploadFile
 
 from api.deps import SessionDep, get_current_active_user, verify_user_id
 from models.base import Message
-from app.models.search_for_cre_history import (
+from models.search_for_cre_history import (
     SearchForCreHistoryListOut,
     SearchForCreHistoryOut,
 )

@@ -1,6 +1,6 @@
 from sqlalchemy import func
 from sqlmodel import Session, select
-from app.models.search_for_cre_history import (
+from models.search_for_cre_history import (
     SearchForCreHistory,
     SearchForCreHistoryListOut,
     SearchForCreHistoryOut,

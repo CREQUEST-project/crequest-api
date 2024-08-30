@@ -1,7 +1,7 @@
 from datetime import datetime
 
 from sqlmodel import Field, Relationship, SQLModel
-from app.models.search_for_cre_history import SearchForCreHistory
+from models.search_for_cre_history import SearchForCreHistory
 
 
 # Shared properties

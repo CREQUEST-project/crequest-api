@@ -1,9 +1,14 @@
 import os
 import subprocess
 from fastapi import File, Form, HTTPException, UploadFile, status
+from sqlalchemy import func
+from sqlmodel import Session, select
 
-from models.computational_motif import ComputationalMotif
-from models.factors import MotifSamplerResponse
+from models.computational_motif import ComputationalMotif, ComputationalMotifListOut
+from models.factors import FactorsIn, MotifSamplerResponse, Factors
+from models.base import Message
+from core.config import settings
+from utils import random_color
 
 
 async def motif_sampler(
@@ -130,3 +135,70 @@ async def run_motif_sampler(
     else:
         error_message = process.stderr.strip()
         raise Exception(f"Motif sampler failed with error: {error_message}")
+
+
+def read_computational_motifs(
+    session: Session, skip: int = 0, limit: int = settings.RECORD_LIMIT
+) -> ComputationalMotifListOut:
+    count = session.exec(
+        select(func.count(ComputationalMotif.id)).select_from(ComputationalMotif)
+    ).one()
+    db_computational_motifs = session.exec(
+        select(ComputationalMotif).offset(skip).limit(limit)
+    ).all()
+
+    return ComputationalMotifListOut(data=db_computational_motifs, count=count)
+
+
+def read_computational_motif(session: Session, motif_id: int) -> ComputationalMotif:
+    db_computational_motif = session.get(ComputationalMotif, motif_id)
+    if db_computational_motif is None:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Computational motif not found",
+        )
+
+    return db_computational_motif
+
+
+def delete_computational_motif(session: Session, motif_id: int) -> Message:
+    db_computational_motif = session.get(ComputationalMotif, motif_id)
+    if db_computational_motif is None:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Computational motif not found",
+        )
+
+    session.delete(db_computational_motif)
+    session.commit()
+
+    return Message(status_code=status.HTTP_200_OK, message="Item deleted")
+
+
+def validate_computational_motif(
+    session: Session, motif_id: int, data_in: FactorsIn
+) -> Message:
+    db_computational_motif = session.get(ComputationalMotif, motif_id)
+    if db_computational_motif is None:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Computational motif not found",
+        )
+
+    # add factors to db
+    color = random_color()
+    data_in = {
+        **data_in.model_dump(),
+        "color": color,
+    }
+    db_factor = Factors(**data_in)
+    session.add(db_factor)
+    session.flush()
+
+    # remove computational motif
+    session.delete(db_computational_motif)
+    session.commit()
+
+    return Message(
+        status_code=status.HTTP_200_OK, message="Validation completed successfully."
+    )

@@ -31,8 +31,18 @@ class Factors(FactorsBase, table=True):
     )
 
 
-class FactorsIn(FactorsBase):
-    pass
+class FactorsIn(SQLModel):
+    ac: str
+    dt: str
+    de: str
+    kw: str
+    os: str
+    ra: str
+    rt: str
+    rl: str
+    rc: str
+    rd: str
+    sq: str
 
 
 class FactorsOut(FactorsBase):
