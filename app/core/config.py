@@ -66,5 +66,11 @@ class Settings(BaseSettings):
             path=self.POSTGRES_DB,
         )
 
+    # Email
+    EMAIL_HOST: str
+    EMAIL_PORT: int
+    EMAIL_HOST_USER: str
+    EMAIL_HOST_PASSWORD: str
+
 
 settings = Settings()  # type: ignore

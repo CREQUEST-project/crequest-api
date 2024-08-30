@@ -121,3 +121,8 @@ class MotifSamplerResponse(SQLModel):
     status: str
     message: str
     results: list[str] | None = None
+
+
+class CreResultSendEmail(SQLModel):
+    receiver_email: list[str]
+    sequence: str

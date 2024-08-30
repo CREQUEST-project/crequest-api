@@ -8,6 +8,7 @@ from models.search_for_cre_history import (
     SearchForCreHistoryOut,
 )
 from models.factors import (
+    CreResultSendEmail,
     FactorsListOut,
     MotifSamplerResponse,
     MotifSearch,
@@ -201,3 +202,17 @@ def export_cre_excel(session: SessionDep, data_in: MotifSearch):
     }
 
     return StreamingResponse(output, headers=headers)
+
+
+@router.post(
+    "/cre/export-excel/send-email", dependencies=[Depends(get_current_active_user)]
+)
+def send_cre_excel_email(session: SessionDep, data_in: CreResultSendEmail):
+    """
+    Export CRE data to an Excel file and send it via email.
+
+    Returns:
+    - The Excel file containing the CRE data.
+
+    """
+    return ExportCreController.send_cre_excel_email(session, data_in)
