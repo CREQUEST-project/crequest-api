@@ -1,7 +1,7 @@
 from datetime import datetime
 
 from sqlmodel import Field, Relationship, SQLModel
-from models.search_for_care_history import SearchForCareHistory
+from app.models.search_for_cre_history import SearchForCreHistory
 
 
 # Shared properties
@@ -17,7 +17,7 @@ class User(UserBase, table=True):
     id: int | None = Field(default=None, primary_key=True)
     created_at: datetime | None = Field(default_factory=datetime.now)
     updated_at: datetime | None = Field(default_factory=datetime.now)
-    search_for_care_histories: list["SearchForCareHistory"] = Relationship(
+    search_for_cre_histories: list["SearchForCreHistory"] = Relationship(
         back_populates="user", sa_relationship_kwargs={"cascade": "all, delete"}
     )
 

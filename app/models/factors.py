@@ -69,7 +69,7 @@ class MotifSearchAndSaveHistoryOut(MotifSearchOut):
     history_id: int
 
 
-class QueryCareSearchIn(SQLModel):
+class QueryCreSearchIn(SQLModel):
     id: str | None = None
     ac: str | None = None
     dt: str | None = None
