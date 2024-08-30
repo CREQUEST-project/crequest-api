@@ -6,7 +6,6 @@ from alembic import context
 from sqlalchemy import engine_from_config, pool
 from sqlmodel import SQLModel
 
-from app.models import search_for_cre_history
 from core.config import settings
 
 # this is the Alembic Config object, which provides
@@ -22,7 +21,7 @@ fileConfig(config.config_file_name)
 # from myapp import mymodel
 # target_metadata = mymodel.Base.metadata
 # target_metadata = None
-from models import factors, users
+from models import factors, users, computational_motif
 
 target_metadata = SQLModel.metadata
 

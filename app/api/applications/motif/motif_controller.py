@@ -2,12 +2,14 @@ import os
 import subprocess
 from fastapi import File, Form, HTTPException, UploadFile, status
 
+from models.computational_motif import ComputationalMotif
 from models.factors import MotifSamplerResponse
 
 
 async def motif_sampler(
+    session,
     f_file: UploadFile = File(...),
-    b_file: UploadFile = File(...), 
+    b_file: UploadFile = File(...),
     output_o: str = Form(...),
     output_m: str = Form(...),
     r: int | None = Form(100),
@@ -40,6 +42,11 @@ async def motif_sampler(
         motifs = await run_motif_sampler(
             f_file_path, b_file_path, output_o, output_m, **parameters
         )
+        # save to computational_motif table
+        db_computational_motif = ComputationalMotif(sequences=",".join(motifs))
+        session.add(db_computational_motif)
+        session.commit()
+        session.refresh(db_computational_motif)
     except Exception as e:
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
@@ -66,6 +73,7 @@ async def save_upload_file(uploaded_file: UploadFile):
         f.write(content)
 
     return uploaded_file.filename
+
 
 async def run_motif_sampler(
     f_file_path: str,

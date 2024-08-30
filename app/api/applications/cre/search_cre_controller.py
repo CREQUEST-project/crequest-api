@@ -1,10 +1,6 @@
-import asyncio
-import subprocess
-import os
 import re
-from typing import Optional
 from sqlmodel import select, func
-from fastapi import File, Form, HTTPException, UploadFile, status
+from fastapi import HTTPException, status
 from sqlmodel import Session
 
 from app.models.search_for_cre_history import SearchForCreHistory
@@ -12,7 +8,6 @@ from models.users import User
 from models.factors import (
     Factors,
     FactorsListOut,
-    MotifSamplerResponse,
     MotifSearch,
     MotifSearchAndSaveHistoryOut,
     MotifSearchOut,

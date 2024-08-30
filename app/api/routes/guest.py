@@ -33,6 +33,7 @@ def query_cre(
 
 @router.post("/motif-sampler", response_model=MotifSamplerResponse)
 async def motif_sampler(
+    session: SessionDep,
     f_file: UploadFile = File(...),
     b_file: UploadFile = File(...),
     output_o: str = Form(...),
@@ -48,5 +49,5 @@ async def motif_sampler(
     z: int | None = Form(1),
 ) -> MotifSamplerResponse:
     return await MotifController.motif_sampler(
-        f_file, b_file, output_o, output_m, r, s, w, n, x, M, p, Q, z
+        session, f_file, b_file, output_o, output_m, r, s, w, n, x, M, p, Q, z
     )

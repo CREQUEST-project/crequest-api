@@ -140,6 +140,7 @@ def delete_search_for_cre_history(
     dependencies=[Depends(get_current_active_user)],
 )
 async def motif_sampler(
+    session: SessionDep,
     f_file: UploadFile = File(...),
     b_file: UploadFile = File(...),
     output_o: str = Form(...),
@@ -176,5 +177,5 @@ async def motif_sampler(
         MotifSamplerResponse: The response containing the results of motif sampling.
     """
     return await MotifController.motif_sampler(
-        f_file, b_file, output_o, output_m, r, s, w, n, x, M, p, Q, z
+        session, f_file, b_file, output_o, output_m, r, s, w, n, x, M, p, Q, z
     )
