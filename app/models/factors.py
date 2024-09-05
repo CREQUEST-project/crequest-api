@@ -47,6 +47,7 @@ class FactorsIn(SQLModel):
 
 class FactorsOut(FactorsBase):
     id: uuid.UUID
+    function_label: FactorsFunctionLabels | None = None
 
 
 class FactorsListOut(SQLModel):

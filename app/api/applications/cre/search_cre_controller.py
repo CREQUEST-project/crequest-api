@@ -8,6 +8,7 @@ from models.users import User
 from models.factors import (
     Factors,
     FactorsListOut,
+    FactorsOut,
     MotifSearch,
     MotifSearchAndSaveHistoryOut,
     MotifSearchOut,
@@ -104,6 +105,16 @@ def search_for_cre_and_save_history(
             status_code=status.HTTP_404_NOT_FOUND,
             detail="User not found.",
         )
+
+    # Save search history
+    db_search_history = SearchForCreHistory(
+        sequences=data_in.sequence,
+        user_id=user_id,
+    )
+    session.add(db_search_history)
+    session.commit()
+    session.refresh(db_search_history)
+
     reverse_complement = rev_comp_st(data_in.sequence)
     db_factors = session.exec(select(Factors).order_by(Factors.ft_id)).all()
     database = {factor.ac: factor.sq for factor in db_factors}
@@ -122,6 +133,7 @@ def search_for_cre_and_save_history(
                 status_code=status.HTTP_404_NOT_FOUND,
                 detail=f"Factor with AC {factor_id} not found.",
             )
+
         function_label = None
         if factor.ft_id:
             function_label = session.exec(
@@ -171,14 +183,6 @@ def search_for_cre_and_save_history(
             }
         )
 
-    # Save search history
-    db_search_history = SearchForCreHistory(
-        sequences=data_in.sequence,
-        user_id=user_id,
-    )
-    session.add(db_search_history)
-    session.commit()
-    session.refresh(db_search_history)
     data = {
         "original_sequence": data_in.sequence,
         "reverse_complement_sequence": reverse_complement,
@@ -269,4 +273,23 @@ def query_cre(
     factors = factors.offset(skip).limit(limit)
     db_factors = session.exec(factors).all()
 
-    return FactorsListOut(data=db_factors, count=count)
+    response_data = []
+
+    ft_ids = [factor.ft_id for factor in db_factors]
+
+    function_labels = session.exec(
+        select(FactorsFunctionLabels).where(FactorsFunctionLabels.id.in_(ft_ids))
+    ).all()
+
+    function_labels_dict = {fl.id: fl for fl in function_labels}
+
+    # get function labels
+    for item in db_factors:
+        function_label = None
+        if item.ft_id:
+            function_label = function_labels_dict.get(item.ft_id)
+        response_data.append(
+            FactorsOut(**item.model_dump(), function_label=function_label)
+        )
+
+    return FactorsListOut(data=response_data, count=count)

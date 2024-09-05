@@ -57,7 +57,7 @@ def query_cre(
     dependencies=[Depends(get_current_active_user), Depends(verify_user_id)],
 )
 def search_for_cre_and_save_history(
-    *, session: SessionDep, data_in: MotifSearch, user_id: int
+    session: SessionDep, data_in: MotifSearch, user_id: int
 ):
     """
     Search for cre and save search history.

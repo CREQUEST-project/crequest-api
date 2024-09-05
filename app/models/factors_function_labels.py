@@ -17,3 +17,6 @@ class FactorsFunctionLabels(FactorsFunctionLabelsBase, table=True):
         back_populates="factors_function_label",
         sa_relationship_kwargs={"cascade": "all, delete"},
     )
+
+    class Config:
+        from_attributes: bool = True
