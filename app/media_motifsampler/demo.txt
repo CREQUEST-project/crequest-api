@@ -5,696 +5,1314 @@
 #The multiple motifs in this file are the result of stochastic motif detection repeats on a given sequences dataset.
 #Please proceed with extraction of the most likely true motif(s) embedded in this file by using MotifRanking (quick assessment) or FuzzyClustering (more refined assessment). Both post processing tools are available in MotifSuite on our webserver on which you can also consult our guidelines.
 
-#id: box_1_1_CAwCknTA	consensus: CAwCknTA	sequences: 5	instances: 6	cs: 1.22	ic: 1.18	ll: 43.12
-yneN	MotifSampler	misc_feature	293	300	2493.88	+	.	id "box_1_1_CAwCknTA"; site "CAACTATA";
-yegR	MotifSampler	misc_feature	13	20	5127.59	+	.	id "box_1_1_CAwCknTA"; site "CACCGATA";
-emrK	MotifSampler	misc_feature	227	234	685.212	+	.	id "box_1_1_CAwCknTA"; site "CATCTATG";
-evgA	MotifSampler	misc_feature	65	72	36254	+	.	id "box_1_1_CAwCknTA"; site "CATCGGTA";
-yfdX	MotifSampler	misc_feature	34	41	16756.6	+	.	id "box_1_1_CAwCknTA"; site "CATCGATA";
-yfdX	MotifSampler	misc_feature	143	150	1516.23	+	.	id "box_1_1_CAwCknTA"; site "CAACTGTA";
-#id: box_2_1_wnnArTCC	consensus: wnnArTCC	sequences: 5	instances: 6	cs: 0.99	ic: 0.94	ll: 33.85
-yneN	MotifSampler	misc_feature	161	168	4627.53	+	.	id "box_2_1_wnnArTCC"; site "ACCAGTCC";
-yegR	MotifSampler	misc_feature	166	173	221.731	+	.	id "box_2_1_wnnArTCC"; site "TATAATCC";
-emrK	MotifSampler	misc_feature	99	106	6628.11	+	.	id "box_2_1_wnnArTCC"; site "TTTAGTCC";
-emrK	MotifSampler	misc_feature	57	64	2084.49	+	.	id "box_2_1_wnnArTCC"; site "ACTAATCC";
-evgA	MotifSampler	misc_feature	66	73	601.683	+	.	id "box_2_1_wnnArTCC"; site "ATCGGTAC";
-yfdX	MotifSampler	misc_feature	19	26	129.599	+	.	id "box_2_1_wnnArTCC"; site "ATTAATCA";
-#id: box_3_1_CnwCnnTr	consensus: CnwCnnTr	sequences: 5	instances: 6	cs: 1.06	ic: 1.11	ll: 40.31
-yneN	MotifSampler	misc_feature	262	269	1152.05	+	.	id "box_3_1_CnwCnnTr"; site "CCACAGTG";
-yegR	MotifSampler	misc_feature	13	20	2803.87	+	.	id "box_3_1_CnwCnnTr"; site "CACCGATA";
-emrK	MotifSampler	misc_feature	227	234	482.905	+	.	id "box_3_1_CnwCnnTr"; site "CATCTATG";
-evgA	MotifSampler	misc_feature	65	72	19824.4	+	.	id "box_3_1_CnwCnnTr"; site "CATCGGTA";
-yfdX	MotifSampler	misc_feature	34	41	9162.86	+	.	id "box_3_1_CnwCnnTr"; site "CATCGATA";
-yfdX	MotifSampler	misc_feature	271	278	2292.55	+	.	id "box_3_1_CnwCnnTr"; site "CCACGATG";
-#id: box_4_1_GTAAGAnn	consensus: GTAAGAnn	sequences: 5	instances: 6	cs: 1.23	ic: 1.17	ll: 38.60
-yneN	MotifSampler	misc_feature	134	141	746.403	+	.	id "box_4_1_GTAAGAnn"; site "GTAAGAAA";
-yegR	MotifSampler	misc_feature	247	254	812.642	+	.	id "box_4_1_GTAAGAnn"; site "GTGAGATG";
-emrK	MotifSampler	misc_feature	72	79	4099.53	+	.	id "box_4_1_GTAAGAnn"; site "GTAAGAAT";
-evgA	MotifSampler	misc_feature	28	35	8851.53	+	.	id "box_4_1_GTAAGAnn"; site "GTAAGAAG";
-yfdX	MotifSampler	misc_feature	110	117	2024.97	+	.	id "box_4_1_GTAAGAnn"; site "GTAAGACT";
-yfdX	MotifSampler	misc_feature	246	253	1303.91	+	.	id "box_4_1_GTAAGAnn"; site "GTAAGTAT";
-#id: box_5_1_nCmmCnrT	consensus: nCmmCnrT	sequences: 5	instances: 6	cs: 1.00	ic: 1.19	ll: 43.42
-yneN	MotifSampler	misc_feature	159	166	3508.36	+	.	id "box_5_1_nCmmCnrT"; site "GCACCAGT";
-yegR	MotifSampler	misc_feature	88	95	5103.04	+	.	id "box_5_1_nCmmCnrT"; site "GCCCCCAT";
-yegR	MotifSampler	misc_feature	12	19	1871.4	+	.	id "box_5_1_nCmmCnrT"; site "CCACCGAT";
-emrK	MotifSampler	misc_feature	92	99	24351.2	+	.	id "box_5_1_nCmmCnrT"; site "GCCACGGT";
-evgA	MotifSampler	misc_feature	64	71	3160.54	+	.	id "box_5_1_nCmmCnrT"; site "TCATCGGT";
-yfdX	MotifSampler	misc_feature	270	277	4214.46	+	.	id "box_5_1_nCmmCnrT"; site "GCCACGAT";
-#id: box_6_1_AnTCCTAC	consensus: AnTCCTAC	sequences: 5	instances: 7	cs: 1.20	ic: 1.20	ll: 38.49
-yneN	MotifSampler	misc_feature	164	171	1670.86	+	.	id "box_6_1_AnTCCTAC"; site "AGTCCTAT";
-yegR	MotifSampler	misc_feature	127	134	2625.79	+	.	id "box_6_1_AnTCCTAC"; site "ATTCCTAC";
-yegR	MotifSampler	misc_feature	169	176	763.006	+	.	id "box_6_1_AnTCCTAC"; site "AATCCTAT";
-emrK	MotifSampler	misc_feature	60	67	4405.33	+	.	id "box_6_1_AnTCCTAC"; site "AATCCTAC";
-emrK	MotifSampler	misc_feature	138	145	988.284	+	.	id "box_6_1_AnTCCTAC"; site "AGGCCTCC";
-evgA	MotifSampler	misc_feature	105	112	722.275	+	.	id "box_6_1_AnTCCTAC"; site "ATGCCGAC";
-yfdX	MotifSampler	misc_feature	98	105	2951.12	+	.	id "box_6_1_AnTCCTAC"; site "ATTCCTAC";
-#id: box_7_1_CAwCkwTA	consensus: CAwCkwTA	sequences: 5	instances: 6	cs: 1.13	ic: 1.09	ll: 39.67
-yneN	MotifSampler	misc_feature	293	300	1584.7	+	.	id "box_7_1_CAwCkwTA"; site "CAACTATA";
-yegR	MotifSampler	misc_feature	65	72	287.354	+	.	id "box_7_1_CAwCkwTA"; site "CATCTTCA";
-emrK	MotifSampler	misc_feature	145	152	1538.41	+	.	id "box_7_1_CAwCkwTA"; site "CAACGTTC";
-evgA	MotifSampler	misc_feature	65	72	30356.3	+	.	id "box_7_1_CAwCkwTA"; site "CATCGGTA";
-yfdX	MotifSampler	misc_feature	34	41	7264.84	+	.	id "box_7_1_CAwCkwTA"; site "CATCGATA";
-yfdX	MotifSampler	misc_feature	143	150	1860.76	+	.	id "box_7_1_CAwCkwTA"; site "CAACTGTA";
-#id: box_8_1_CAwCknTA	consensus: CAwCknTA	sequences: 5	instances: 6	cs: 1.10	ic: 1.05	ll: 39.43
-yneN	MotifSampler	misc_feature	293	300	1187.85	+	.	id "box_8_1_CAwCknTA"; site "CAACTATA";
-yegR	MotifSampler	misc_feature	13	20	4745.02	+	.	id "box_8_1_CAwCknTA"; site "CACCGATA";
-emrK	MotifSampler	misc_feature	181	188	55.0321	+	.	id "box_8_1_CAwCknTA"; site "GTTTGATA";
-evgA	MotifSampler	misc_feature	65	72	33549.1	+	.	id "box_8_1_CAwCknTA"; site "CATCGGTA";
-yfdX	MotifSampler	misc_feature	34	41	15506.4	+	.	id "box_8_1_CAwCknTA"; site "CATCGATA";
-yfdX	MotifSampler	misc_feature	143	150	722.184	+	.	id "box_8_1_CAwCknTA"; site "CAACTGTA";
-#id: box_9_1_ATTCCTAC	consensus: ATTCCTAC	sequences: 5	instances: 5	cs: 1.30	ic: 1.21	ll: 38.60
-yneN	MotifSampler	misc_feature	48	55	245.994	+	.	id "box_9_1_ATTCCTAC"; site "ATTCCTCA";
-yegR	MotifSampler	misc_feature	127	134	5706.56	+	.	id "box_9_1_ATTCCTAC"; site "ATTCCTAC";
-emrK	MotifSampler	misc_feature	60	67	3882.22	+	.	id "box_9_1_ATTCCTAC"; site "AATCCTAC";
-evgA	MotifSampler	misc_feature	7	14	1910.77	+	.	id "box_9_1_ATTCCTAC"; site "ATTCTTAC";
-yfdX	MotifSampler	misc_feature	98	105	6413.6	+	.	id "box_9_1_ATTCCTAC"; site "ATTCCTAC";
-#id: box_10_1_TGAkATrA	consensus: TGAkATrA	sequences: 5	instances: 5	cs: 1.25	ic: 1.16	ll: 38.67
-yneN	MotifSampler	misc_feature	110	117	192.814	+	.	id "box_10_1_TGAkATrA"; site "AGATATAA";
-yegR	MotifSampler	misc_feature	248	255	10964.2	+	.	id "box_10_1_TGAkATrA"; site "TGAGATGA";
-emrK	MotifSampler	misc_feature	184	191	2966.93	+	.	id "box_10_1_TGAkATrA"; site "TGATATGA";
-evgA	MotifSampler	misc_feature	181	188	4456.7	+	.	id "box_10_1_TGAkATrA"; site "TGAGATGA";
-yfdX	MotifSampler	misc_feature	129	136	2572.81	+	.	id "box_10_1_TGAkATrA"; site "TGCGATAA";
-#id: box_11_1_CAwTTCwT	consensus: CAwTTCwT	sequences: 5	instances: 6	cs: 1.13	ic: 1.02	ll: 32.61
-yneN	MotifSampler	misc_feature	15	22	1114.74	+	.	id "box_11_1_CAwTTCwT"; site "CATTTCTT";
-yegR	MotifSampler	misc_feature	225	232	72.0588	+	.	id "box_11_1_CAwTTCwT"; site "CGTTGGTA";
-emrK	MotifSampler	misc_feature	213	220	692.987	+	.	id "box_11_1_CAwTTCwT"; site "CAATTCAT";
-evgA	MotifSampler	misc_feature	95	102	1722.19	+	.	id "box_11_1_CAwTTCwT"; site "CATTTCAT";
-evgA	MotifSampler	misc_feature	293	300	1596.7	+	.	id "box_11_1_CAwTTCwT"; site "CAATTCGT";
-yfdX	MotifSampler	misc_feature	190	197	1188.99	+	.	id "box_11_1_CAwTTCwT"; site "CATTTCAT";
-#id: box_12_1_rAAATGAG	consensus: rAAATGAG	sequences: 5	instances: 5	cs: 1.20	ic: 1.13	ll: 35.33
-yneN	MotifSampler	misc_feature	249	256	206.321	+	.	id "box_12_1_rAAATGAG"; site "GAAATGCA";
-yegR	MotifSampler	misc_feature	28	35	1223.7	+	.	id "box_12_1_rAAATGAG"; site "AAAAAGAG";
-emrK	MotifSampler	misc_feature	236	243	3240.79	+	.	id "box_12_1_rAAATGAG"; site "GAAATGAG";
-evgA	MotifSampler	misc_feature	177	184	2604	+	.	id "box_12_1_rAAATGAG"; site "AAAATGAG";
-yfdX	MotifSampler	misc_feature	238	245	1229.2	+	.	id "box_12_1_rAAATGAG"; site "AGAATGAG";
-#id: box_13_1_nTGTAAGA	consensus: nTGTAAGA	sequences: 5	instances: 8	cs: 1.29	ic: 1.21	ll: 39.49
-yneN	MotifSampler	misc_feature	132	139	6424.5	+	.	id "box_13_1_nTGTAAGA"; site "CTGTAAGA";
-yneN	MotifSampler	misc_feature	105	112	1435.65	+	.	id "box_13_1_nTGTAAGA"; site "CTATAAGA";
-yegR	MotifSampler	misc_feature	137	144	1308.37	+	.	id "box_13_1_nTGTAAGA"; site "ATGTAGGA";
-emrK	MotifSampler	misc_feature	43	50	416.203	+	.	id "box_13_1_nTGTAAGA"; site "CTATAAGT";
-evgA	MotifSampler	misc_feature	17	24	5460.69	+	.	id "box_13_1_nTGTAAGA"; site "CTGTAGGA";
-evgA	MotifSampler	misc_feature	26	33	633.531	+	.	id "box_13_1_nTGTAAGA"; site "TAGTAAGA";
-yfdX	MotifSampler	misc_feature	146	153	5580.22	+	.	id "box_13_1_nTGTAAGA"; site "CTGTAAGA";
-yfdX	MotifSampler	misc_feature	108	115	1535.41	+	.	id "box_13_1_nTGTAAGA"; site "TTGTAAGA";
-#id: box_14_1_mTTCyTAC	consensus: mTTCyTAC	sequences: 5	instances: 5	cs: 1.31	ic: 1.26	ll: 40.51
-yneN	MotifSampler	misc_feature	122	129	1229.67	+	.	id "box_14_1_mTTCyTAC"; site "CTGCCTAC";
-yegR	MotifSampler	misc_feature	127	134	4070.57	+	.	id "box_14_1_mTTCyTAC"; site "ATTCCTAC";
-emrK	MotifSampler	misc_feature	51	58	5321.26	+	.	id "box_14_1_mTTCyTAC"; site "CTTCTTAC";
-evgA	MotifSampler	misc_feature	7	14	3379.2	+	.	id "box_14_1_mTTCyTAC"; site "ATTCTTAC";
-yfdX	MotifSampler	misc_feature	98	105	4574.91	+	.	id "box_14_1_mTTCyTAC"; site "ATTCCTAC";
-#id: box_15_1_TAmwAwwC	consensus: TAmwAwwC	sequences: 5	instances: 5	cs: 1.08	ic: 0.89	ll: 32.84
-yneN	MotifSampler	misc_feature	268	275	604.972	+	.	id "box_15_1_TAmwAwwC"; site "TGAAAAAC";
-yegR	MotifSampler	misc_feature	184	191	509.068	+	.	id "box_15_1_TAmwAwwC"; site "TAATAATC";
-emrK	MotifSampler	misc_feature	56	63	1150.2	+	.	id "box_15_1_TAmwAwwC"; site "TACTAATC";
-evgA	MotifSampler	misc_feature	71	78	1108.8	+	.	id "box_15_1_TAmwAwwC"; site "TACAATCC";
-yfdX	MotifSampler	misc_feature	117	124	538.973	+	.	id "box_15_1_TAmwAwwC"; site "TAAAATAC";
-#id: box_16_1_TGwCATCT	consensus: TGwCATCT	sequences: 5	instances: 6	cs: 1.27	ic: 1.24	ll: 40.09
-yneN	MotifSampler	misc_feature	27	34	3184.95	+	.	id "box_16_1_TGwCATCT"; site "TGTCATCC";
-yegR	MotifSampler	misc_feature	62	69	13893.4	+	.	id "box_16_1_TGwCATCT"; site "TGGCATCT";
-emrK	MotifSampler	misc_feature	224	231	576.635	+	.	id "box_16_1_TGwCATCT"; site "TTTCATCT";
-evgA	MotifSampler	misc_feature	92	99	931.764	+	.	id "box_16_1_TGwCATCT"; site "TGACATTT";
-yfdX	MotifSampler	misc_feature	49	56	7103.31	+	.	id "box_16_1_TGwCATCT"; site "TGACATCT";
-yfdX	MotifSampler	misc_feature	292	299	5539.27	+	.	id "box_16_1_TGwCATCT"; site "TGGCATCT";
-#id: box_17_1_kCCwAnwT	consensus: kCCwAnwT	sequences: 5	instances: 5	cs: 1.00	ic: 1.01	ll: 33.49
-yneN	MotifSampler	misc_feature	166	173	430.996	+	.	id "box_17_1_kCCwAnwT"; site "TCCTATTT";
-yegR	MotifSampler	misc_feature	129	136	1814.98	+	.	id "box_17_1_kCCwAnwT"; site "TCCTACTT";
-emrK	MotifSampler	misc_feature	62	69	748.344	+	.	id "box_17_1_kCCwAnwT"; site "TCCTACAG";
-evgA	MotifSampler	misc_feature	45	52	2848.34	+	.	id "box_17_1_kCCwAnwT"; site "GCCAACTT";
-yfdX	MotifSampler	misc_feature	270	277	245.065	+	.	id "box_17_1_kCCwAnwT"; site "GCCACGAT";
-#id: box_18_1_GCmmCrrT	consensus: GCmmCrrT	sequences: 5	instances: 5	cs: 1.06	ic: 1.24	ll: 43.65
-yneN	MotifSampler	misc_feature	159	166	5722.09	+	.	id "box_18_1_GCmmCrrT"; site "GCACCAGT";
-yegR	MotifSampler	misc_feature	88	95	9664.18	+	.	id "box_18_1_GCmmCrrT"; site "GCCCCCAT";
-emrK	MotifSampler	misc_feature	92	99	23434.1	+	.	id "box_18_1_GCmmCrrT"; site "GCCACGGT";
-evgA	MotifSampler	misc_feature	289	296	1209.52	+	.	id "box_18_1_GCmmCrrT"; site "GCAGCAAT";
-yfdX	MotifSampler	misc_feature	270	277	6013.18	+	.	id "box_18_1_GCmmCrrT"; site "GCCACGAT";
-#id: box_19_1_GTAAGAAn	consensus: GTAAGAAn	sequences: 5	instances: 5	cs: 1.31	ic: 1.22	ll: 40.21
-yneN	MotifSampler	misc_feature	134	141	3107.75	+	.	id "box_19_1_GTAAGAAn"; site "GTAAGAAA";
-yegR	MotifSampler	misc_feature	139	146	5493.35	+	.	id "box_19_1_GTAAGAAn"; site "GTAGGAAA";
-emrK	MotifSampler	misc_feature	72	79	2268.31	+	.	id "box_19_1_GTAAGAAn"; site "GTAAGAAT";
-evgA	MotifSampler	misc_feature	28	35	6951.38	+	.	id "box_19_1_GTAAGAAn"; site "GTAAGAAG";
-yfdX	MotifSampler	misc_feature	148	155	1128.86	+	.	id "box_19_1_GTAAGAAn"; site "GTAAGATA";
-#id: box_20_1_TArTnCTn	consensus: TArTnCTn	sequences: 5	instances: 6	cs: 1.20	ic: 1.11	ll: 37.74
-yneN	MotifSampler	misc_feature	163	170	3771.86	+	.	id "box_20_1_TArTnCTn"; site "CAGTCCTA";
-yegR	MotifSampler	misc_feature	168	175	1988.24	+	.	id "box_20_1_TArTnCTn"; site "TAATCCTA";
-emrK	MotifSampler	misc_feature	101	108	10854.4	+	.	id "box_20_1_TArTnCTn"; site "TAGTCCTC";
-emrK	MotifSampler	misc_feature	59	66	2245.26	+	.	id "box_20_1_TArTnCTn"; site "TAATCCTA";
-evgA	MotifSampler	misc_feature	202	209	174.444	+	.	id "box_20_1_TArTnCTn"; site "TATTACTA";
-yfdX	MotifSampler	misc_feature	75	82	1735.19	+	.	id "box_20_1_TArTnCTn"; site "TAGTTCTC";
-#id: box_21_1_nGwwTAGT	consensus: nGwwTAGT	sequences: 5	instances: 7	cs: 1.04	ic: 0.90	ll: 35.22
-yneN	MotifSampler	misc_feature	214	221	128.645	+	.	id "box_21_1_nGwwTAGT"; site "CGATTTTT";
-yegR	MotifSampler	misc_feature	282	289	162.411	+	.	id "box_21_1_nGwwTAGT"; site "AGTATTTT";
-emrK	MotifSampler	misc_feature	97	104	7717.51	+	.	id "box_21_1_nGwwTAGT"; site "GGTTTAGT";
-emrK	MotifSampler	misc_feature	246	253	631.399	+	.	id "box_21_1_nGwwTAGT"; site "ATAATAGT";
-evgA	MotifSampler	misc_feature	22	29	6437.88	+	.	id "box_21_1_nGwwTAGT"; site "GGATTAGT";
-evgA	MotifSampler	misc_feature	37	44	1021.28	+	.	id "box_21_1_nGwwTAGT"; site "CTTATAGT";
-yfdX	MotifSampler	misc_feature	71	78	2074.22	+	.	id "box_21_1_nGwwTAGT"; site "AGAATAGT";
-#id: box_22_1_CATCnrTA	consensus: CATCnrTA	sequences: 5	instances: 5	cs: 1.12	ic: 1.15	ll: 41.92
-yneN	MotifSampler	misc_feature	30	37	827.336	+	.	id "box_22_1_CATCnrTA"; site "CATCCGCA";
-yegR	MotifSampler	misc_feature	13	20	4761.84	+	.	id "box_22_1_CATCnrTA"; site "CACCGATA";
-emrK	MotifSampler	misc_feature	227	234	379.35	+	.	id "box_22_1_CATCnrTA"; site "CATCTATG";
-evgA	MotifSampler	misc_feature	65	72	58461.4	+	.	id "box_22_1_CATCnrTA"; site "CATCGGTA";
-yfdX	MotifSampler	misc_feature	34	41	20505.9	+	.	id "box_22_1_CATCnrTA"; site "CATCGATA";
-#id: box_23_1_CTGTArGA	consensus: CTGTArGA	sequences: 4	instances: 4	cs: 1.33	ic: 1.33	ll: 35.30
-yneN	MotifSampler	misc_feature	132	139	6805.37	+	.	id "box_23_1_CTGTArGA"; site "CTGTAAGA";
-yegR	MotifSampler	misc_feature	137	144	6543.2	+	.	id "box_23_1_CTGTArGA"; site "ATGTAGGA";
-evgA	MotifSampler	misc_feature	17	24	16558.7	+	.	id "box_23_1_CTGTArGA"; site "CTGTAGGA";
-yfdX	MotifSampler	misc_feature	146	153	5911.04	+	.	id "box_23_1_CTGTArGA"; site "CTGTAAGA";
-#id: box_24_1_CrmTATAA	consensus: CrmTATAA	sequences: 5	instances: 5	cs: 1.20	ic: 1.03	ll: 37.60
-yneN	MotifSampler	misc_feature	294	301	411.719	+	.	id "box_24_1_CrmTATAA"; site "AACTATAA";
-yegR	MotifSampler	misc_feature	71	78	1094.49	+	.	id "box_24_1_CrmTATAA"; site "CAATATAA";
-emrK	MotifSampler	misc_feature	41	48	1468.87	+	.	id "box_24_1_CrmTATAA"; site "CACTATAA";
-evgA	MotifSampler	misc_feature	68	75	6045.12	+	.	id "box_24_1_CrmTATAA"; site "CGGTACAA";
-yfdX	MotifSampler	misc_feature	37	44	5976.13	+	.	id "box_24_1_CrmTATAA"; site "CGATATAA";
-#id: box_25_1_kGCCwmCw	consensus: kGCCwmCw	sequences: 5	instances: 5	cs: 1.03	ic: 1.15	ll: 36.13
-yneN	MotifSampler	misc_feature	123	130	1295.98	+	.	id "box_25_1_kGCCwmCw"; site "TGCCTACA";
-yegR	MotifSampler	misc_feature	128	135	246.442	+	.	id "box_25_1_kGCCwmCw"; site "TTCCTACT";
-emrK	MotifSampler	misc_feature	139	146	5320.04	+	.	id "box_25_1_kGCCwmCw"; site "GGCCTCCA";
-evgA	MotifSampler	misc_feature	44	51	3169.82	+	.	id "box_25_1_kGCCwmCw"; site "TGCCAACT";
-yfdX	MotifSampler	misc_feature	269	276	1011.2	+	.	id "box_25_1_kGCCwmCw"; site "GGCCACGA";
-#id: box_26_1_ATTCCTAC	consensus: ATTCCTAC	sequences: 5	instances: 5	cs: 1.31	ic: 1.20	ll: 38.75
-yneN	MotifSampler	misc_feature	16	23	279.303	+	.	id "box_26_1_ATTCCTAC"; site "ATTTCTTC";
-yegR	MotifSampler	misc_feature	127	134	5706.56	+	.	id "box_26_1_ATTCCTAC"; site "ATTCCTAC";
-emrK	MotifSampler	misc_feature	60	67	3882.22	+	.	id "box_26_1_ATTCCTAC"; site "AATCCTAC";
-evgA	MotifSampler	misc_feature	7	14	1910.77	+	.	id "box_26_1_ATTCCTAC"; site "ATTCTTAC";
-yfdX	MotifSampler	misc_feature	98	105	6413.6	+	.	id "box_26_1_ATTCCTAC"; site "ATTCCTAC";
-#id: box_27_1_CTCwTTTn	consensus: CTCwTTTn	sequences: 4	instances: 6	cs: 1.35	ic: 1.25	ll: 30.92
-yneN	MotifSampler	misc_feature	13	20	4009.18	+	.	id "box_27_1_CTCwTTTn"; site "CTCATTTC";
-yneN	MotifSampler	misc_feature	175	182	3214.85	+	.	id "box_27_1_CTCwTTTn"; site "CTCTTTTC";
-emrK	MotifSampler	misc_feature	202	209	4299.88	+	.	id "box_27_1_CTCwTTTn"; site "CTCTTTTC";
-emrK	MotifSampler	misc_feature	126	133	1082.25	+	.	id "box_27_1_CTCwTTTn"; site "CTCATTTA";
-evgA	MotifSampler	misc_feature	79	86	258.366	+	.	id "box_27_1_CTCwTTTn"; site "CTGATTTT";
-yfdX	MotifSampler	misc_feature	188	195	4009.18	+	.	id "box_27_1_CTCwTTTn"; site "CTCATTTC";
-#id: box_28_1_AnTCCTAC	consensus: AnTCCTAC	sequences: 5	instances: 5	cs: 1.31	ic: 1.22	ll: 40.29
-yneN	MotifSampler	misc_feature	164	171	1177.03	+	.	id "box_28_1_AnTCCTAC"; site "AGTCCTAT";
-yegR	MotifSampler	misc_feature	127	134	5374.7	+	.	id "box_28_1_AnTCCTAC"; site "ATTCCTAC";
-emrK	MotifSampler	misc_feature	60	67	4818.26	+	.	id "box_28_1_AnTCCTAC"; site "AATCCTAC";
-evgA	MotifSampler	misc_feature	7	14	1799.65	+	.	id "box_28_1_AnTCCTAC"; site "ATTCTTAC";
-yfdX	MotifSampler	misc_feature	98	105	6040.61	+	.	id "box_28_1_AnTCCTAC"; site "ATTCCTAC";
-#id: box_29_1_GAkATrAw	consensus: GAkATrAw	sequences: 5	instances: 6	cs: 1.28	ic: 1.16	ll: 38.16
-yneN	MotifSampler	misc_feature	111	118	1023.95	+	.	id "box_29_1_GAkATrAw"; site "GATATAAA";
-yegR	MotifSampler	misc_feature	249	256	3418.25	+	.	id "box_29_1_GAkATrAw"; site "GAGATGAA";
-emrK	MotifSampler	misc_feature	185	192	2211.7	+	.	id "box_29_1_GAkATrAw"; site "GATATGAA";
-emrK	MotifSampler	misc_feature	243	250	1039.77	+	.	id "box_29_1_GAkATrAw"; site "GAGATAAT";
-evgA	MotifSampler	misc_feature	182	189	2198.65	+	.	id "box_29_1_GAkATrAw"; site "GAGATGAC";
-yfdX	MotifSampler	misc_feature	38	45	1851.49	+	.	id "box_29_1_GAkATrAw"; site "GATATAAT";
-#id: box_30_1_CGATAAww	consensus: CGATAAww	sequences: 5	instances: 5	cs: 1.11	ic: 1.00	ll: 33.66
-yneN	MotifSampler	misc_feature	231	238	882.087	+	.	id "box_30_1_CGATAAww"; site "CGCTAAAT";
-yegR	MotifSampler	misc_feature	16	23	3631.63	+	.	id "box_30_1_CGATAAww"; site "CGATAAAT";
-emrK	MotifSampler	misc_feature	17	24	981.192	+	.	id "box_30_1_CGATAAww"; site "CGATGATT";
-evgA	MotifSampler	misc_feature	173	180	101.713	+	.	id "box_30_1_CGATAAww"; site "TGAGAAAA";
-yfdX	MotifSampler	misc_feature	131	138	1634.85	+	.	id "box_30_1_CGATAAww"; site "CGATAATA";
-#id: box_31_1_CAwCkrTA	consensus: CAwCkrTA	sequences: 5	instances: 6	cs: 1.15	ic: 1.15	ll: 43.24
-yneN	MotifSampler	misc_feature	293	300	1584.65	+	.	id "box_31_1_CAwCkrTA"; site "CAACTATA";
-yegR	MotifSampler	misc_feature	13	20	4318.95	+	.	id "box_31_1_CAwCkrTA"; site "CACCGATA";
-emrK	MotifSampler	misc_feature	93	100	2021.61	+	.	id "box_31_1_CAwCkrTA"; site "CCACGGTT";
-evgA	MotifSampler	misc_feature	65	72	40702.7	+	.	id "box_31_1_CAwCkrTA"; site "CATCGGTA";
-yfdX	MotifSampler	misc_feature	34	41	9629.4	+	.	id "box_31_1_CAwCkrTA"; site "CATCGATA";
-yfdX	MotifSampler	misc_feature	143	150	1882.25	+	.	id "box_31_1_CAwCkrTA"; site "CAACTGTA";
-#id: box_32_1_CAnGGATw	consensus: CAnGGATw	sequences: 5	instances: 7	cs: 1.15	ic: 1.21	ll: 41.28
-yneN	MotifSampler	misc_feature	82	89	2754.57	+	.	id "box_32_1_CAnGGATw"; site "CATGGATT";
-yegR	MotifSampler	misc_feature	93	100	5823.84	+	.	id "box_32_1_CAnGGATw"; site "CATGGAGT";
-yegR	MotifSampler	misc_feature	13	20	2521.07	+	.	id "box_32_1_CAnGGATw"; site "CACCGATA";
-emrK	MotifSampler	misc_feature	5	12	4115.59	+	.	id "box_32_1_CAnGGATw"; site "CAGGGATT";
-emrK	MotifSampler	misc_feature	94	101	2934.57	+	.	id "box_32_1_CAnGGATw"; site "CACGGTTT";
-evgA	MotifSampler	misc_feature	210	217	1516.16	+	.	id "box_32_1_CAnGGATw"; site "CAGGGAGA";
-yfdX	MotifSampler	misc_feature	34	41	4278.89	+	.	id "box_32_1_CAnGGATw"; site "CATCGATA";
-#id: box_33_1_skwTTAkT	consensus: skwTTAkT	sequences: 5	instances: 5	cs: 1.09	ic: 0.93	ll: 34.86
-yneN	MotifSampler	misc_feature	60	67	186.312	+	.	id "box_33_1_skwTTAkT"; site "CTATTATT";
-yegR	MotifSampler	misc_feature	286	293	67.946	+	.	id "box_33_1_skwTTAkT"; site "TTTTTATT";
-emrK	MotifSampler	misc_feature	97	104	19769.4	+	.	id "box_33_1_skwTTAkT"; site "GGTTTAGT";
-evgA	MotifSampler	misc_feature	22	29	8538.97	+	.	id "box_33_1_skwTTAkT"; site "GGATTAGT";
-yfdX	MotifSampler	misc_feature	258	265	881.739	+	.	id "box_33_1_skwTTAkT"; site "CGTTTAAT";
-#id: box_34_1_CAnGGATw	consensus: CAnGGATw	sequences: 5	instances: 7	cs: 1.15	ic: 1.21	ll: 41.28
-yneN	MotifSampler	misc_feature	82	89	2754.57	+	.	id "box_34_1_CAnGGATw"; site "CATGGATT";
-yegR	MotifSampler	misc_feature	93	100	5823.84	+	.	id "box_34_1_CAnGGATw"; site "CATGGAGT";
-yegR	MotifSampler	misc_feature	13	20	2521.07	+	.	id "box_34_1_CAnGGATw"; site "CACCGATA";
-emrK	MotifSampler	misc_feature	5	12	4115.59	+	.	id "box_34_1_CAnGGATw"; site "CAGGGATT";
-emrK	MotifSampler	misc_feature	94	101	2934.57	+	.	id "box_34_1_CAnGGATw"; site "CACGGTTT";
-evgA	MotifSampler	misc_feature	210	217	1516.16	+	.	id "box_34_1_CAnGGATw"; site "CAGGGAGA";
-yfdX	MotifSampler	misc_feature	34	41	4278.89	+	.	id "box_34_1_CAnGGATw"; site "CATCGATA";
-#id: box_35_1_CAwCknTA	consensus: CAwCknTA	sequences: 5	instances: 6	cs: 1.22	ic: 1.18	ll: 43.12
-yneN	MotifSampler	misc_feature	293	300	2493.88	+	.	id "box_35_1_CAwCknTA"; site "CAACTATA";
-yegR	MotifSampler	misc_feature	13	20	5127.59	+	.	id "box_35_1_CAwCknTA"; site "CACCGATA";
-emrK	MotifSampler	misc_feature	227	234	685.212	+	.	id "box_35_1_CAwCknTA"; site "CATCTATG";
-evgA	MotifSampler	misc_feature	65	72	36254	+	.	id "box_35_1_CAwCknTA"; site "CATCGGTA";
-yfdX	MotifSampler	misc_feature	34	41	16756.6	+	.	id "box_35_1_CAwCknTA"; site "CATCGATA";
-yfdX	MotifSampler	misc_feature	143	150	1516.23	+	.	id "box_35_1_CAwCknTA"; site "CAACTGTA";
-#id: box_36_1_CAnsGATw	consensus: CAnsGATw	sequences: 5	instances: 8	cs: 1.12	ic: 1.19	ll: 42.39
-yneN	MotifSampler	misc_feature	82	89	2349.19	+	.	id "box_36_1_CAnsGATw"; site "CATGGATT";
-yegR	MotifSampler	misc_feature	93	100	4158.78	+	.	id "box_36_1_CAnsGATw"; site "CATGGAGT";
-yegR	MotifSampler	misc_feature	13	20	3183.36	+	.	id "box_36_1_CAnsGATw"; site "CACCGATA";
-emrK	MotifSampler	misc_feature	5	12	2663.58	+	.	id "box_36_1_CAnsGATw"; site "CAGGGATT";
-emrK	MotifSampler	misc_feature	94	101	1899.23	+	.	id "box_36_1_CAnsGATw"; site "CACGGTTT";
-evgA	MotifSampler	misc_feature	65	72	5376.71	+	.	id "box_36_1_CAnsGATw"; site "CATCGGTA";
-evgA	MotifSampler	misc_feature	210	217	1082.66	+	.	id "box_36_1_CAnsGATw"; site "CAGGGAGA";
-yfdX	MotifSampler	misc_feature	34	41	7119.74	+	.	id "box_36_1_CAnsGATw"; site "CATCGATA";
-#id: box_37_1_CAkyGGTA	consensus: CAkyGGTA	sequences: 5	instances: 5	cs: 1.02	ic: 1.05	ll: 40.82
-yneN	MotifSampler	misc_feature	129	136	983.343	+	.	id "box_37_1_CAkyGGTA"; site "CAGCTGTA";
-yegR	MotifSampler	misc_feature	225	232	6171.49	+	.	id "box_37_1_CAkyGGTA"; site "CGTTGGTA";
-emrK	MotifSampler	misc_feature	250	257	465.88	+	.	id "box_37_1_CAkyGGTA"; site "TAGTGGAA";
-evgA	MotifSampler	misc_feature	65	72	56282.9	+	.	id "box_37_1_CAkyGGTA"; site "CATCGGTA";
-yfdX	MotifSampler	misc_feature	34	41	3662.25	+	.	id "box_37_1_CAkyGGTA"; site "CATCGATA";
-#id: box_38_1_CCwmmwTG	consensus: CCwmmwTG	sequences: 5	instances: 5	cs: 1.06	ic: 1.11	ll: 35.51
-yneN	MotifSampler	misc_feature	51	58	679.279	+	.	id "box_38_1_CCwmmwTG"; site "CCTCATTG";
-yegR	MotifSampler	misc_feature	113	120	644.704	+	.	id "box_38_1_CCwmmwTG"; site "CCTCAATG";
-emrK	MotifSampler	misc_feature	63	70	1799.62	+	.	id "box_38_1_CCwmmwTG"; site "CCTACAGG";
-evgA	MotifSampler	misc_feature	46	53	2482.31	+	.	id "box_38_1_CCwmmwTG"; site "CCAACTTG";
-yfdX	MotifSampler	misc_feature	204	211	1475.13	+	.	id "box_38_1_CCwmmwTG"; site "CCAATATG";
-#id: box_39_1_CAkGGAkw	consensus: CAkGGAkw	sequences: 5	instances: 5	cs: 1.20	ic: 1.26	ll: 42.63
-yneN	MotifSampler	misc_feature	82	89	3886.68	+	.	id "box_39_1_CAkGGAkw"; site "CATGGATT";
-yegR	MotifSampler	misc_feature	93	100	13439.4	+	.	id "box_39_1_CAkGGAkw"; site "CATGGAGT";
-emrK	MotifSampler	misc_feature	5	12	5807.07	+	.	id "box_39_1_CAkGGAkw"; site "CAGGGATT";
-evgA	MotifSampler	misc_feature	210	217	3145.68	+	.	id "box_39_1_CAkGGAkw"; site "CAGGGAGA";
-yfdX	MotifSampler	misc_feature	34	41	3511.55	+	.	id "box_39_1_CAkGGAkw"; site "CATCGATA";
-#id: box_40_1_CAnCTrTA	consensus: CAnCTrTA	sequences: 5	instances: 7	cs: 1.18	ic: 1.10	ll: 38.03
-yneN	MotifSampler	misc_feature	293	300	3912.33	+	.	id "box_40_1_CAnCTrTA"; site "CAACTATA";
-yneN	MotifSampler	misc_feature	129	136	1435.15	+	.	id "box_40_1_CAnCTrTA"; site "CAGCTGTA";
-yegR	MotifSampler	misc_feature	51	58	1066.87	+	.	id "box_40_1_CAnCTrTA"; site "CAACTAAA";
-emrK	MotifSampler	misc_feature	268	275	98.5286	+	.	id "box_40_1_CAnCTrTA"; site "CAAATAAA";
-evgA	MotifSampler	misc_feature	65	72	12284.6	+	.	id "box_40_1_CAnCTrTA"; site "CATCGGTA";
-yfdX	MotifSampler	misc_feature	34	41	3829.64	+	.	id "box_40_1_CAnCTrTA"; site "CATCGATA";
-yfdX	MotifSampler	misc_feature	143	150	3526.61	+	.	id "box_40_1_CAnCTrTA"; site "CAACTGTA";
-#id: box_41_1_ACTATAAr	consensus: ACTATAAr	sequences: 5	instances: 5	cs: 1.28	ic: 1.12	ll: 37.99
-yneN	MotifSampler	misc_feature	104	111	5736.69	+	.	id "box_41_1_ACTATAAr"; site "ACTATAAG";
-yegR	MotifSampler	misc_feature	53	60	327.921	+	.	id "box_41_1_ACTATAAr"; site "ACTAAACA";
-emrK	MotifSampler	misc_feature	42	49	4399.69	+	.	id "box_41_1_ACTATAAr"; site "ACTATAAG";
-evgA	MotifSampler	misc_feature	56	63	2036.02	+	.	id "box_41_1_ACTATAAr"; site "ACTATAAA";
-yfdX	MotifSampler	misc_feature	145	152	2112.77	+	.	id "box_41_1_ACTATAAr"; site "ACTGTAAG";
-#id: box_42_1_CnwyGnTA	consensus: CnwyGnTA	sequences: 5	instances: 6	cs: 1.07	ic: 1.06	ll: 39.50
-yneN	MotifSampler	misc_feature	293	300	411.578	+	.	id "box_42_1_CnwyGnTA"; site "CAACTATA";
-yegR	MotifSampler	misc_feature	225	232	4336.19	+	.	id "box_42_1_CnwyGnTA"; site "CGTTGGTA";
-yegR	MotifSampler	misc_feature	13	20	3832.99	+	.	id "box_42_1_CnwyGnTA"; site "CACCGATA";
-emrK	MotifSampler	misc_feature	17	24	165.413	+	.	id "box_42_1_CnwyGnTA"; site "CGATGATT";
-evgA	MotifSampler	misc_feature	65	72	27100.7	+	.	id "box_42_1_CnwyGnTA"; site "CATCGGTA";
-yfdX	MotifSampler	misc_feature	34	41	12526	+	.	id "box_42_1_CnwyGnTA"; site "CATCGATA";
-#id: box_43_1_ACTATAAG	consensus: ACTATAAG	sequences: 4	instances: 4	cs: 1.36	ic: 1.21	ll: 33.34
-yneN	MotifSampler	misc_feature	104	111	9266.24	+	.	id "box_43_1_ACTATAAG"; site "ACTATAAG";
-emrK	MotifSampler	misc_feature	42	49	7106.64	+	.	id "box_43_1_ACTATAAG"; site "ACTATAAG";
-evgA	MotifSampler	misc_feature	56	63	1757.28	+	.	id "box_43_1_ACTATAAG"; site "ACTATAAA";
-yfdX	MotifSampler	misc_feature	145	152	4496.92	+	.	id "box_43_1_ACTATAAG"; site "ACTGTAAG";
-#id: box_44_1_CAwCknTA	consensus: CAwCknTA	sequences: 5	instances: 6	cs: 1.22	ic: 1.18	ll: 43.12
-yneN	MotifSampler	misc_feature	293	300	2493.88	+	.	id "box_44_1_CAwCknTA"; site "CAACTATA";
-yegR	MotifSampler	misc_feature	13	20	5127.59	+	.	id "box_44_1_CAwCknTA"; site "CACCGATA";
-emrK	MotifSampler	misc_feature	227	234	685.212	+	.	id "box_44_1_CAwCknTA"; site "CATCTATG";
-evgA	MotifSampler	misc_feature	65	72	36254	+	.	id "box_44_1_CAwCknTA"; site "CATCGGTA";
-yfdX	MotifSampler	misc_feature	34	41	16756.6	+	.	id "box_44_1_CAwCknTA"; site "CATCGATA";
-yfdX	MotifSampler	misc_feature	143	150	1516.23	+	.	id "box_44_1_CAwCknTA"; site "CAACTGTA";
-#id: box_45_1_CAyCGrTA	consensus: CAyCGrTA	sequences: 5	instances: 5	cs: 1.08	ic: 1.14	ll: 42.15
-yneN	MotifSampler	misc_feature	30	37	504.266	+	.	id "box_45_1_CAyCGrTA"; site "CATCCGCA";
-yegR	MotifSampler	misc_feature	13	20	9761.09	+	.	id "box_45_1_CAyCGrTA"; site "CACCGATA";
-emrK	MotifSampler	misc_feature	14	21	585.745	+	.	id "box_45_1_CAyCGrTA"; site "TACCGATG";
-evgA	MotifSampler	misc_feature	65	72	47231.8	+	.	id "box_45_1_CAyCGrTA"; site "CATCGGTA";
-yfdX	MotifSampler	misc_feature	34	41	16567	+	.	id "box_45_1_CAyCGrTA"; site "CATCGATA";
-#id: box_46_1_mTTCyTAC	consensus: mTTCyTAC	sequences: 5	instances: 5	cs: 1.31	ic: 1.26	ll: 40.51
-yneN	MotifSampler	misc_feature	122	129	1229.67	+	.	id "box_46_1_mTTCyTAC"; site "CTGCCTAC";
-yegR	MotifSampler	misc_feature	127	134	4070.57	+	.	id "box_46_1_mTTCyTAC"; site "ATTCCTAC";
-emrK	MotifSampler	misc_feature	51	58	5321.26	+	.	id "box_46_1_mTTCyTAC"; site "CTTCTTAC";
-evgA	MotifSampler	misc_feature	7	14	3379.2	+	.	id "box_46_1_mTTCyTAC"; site "ATTCTTAC";
-yfdX	MotifSampler	misc_feature	98	105	4574.91	+	.	id "box_46_1_mTTCyTAC"; site "ATTCCTAC";
-#id: box_47_1_nTTCyTAC	consensus: nTTCyTAC	sequences: 5	instances: 6	cs: 1.31	ic: 1.26	ll: 40.30
-yneN	MotifSampler	misc_feature	122	129	864.109	+	.	id "box_47_1_nTTCyTAC"; site "CTGCCTAC";
-yegR	MotifSampler	misc_feature	127	134	4678.14	+	.	id "box_47_1_nTTCyTAC"; site "ATTCCTAC";
-emrK	MotifSampler	misc_feature	51	58	3503.66	+	.	id "box_47_1_nTTCyTAC"; site "CTTCTTAC";
-emrK	MotifSampler	misc_feature	60	67	2564.26	+	.	id "box_47_1_nTTCyTAC"; site "AATCCTAC";
-evgA	MotifSampler	misc_feature	7	14	2931.86	+	.	id "box_47_1_nTTCyTAC"; site "ATTCTTAC";
-yfdX	MotifSampler	misc_feature	98	105	5257.75	+	.	id "box_47_1_nTTCyTAC"; site "ATTCCTAC";
-#id: box_48_1_CAwCknTA	consensus: CAwCknTA	sequences: 5	instances: 6	cs: 1.22	ic: 1.18	ll: 43.12
-yneN	MotifSampler	misc_feature	293	300	2493.88	+	.	id "box_48_1_CAwCknTA"; site "CAACTATA";
-yegR	MotifSampler	misc_feature	13	20	5127.59	+	.	id "box_48_1_CAwCknTA"; site "CACCGATA";
-emrK	MotifSampler	misc_feature	227	234	685.212	+	.	id "box_48_1_CAwCknTA"; site "CATCTATG";
-evgA	MotifSampler	misc_feature	65	72	36254	+	.	id "box_48_1_CAwCknTA"; site "CATCGGTA";
-yfdX	MotifSampler	misc_feature	34	41	16756.6	+	.	id "box_48_1_CAwCknTA"; site "CATCGATA";
-yfdX	MotifSampler	misc_feature	143	150	1516.23	+	.	id "box_48_1_CAwCknTA"; site "CAACTGTA";
-#id: box_49_1_CAwCknTA	consensus: CAwCknTA	sequences: 5	instances: 6	cs: 1.22	ic: 1.18	ll: 43.12
-yneN	MotifSampler	misc_feature	293	300	2493.88	+	.	id "box_49_1_CAwCknTA"; site "CAACTATA";
-yegR	MotifSampler	misc_feature	13	20	5127.59	+	.	id "box_49_1_CAwCknTA"; site "CACCGATA";
-emrK	MotifSampler	misc_feature	227	234	685.212	+	.	id "box_49_1_CAwCknTA"; site "CATCTATG";
-evgA	MotifSampler	misc_feature	65	72	36254	+	.	id "box_49_1_CAwCknTA"; site "CATCGGTA";
-yfdX	MotifSampler	misc_feature	34	41	16756.6	+	.	id "box_49_1_CAwCknTA"; site "CATCGATA";
-yfdX	MotifSampler	misc_feature	143	150	1516.23	+	.	id "box_49_1_CAwCknTA"; site "CAACTGTA";
-#id: box_50_1_CAwCknTA	consensus: CAwCknTA	sequences: 5	instances: 6	cs: 1.17	ic: 1.15	ll: 43.06
-yneN	MotifSampler	misc_feature	293	300	1892.5	+	.	id "box_50_1_CAwCknTA"; site "CAACTATA";
-yegR	MotifSampler	misc_feature	13	20	5157.99	+	.	id "box_50_1_CAwCknTA"; site "CACCGATA";
-emrK	MotifSampler	misc_feature	145	152	1301.16	+	.	id "box_50_1_CAwCknTA"; site "CAACGTTC";
-evgA	MotifSampler	misc_feature	65	72	32786.2	+	.	id "box_50_1_CAwCknTA"; site "CATCGGTA";
-yfdX	MotifSampler	misc_feature	34	41	11500.1	+	.	id "box_50_1_CAwCknTA"; site "CATCGATA";
-yfdX	MotifSampler	misc_feature	143	150	1516.16	+	.	id "box_50_1_CAwCknTA"; site "CAACTGTA";
-#id: box_51_1_GTGnnAwn	consensus: GTGnnAwn	sequences: 5	instances: 6	cs: 1.07	ic: 1.13	ll: 39.47
-yneN	MotifSampler	misc_feature	267	274	558.747	+	.	id "box_51_1_GTGnnAwn"; site "GTGAAAAA";
-yegR	MotifSampler	misc_feature	61	68	2560.76	+	.	id "box_51_1_GTGnnAwn"; site "GTGGCATC";
-emrK	MotifSampler	misc_feature	252	259	11790.2	+	.	id "box_51_1_GTGnnAwn"; site "GTGGAACA";
-emrK	MotifSampler	misc_feature	163	170	1989.33	+	.	id "box_51_1_GTGnnAwn"; site "GTGCAACA";
-evgA	MotifSampler	misc_feature	43	50	4884.29	+	.	id "box_51_1_GTGnnAwn"; site "GTGCCAAC";
-yfdX	MotifSampler	misc_feature	61	68	1634.9	+	.	id "box_51_1_GTGnnAwn"; site "GTGGTATA";
-#id: box_52_1_nTGTAAGA	consensus: nTGTAAGA	sequences: 5	instances: 8	cs: 1.28	ic: 1.23	ll: 39.60
-yneN	MotifSampler	misc_feature	132	139	6424.5	+	.	id "box_52_1_nTGTAAGA"; site "CTGTAAGA";
-yneN	MotifSampler	misc_feature	105	112	1435.65	+	.	id "box_52_1_nTGTAAGA"; site "CTATAAGA";
-yegR	MotifSampler	misc_feature	137	144	1308.37	+	.	id "box_52_1_nTGTAAGA"; site "ATGTAGGA";
-emrK	MotifSampler	misc_feature	230	237	460.446	+	.	id "box_52_1_nTGTAAGA"; site "CTATGAGA";
-evgA	MotifSampler	misc_feature	17	24	5460.69	+	.	id "box_52_1_nTGTAAGA"; site "CTGTAGGA";
-evgA	MotifSampler	misc_feature	26	33	633.531	+	.	id "box_52_1_nTGTAAGA"; site "TAGTAAGA";
-yfdX	MotifSampler	misc_feature	146	153	5580.22	+	.	id "box_52_1_nTGTAAGA"; site "CTGTAAGA";
-yfdX	MotifSampler	misc_feature	108	115	1535.41	+	.	id "box_52_1_nTGTAAGA"; site "TTGTAAGA";
-#id: box_53_1_CAwCkrTA	consensus: CAwCkrTA	sequences: 5	instances: 6	cs: 1.09	ic: 1.07	ll: 40.76
-yneN	MotifSampler	misc_feature	293	300	903.375	+	.	id "box_53_1_CAwCkrTA"; site "CAACTATA";
-yegR	MotifSampler	misc_feature	225	232	1426.7	+	.	id "box_53_1_CAwCkrTA"; site "CGTTGGTA";
-emrK	MotifSampler	misc_feature	145	152	910.327	+	.	id "box_53_1_CAwCkrTA"; site "CAACGTTC";
-evgA	MotifSampler	misc_feature	65	72	49847.6	+	.	id "box_53_1_CAwCkrTA"; site "CATCGGTA";
-yfdX	MotifSampler	misc_feature	34	41	8046.12	+	.	id "box_53_1_CAwCkrTA"; site "CATCGATA";
-yfdX	MotifSampler	misc_feature	143	150	1572.7	+	.	id "box_53_1_CAwCkrTA"; site "CAACTGTA";
-#id: box_54_1_nyGrTwTA	consensus: nyGrTwTA	sequences: 5	instances: 5	cs: 1.02	ic: 0.92	ll: 33.60
-yneN	MotifSampler	misc_feature	83	90	130.97	+	.	id "box_54_1_nyGrTwTA"; site "ATGGATTA";
-yegR	MotifSampler	misc_feature	15	22	291.746	+	.	id "box_54_1_nyGrTwTA"; site "CCGATAAA";
-emrK	MotifSampler	misc_feature	95	102	9080.88	+	.	id "box_54_1_nyGrTwTA"; site "ACGGTTTA";
-evgA	MotifSampler	misc_feature	120	127	1119.01	+	.	id "box_54_1_nyGrTwTA"; site "ATGGTATA";
-yfdX	MotifSampler	misc_feature	36	43	1253.24	+	.	id "box_54_1_nyGrTwTA"; site "TCGATATA";
-#id: box_55_1_ACTAwAAn	consensus: ACTAwAAn	sequences: 5	instances: 5	cs: 1.15	ic: 0.96	ll: 31.83
-yneN	MotifSampler	misc_feature	104	111	3496.49	+	.	id "box_55_1_ACTAwAAn"; site "ACTATAAG";
-yegR	MotifSampler	misc_feature	253	260	38.0193	+	.	id "box_55_1_ACTAwAAn"; site "TGAAAAAG";
-emrK	MotifSampler	misc_feature	42	49	2681.6	+	.	id "box_55_1_ACTAwAAn"; site "ACTATAAG";
-evgA	MotifSampler	misc_feature	56	63	663.087	+	.	id "box_55_1_ACTAwAAn"; site "ACTATAAA";
-yfdX	MotifSampler	misc_feature	115	122	381.509	+	.	id "box_55_1_ACTAwAAn"; site "ACTAAAAT";
-#id: box_56_1_GnCACnnn	consensus: GnCACnnn	sequences: 5	instances: 6	cs: 0.96	ic: 1.13	ll: 38.27
-yneN	MotifSampler	misc_feature	158	165	320.441	+	.	id "box_56_1_GnCACnnn"; site "AGCACCAG";
-yegR	MotifSampler	misc_feature	11	18	2306.85	+	.	id "box_56_1_GnCACnnn"; site "GCCACCGA";
-emrK	MotifSampler	misc_feature	92	99	22250.4	+	.	id "box_56_1_GnCACnnn"; site "GCCACGGT";
-emrK	MotifSampler	misc_feature	39	46	608.477	+	.	id "box_56_1_GnCACnnn"; site "GGCACTAT";
-evgA	MotifSampler	misc_feature	45	52	502.444	+	.	id "box_56_1_GnCACnnn"; site "GCCAACTT";
-yfdX	MotifSampler	misc_feature	270	277	5709.45	+	.	id "box_56_1_GnCACnnn"; site "GCCACGAT";
-#id: box_57_1_yAmywrTm	consensus: yAmywrTm	sequences: 5	instances: 6	cs: 1.03	ic: 0.93	ll: 32.66
-yneN	MotifSampler	misc_feature	160	167	3396.69	+	.	id "box_57_1_yAmywrTm"; site "CACCAGTC";
-yneN	MotifSampler	misc_feature	293	300	759.893	+	.	id "box_57_1_yAmywrTm"; site "CAACTATA";
-yegR	MotifSampler	misc_feature	178	185	202.429	+	.	id "box_57_1_yAmywrTm"; site "CAATTATA";
-emrK	MotifSampler	misc_feature	56	63	290.246	+	.	id "box_57_1_yAmywrTm"; site "TACTAATC";
-evgA	MotifSampler	misc_feature	126	133	930.662	+	.	id "box_57_1_yAmywrTm"; site "TACTTGTC";
-yfdX	MotifSampler	misc_feature	143	150	902.602	+	.	id "box_57_1_yAmywrTm"; site "CAACTGTA";
-#id: box_58_1_CATsGATw	consensus: CATsGATw	sequences: 5	instances: 5	cs: 1.16	ic: 1.19	ll: 43.12
-yneN	MotifSampler	misc_feature	82	89	4102.44	+	.	id "box_58_1_CATsGATw"; site "CATGGATT";
-yegR	MotifSampler	misc_feature	93	100	5569.43	+	.	id "box_58_1_CATsGATw"; site "CATGGAGT";
-emrK	MotifSampler	misc_feature	5	12	2406.51	+	.	id "box_58_1_CATsGATw"; site "CAGGGATT";
-evgA	MotifSampler	misc_feature	65	72	10588.7	+	.	id "box_58_1_CATsGATw"; site "CATCGGTA";
-yfdX	MotifSampler	misc_feature	34	41	9459.71	+	.	id "box_58_1_CATsGATw"; site "CATCGATA";
-#id: box_59_1_CTAAwAkw	consensus: CTAAwAkw	sequences: 5	instances: 5	cs: 1.05	ic: 0.80	ll: 29.22
-yneN	MotifSampler	misc_feature	233	240	36.8635	+	.	id "box_59_1_CTAAwAkw"; site "CTAAATAA";
-yegR	MotifSampler	misc_feature	43	50	497.857	+	.	id "box_59_1_CTAAwAkw"; site "CTAATATT";
-emrK	MotifSampler	misc_feature	246	253	533.486	+	.	id "box_59_1_CTAAwAkw"; site "ATAATAGT";
-evgA	MotifSampler	misc_feature	37	44	1692.12	+	.	id "box_59_1_CTAAwAkw"; site "CTTATAGT";
-yfdX	MotifSampler	misc_feature	116	123	430.338	+	.	id "box_59_1_CTAAwAkw"; site "CTAAAATA";
-#id: box_60_1_nTTCyTAC	consensus: nTTCyTAC	sequences: 5	instances: 6	cs: 1.27	ic: 1.18	ll: 38.90
-yneN	MotifSampler	misc_feature	98	105	426.62	+	.	id "box_60_1_nTTCyTAC"; site "CTACATAC";
-yegR	MotifSampler	misc_feature	127	134	3531.7	+	.	id "box_60_1_nTTCyTAC"; site "ATTCCTAC";
-emrK	MotifSampler	misc_feature	51	58	3503.66	+	.	id "box_60_1_nTTCyTAC"; site "CTTCTTAC";
-emrK	MotifSampler	misc_feature	60	67	1935.85	+	.	id "box_60_1_nTTCyTAC"; site "AATCCTAC";
-evgA	MotifSampler	misc_feature	7	14	2931.86	+	.	id "box_60_1_nTTCyTAC"; site "ATTCTTAC";
-yfdX	MotifSampler	misc_feature	98	105	3969.27	+	.	id "box_60_1_nTTCyTAC"; site "ATTCCTAC";
-#id: box_61_1_CAwCknTA	consensus: CAwCknTA	sequences: 5	instances: 6	cs: 1.22	ic: 1.18	ll: 43.12
-yneN	MotifSampler	misc_feature	293	300	2493.88	+	.	id "box_61_1_CAwCknTA"; site "CAACTATA";
-yegR	MotifSampler	misc_feature	13	20	5127.59	+	.	id "box_61_1_CAwCknTA"; site "CACCGATA";
-emrK	MotifSampler	misc_feature	227	234	685.212	+	.	id "box_61_1_CAwCknTA"; site "CATCTATG";
-evgA	MotifSampler	misc_feature	65	72	36254	+	.	id "box_61_1_CAwCknTA"; site "CATCGGTA";
-yfdX	MotifSampler	misc_feature	34	41	16756.6	+	.	id "box_61_1_CAwCknTA"; site "CATCGATA";
-yfdX	MotifSampler	misc_feature	143	150	1516.23	+	.	id "box_61_1_CAwCknTA"; site "CAACTGTA";
-#id: box_62_1_nTCrrTAy	consensus: nTCrrTAy	sequences: 5	instances: 5	cs: 0.97	ic: 0.87	ll: 32.35
-yneN	MotifSampler	misc_feature	147	154	521.489	+	.	id "box_62_1_nTCrrTAy"; site "CTCAGTAC";
-yegR	MotifSampler	misc_feature	69	76	80.2256	+	.	id "box_62_1_nTCrrTAy"; site "TTCAATAT";
-emrK	MotifSampler	misc_feature	26	33	109.391	+	.	id "box_62_1_nTCrrTAy"; site "ATAGTTTC";
-evgA	MotifSampler	misc_feature	66	73	20006.3	+	.	id "box_62_1_nTCrrTAy"; site "ATCGGTAC";
-yfdX	MotifSampler	misc_feature	35	42	1821.49	+	.	id "box_62_1_nTCrrTAy"; site "ATCGATAT";
-#id: box_63_1_wGwCATCT	consensus: wGwCATCT	sequences: 5	instances: 6	cs: 1.11	ic: 1.09	ll: 35.98
-yneN	MotifSampler	misc_feature	290	297	535.397	+	.	id "box_63_1_wGwCATCT"; site "AGACAACT";
-yegR	MotifSampler	misc_feature	62	69	5968.66	+	.	id "box_63_1_wGwCATCT"; site "TGGCATCT";
-emrK	MotifSampler	misc_feature	48	55	679.46	+	.	id "box_63_1_wGwCATCT"; site "AGTCTTCT";
-evgA	MotifSampler	misc_feature	62	69	458.546	+	.	id "box_63_1_wGwCATCT"; site "AATCATCG";
-yfdX	MotifSampler	misc_feature	49	56	3051.61	+	.	id "box_63_1_wGwCATCT"; site "TGACATCT";
-yfdX	MotifSampler	misc_feature	292	299	2379.69	+	.	id "box_63_1_wGwCATCT"; site "TGGCATCT";
-#id: box_64_1_GCnnCsrT	consensus: GCnnCsrT	sequences: 5	instances: 5	cs: 0.95	ic: 1.15	ll: 42.86
-yneN	MotifSampler	misc_feature	258	265	2316.61	+	.	id "box_64_1_GCnnCsrT"; site "GCGACCAC";
-yegR	MotifSampler	misc_feature	88	95	6251.38	+	.	id "box_64_1_GCnnCsrT"; site "GCCCCCAT";
-emrK	MotifSampler	misc_feature	92	99	32940.2	+	.	id "box_64_1_GCnnCsrT"; site "GCCACGGT";
-evgA	MotifSampler	misc_feature	64	71	1063.45	+	.	id "box_64_1_GCnnCsrT"; site "TCATCGGT";
-yfdX	MotifSampler	misc_feature	270	277	8452.46	+	.	id "box_64_1_GCnnCsrT"; site "GCCACGAT";
-#id: box_65_1_CTrTAnGA	consensus: CTrTAnGA	sequences: 5	instances: 6	cs: 1.31	ic: 1.28	ll: 41.21
-yneN	MotifSampler	misc_feature	132	139	6695.89	+	.	id "box_65_1_CTrTAnGA"; site "CTGTAAGA";
-yneN	MotifSampler	misc_feature	105	112	2231.22	+	.	id "box_65_1_CTrTAnGA"; site "CTATAAGA";
-yegR	MotifSampler	misc_feature	137	144	2021.21	+	.	id "box_65_1_CTrTAnGA"; site "ATGTAGGA";
-emrK	MotifSampler	misc_feature	230	237	993.646	+	.	id "box_65_1_CTrTAnGA"; site "CTATGAGA";
-evgA	MotifSampler	misc_feature	17	24	8435.85	+	.	id "box_65_1_CTrTAnGA"; site "CTGTAGGA";
-yfdX	MotifSampler	misc_feature	146	153	5815.95	+	.	id "box_65_1_CTrTAnGA"; site "CTGTAAGA";
-#id: box_66_1_CTrTAnGA	consensus: CTrTAnGA	sequences: 5	instances: 6	cs: 1.31	ic: 1.26	ll: 41.10
-yneN	MotifSampler	misc_feature	132	139	6695.89	+	.	id "box_66_1_CTrTAnGA"; site "CTGTAAGA";
-yneN	MotifSampler	misc_feature	105	112	2231.22	+	.	id "box_66_1_CTrTAnGA"; site "CTATAAGA";
-yegR	MotifSampler	misc_feature	137	144	2021.21	+	.	id "box_66_1_CTrTAnGA"; site "ATGTAGGA";
-emrK	MotifSampler	misc_feature	43	50	898.169	+	.	id "box_66_1_CTrTAnGA"; site "CTATAAGT";
-evgA	MotifSampler	misc_feature	17	24	8435.85	+	.	id "box_66_1_CTrTAnGA"; site "CTGTAGGA";
-yfdX	MotifSampler	misc_feature	146	153	5815.95	+	.	id "box_66_1_CTrTAnGA"; site "CTGTAAGA";
-#id: box_67_1_ACTATAAr	consensus: ACTATAAr	sequences: 5	instances: 5	cs: 1.28	ic: 1.12	ll: 37.99
-yneN	MotifSampler	misc_feature	104	111	5736.69	+	.	id "box_67_1_ACTATAAr"; site "ACTATAAG";
-yegR	MotifSampler	misc_feature	53	60	327.921	+	.	id "box_67_1_ACTATAAr"; site "ACTAAACA";
-emrK	MotifSampler	misc_feature	42	49	4399.69	+	.	id "box_67_1_ACTATAAr"; site "ACTATAAG";
-evgA	MotifSampler	misc_feature	56	63	2036.02	+	.	id "box_67_1_ACTATAAr"; site "ACTATAAA";
-yfdX	MotifSampler	misc_feature	145	152	2112.77	+	.	id "box_67_1_ACTATAAr"; site "ACTGTAAG";
-#id: box_68_1_GnTGnnAT	consensus: GnTGnnAT	sequences: 5	instances: 6	cs: 1.08	ic: 1.14	ll: 36.87
-yneN	MotifSampler	misc_feature	25	32	374.166	+	.	id "box_68_1_GnTGnnAT"; site "GCTGTCAT";
-yegR	MotifSampler	misc_feature	226	233	11818.3	+	.	id "box_68_1_GnTGnnAT"; site "GTTGGTAT";
-yegR	MotifSampler	misc_feature	264	271	6570.18	+	.	id "box_68_1_GnTGnnAT"; site "GCTGCTAT";
-emrK	MotifSampler	misc_feature	36	43	1241.41	+	.	id "box_68_1_GnTGnnAT"; site "GTTGGCAC";
-evgA	MotifSampler	misc_feature	280	287	836.464	+	.	id "box_68_1_GnTGnnAT"; site "CTTGCTAT";
-yfdX	MotifSampler	misc_feature	173	180	1685.01	+	.	id "box_68_1_GnTGnnAT"; site "GTTGCTCT";
-#id: box_69_1_TTwAATTA	consensus: TTwAATTA	sequences: 5	instances: 5	cs: 1.31	ic: 0.99	ll: 33.61
-yneN	MotifSampler	misc_feature	88	95	990.968	+	.	id "box_69_1_TTwAATTA"; site "TTAAATTA";
-yegR	MotifSampler	misc_feature	287	294	275.62	+	.	id "box_69_1_TTwAATTA"; site "TTTTATTA";
-emrK	MotifSampler	misc_feature	131	138	973.7	+	.	id "box_69_1_TTwAATTA"; site "TTAAATTA";
-evgA	MotifSampler	misc_feature	132	139	1245.29	+	.	id "box_69_1_TTwAATTA"; site "TCGAATTA";
-yfdX	MotifSampler	misc_feature	260	267	1379.82	+	.	id "box_69_1_TTwAATTA"; site "TTTAATTA";
-#id: box_70_1_TGnCATCT	consensus: TGnCATCT	sequences: 5	instances: 7	cs: 1.17	ic: 1.16	ll: 38.74
-yneN	MotifSampler	misc_feature	27	34	2775.72	+	.	id "box_70_1_TGnCATCT"; site "TGTCATCC";
-yegR	MotifSampler	misc_feature	62	69	8260.92	+	.	id "box_70_1_TGnCATCT"; site "TGGCATCT";
-yegR	MotifSampler	misc_feature	222	229	1052.13	+	.	id "box_70_1_TGnCATCT"; site "TGTCGTTG";
-emrK	MotifSampler	misc_feature	224	231	419.779	+	.	id "box_70_1_TGnCATCT"; site "TTTCATCT";
-evgA	MotifSampler	misc_feature	92	99	1036.96	+	.	id "box_70_1_TGnCATCT"; site "TGACATTT";
-yfdX	MotifSampler	misc_feature	49	56	4223.58	+	.	id "box_70_1_TGnCATCT"; site "TGACATCT";
-yfdX	MotifSampler	misc_feature	292	299	3293.61	+	.	id "box_70_1_TGnCATCT"; site "TGGCATCT";
-#id: box_71_1_GAnmrywG	consensus: GAnmrywG	sequences: 5	instances: 6	cs: 1.01	ic: 1.10	ll: 39.09
-yneN	MotifSampler	misc_feature	260	267	11644.3	+	.	id "box_71_1_GAnmrywG"; site "GACCACAG";
-yegR	MotifSampler	misc_feature	260	267	2119.9	+	.	id "box_71_1_GAnmrywG"; site "GATAGCTG";
-emrK	MotifSampler	misc_feature	245	252	695.124	+	.	id "box_71_1_GAnmrywG"; site "GATAATAG";
-evgA	MotifSampler	misc_feature	285	292	1657.3	+	.	id "box_71_1_GAnmrywG"; site "TATCGCAG";
-yfdX	MotifSampler	misc_feature	169	176	2287.67	+	.	id "box_71_1_GAnmrywG"; site "GACCGTTG";
-yfdX	MotifSampler	misc_feature	278	285	1922.63	+	.	id "box_71_1_GAnmrywG"; site "GGTCACAG";
-#id: box_72_1_CAwCkrTA	consensus: CAwCkrTA	sequences: 5	instances: 6	cs: 1.15	ic: 1.15	ll: 43.24
-yneN	MotifSampler	misc_feature	293	300	1584.65	+	.	id "box_72_1_CAwCkrTA"; site "CAACTATA";
-yegR	MotifSampler	misc_feature	13	20	4318.95	+	.	id "box_72_1_CAwCkrTA"; site "CACCGATA";
-emrK	MotifSampler	misc_feature	93	100	2021.61	+	.	id "box_72_1_CAwCkrTA"; site "CCACGGTT";
-evgA	MotifSampler	misc_feature	65	72	40702.7	+	.	id "box_72_1_CAwCkrTA"; site "CATCGGTA";
-yfdX	MotifSampler	misc_feature	34	41	9629.4	+	.	id "box_72_1_CAwCkrTA"; site "CATCGATA";
-yfdX	MotifSampler	misc_feature	143	150	1882.25	+	.	id "box_72_1_CAwCkrTA"; site "CAACTGTA";
-#id: box_73_1_GnnTnTTC	consensus: GnnTnTTC	sequences: 5	instances: 6	cs: 1.09	ic: 1.09	ll: 33.11
-yneN	MotifSampler	misc_feature	6	13	2229.4	+	.	id "box_73_1_GnnTnTTC"; site "GCCTCTTC";
-yegR	MotifSampler	misc_feature	64	71	7732.72	+	.	id "box_73_1_GnnTnTTC"; site "GCATCTTC";
-emrK	MotifSampler	misc_feature	200	207	25.3046	+	.	id "box_73_1_GnnTnTTC"; site "TGCTCTTT";
-evgA	MotifSampler	misc_feature	134	141	113.577	+	.	id "box_73_1_GnnTnTTC"; site "GAATTATC";
-yfdX	MotifSampler	misc_feature	294	301	7732.72	+	.	id "box_73_1_GnnTnTTC"; site "GCATCTTC";
-yfdX	MotifSampler	misc_feature	94	101	818.565	+	.	id "box_73_1_GnnTnTTC"; site "GCATATTC";
-#id: box_74_1_CTyATkTC	consensus: CTyATkTC	sequences: 5	instances: 5	cs: 1.17	ic: 1.09	ll: 34.28
-yneN	MotifSampler	misc_feature	13	20	1279.34	+	.	id "box_74_1_CTyATkTC"; site "CTCATTTC";
-yegR	MotifSampler	misc_feature	291	298	410.586	+	.	id "box_74_1_CTyATkTC"; site "ATTATGTC";
-emrK	MotifSampler	misc_feature	51	58	550.389	+	.	id "box_74_1_CTyATkTC"; site "CTTCTTAC";
-evgA	MotifSampler	misc_feature	192	199	2387.43	+	.	id "box_74_1_CTyATkTC"; site "CTTATGTC";
-yfdX	MotifSampler	misc_feature	188	195	1279.34	+	.	id "box_74_1_CTyATkTC"; site "CTCATTTC";
-#id: box_75_1_rAAAwGAG	consensus: rAAAwGAG	sequences: 5	instances: 5	cs: 1.24	ic: 1.17	ll: 37.76
-yneN	MotifSampler	misc_feature	284	291	1065.9	+	.	id "box_75_1_rAAAwGAG"; site "GCAAAGAG";
-yegR	MotifSampler	misc_feature	28	35	2842.3	+	.	id "box_75_1_rAAAwGAG"; site "AAAAAGAG";
-emrK	MotifSampler	misc_feature	236	243	3052.32	+	.	id "box_75_1_rAAAwGAG"; site "GAAATGAG";
-evgA	MotifSampler	misc_feature	177	184	2452.56	+	.	id "box_75_1_rAAAwGAG"; site "AAAATGAG";
-yfdX	MotifSampler	misc_feature	164	171	1191.03	+	.	id "box_75_1_rAAAwGAG"; site "AAAATGAC";
-#id: box_76_1_TTCyTACn	consensus: TTCyTACn	sequences: 5	instances: 5	cs: 1.21	ic: 1.12	ll: 35.96
-yneN	MotifSampler	misc_feature	172	179	223.352	+	.	id "box_76_1_TTCyTACn"; site "TTCCTCTT";
-yegR	MotifSampler	misc_feature	128	135	3463.68	+	.	id "box_76_1_TTCyTACn"; site "TTCCTACT";
-emrK	MotifSampler	misc_feature	52	59	3171.77	+	.	id "box_76_1_TTCyTACn"; site "TTCTTACT";
-evgA	MotifSampler	misc_feature	8	15	1829.03	+	.	id "box_76_1_TTCyTACn"; site "TTCTTACG";
-yfdX	MotifSampler	misc_feature	99	106	1044.69	+	.	id "box_76_1_TTCyTACn"; site "TTCCTACA";
-#id: box_77_1_CAyCGrTA	consensus: CAyCGrTA	sequences: 5	instances: 5	cs: 0.99	ic: 1.05	ll: 40.76
-yneN	MotifSampler	misc_feature	263	270	365.478	+	.	id "box_77_1_CAyCGrTA"; site "CACAGTGA";
-yegR	MotifSampler	misc_feature	13	20	6683.85	+	.	id "box_77_1_CAyCGrTA"; site "CACCGATA";
-emrK	MotifSampler	misc_feature	93	100	902.033	+	.	id "box_77_1_CAyCGrTA"; site "CCACGGTT";
-evgA	MotifSampler	misc_feature	65	72	32340.3	+	.	id "box_77_1_CAyCGrTA"; site "CATCGGTA";
-yfdX	MotifSampler	misc_feature	34	41	7739.65	+	.	id "box_77_1_CAyCGrTA"; site "CATCGATA";
-#id: box_78_1_wAwTCCTA	consensus: wAwTCCTA	sequences: 5	instances: 6	cs: 1.32	ic: 1.15	ll: 35.60
-yneN	MotifSampler	misc_feature	47	54	258.182	+	.	id "box_78_1_wAwTCCTA"; site "AATTCCTC";
-yegR	MotifSampler	misc_feature	168	175	2475.45	+	.	id "box_78_1_wAwTCCTA"; site "TAATCCTA";
-yegR	MotifSampler	misc_feature	126	133	1055.82	+	.	id "box_78_1_wAwTCCTA"; site "AATTCCTA";
-emrK	MotifSampler	misc_feature	59	66	2795.46	+	.	id "box_78_1_wAwTCCTA"; site "TAATCCTA";
-evgA	MotifSampler	misc_feature	202	209	630.622	+	.	id "box_78_1_wAwTCCTA"; site "TATTACTA";
-yfdX	MotifSampler	misc_feature	97	104	2407.14	+	.	id "box_78_1_wAwTCCTA"; site "TATTCCTA";
-#id: box_79_1_GAkATAAw	consensus: GAkATAAw	sequences: 5	instances: 6	cs: 1.25	ic: 1.12	ll: 36.09
-yneN	MotifSampler	misc_feature	111	118	546.533	+	.	id "box_79_1_GAkATAAw"; site "GATATAAA";
-yegR	MotifSampler	misc_feature	249	256	756.332	+	.	id "box_79_1_GAkATAAw"; site "GAGATGAA";
-emrK	MotifSampler	misc_feature	243	250	3052.32	+	.	id "box_79_1_GAkATAAw"; site "GAGATAAT";
-evgA	MotifSampler	misc_feature	174	181	908.222	+	.	id "box_79_1_GAkATAAw"; site "GAGAAAAT";
-yfdX	MotifSampler	misc_feature	38	45	2797.53	+	.	id "box_79_1_GAkATAAw"; site "GATATAAT";
-yfdX	MotifSampler	misc_feature	130	137	2594.08	+	.	id "box_79_1_GAkATAAw"; site "GCGATAAT";
-#id: box_80_1_CAwCkrTA	consensus: CAwCkrTA	sequences: 5	instances: 6	cs: 1.15	ic: 1.15	ll: 43.24
-yneN	MotifSampler	misc_feature	293	300	1584.65	+	.	id "box_80_1_CAwCkrTA"; site "CAACTATA";
-yegR	MotifSampler	misc_feature	13	20	4318.95	+	.	id "box_80_1_CAwCkrTA"; site "CACCGATA";
-emrK	MotifSampler	misc_feature	93	100	2021.61	+	.	id "box_80_1_CAwCkrTA"; site "CCACGGTT";
-evgA	MotifSampler	misc_feature	65	72	40702.7	+	.	id "box_80_1_CAwCkrTA"; site "CATCGGTA";
-yfdX	MotifSampler	misc_feature	34	41	9629.4	+	.	id "box_80_1_CAwCkrTA"; site "CATCGATA";
-yfdX	MotifSampler	misc_feature	143	150	1882.25	+	.	id "box_80_1_CAwCkrTA"; site "CAACTGTA";
-#id: box_81_1_nCAwCknT	consensus: nCAwCknT	sequences: 5	instances: 6	cs: 1.09	ic: 1.09	ll: 40.17
-yneN	MotifSampler	misc_feature	292	299	801.08	+	.	id "box_81_1_nCAwCknT"; site "ACAACTAT";
-yegR	MotifSampler	misc_feature	12	19	2468.61	+	.	id "box_81_1_nCAwCknT"; site "CCACCGAT";
-emrK	MotifSampler	misc_feature	144	151	2576.53	+	.	id "box_81_1_nCAwCknT"; site "CCAACGTT";
-evgA	MotifSampler	misc_feature	64	71	7792.84	+	.	id "box_81_1_nCAwCknT"; site "TCATCGGT";
-yfdX	MotifSampler	misc_feature	33	40	6653.93	+	.	id "box_81_1_nCAwCknT"; site "ACATCGAT";
-yfdX	MotifSampler	misc_feature	142	149	1184.39	+	.	id "box_81_1_nCAwCknT"; site "ACAACTGT";
-#id: box_82_1_ynknGrwA	consensus: ynknGrwA	sequences: 5	instances: 6	cs: 1.02	ic: 1.03	ll: 40.61
-yneN	MotifSampler	misc_feature	265	272	786.004	+	.	id "box_82_1_ynknGrwA"; site "CAGTGAAA";
-yegR	MotifSampler	misc_feature	225	232	5512.14	+	.	id "box_82_1_ynknGrwA"; site "CGTTGGTA";
-emrK	MotifSampler	misc_feature	250	257	2161.01	+	.	id "box_82_1_ynknGrwA"; site "TAGTGGAA";
-evgA	MotifSampler	misc_feature	65	72	17578.2	+	.	id "box_82_1_ynknGrwA"; site "CATCGGTA";
-yfdX	MotifSampler	misc_feature	34	41	2140.57	+	.	id "box_82_1_ynknGrwA"; site "CATCGATA";
-yfdX	MotifSampler	misc_feature	59	66	1057.55	+	.	id "box_82_1_ynknGrwA"; site "TTGTGGTA";
-#id: box_83_1_AywATTrT	consensus: AywATTrT	sequences: 5	instances: 5	cs: 1.24	ic: 0.95	ll: 33.25
-yneN	MotifSampler	misc_feature	59	66	650.849	+	.	id "box_83_1_AywATTrT"; site "ACTATTAT";
-yegR	MotifSampler	misc_feature	197	204	438.177	+	.	id "box_83_1_AywATTrT"; site "ATTATTAT";
-emrK	MotifSampler	misc_feature	246	253	821.787	+	.	id "box_83_1_AywATTrT"; site "ATAATAGT";
-evgA	MotifSampler	misc_feature	259	266	705.733	+	.	id "box_83_1_AywATTrT"; site "ATAATTAT";
-yfdX	MotifSampler	misc_feature	104	111	1904.86	+	.	id "box_83_1_AywATTrT"; site "ACAATTGT";
-#id: box_84_1_nTCnTCTn	consensus: nTCnTCTn	sequences: 5	instances: 6	cs: 1.15	ic: 1.17	ll: 38.10
-yneN	MotifSampler	misc_feature	172	179	812.51	+	.	id "box_84_1_nTCnTCTn"; site "TTCCTCTT";
-yegR	MotifSampler	misc_feature	63	70	797.684	+	.	id "box_84_1_nTCnTCTn"; site "GGCATCTT";
-emrK	MotifSampler	misc_feature	103	110	13118.9	+	.	id "box_84_1_nTCnTCTn"; site "GTCCTCTG";
-emrK	MotifSampler	misc_feature	49	56	3010.49	+	.	id "box_84_1_nTCnTCTn"; site "GTCTTCTT";
-evgA	MotifSampler	misc_feature	275	282	2137.8	+	.	id "box_84_1_nTCnTCTn"; site "ATCCTCTT";
-yfdX	MotifSampler	misc_feature	77	84	1747.02	+	.	id "box_84_1_nTCnTCTn"; site "GTTCTCTG";
-#id: box_85_1_mCTrnArG	consensus: mCTrnArG	sequences: 5	instances: 7	cs: 1.21	ic: 1.25	ll: 39.74
-yneN	MotifSampler	misc_feature	104	111	1777.78	+	.	id "box_85_1_mCTrnArG"; site "ACTATAAG";
-yegR	MotifSampler	misc_feature	104	111	1554.94	+	.	id "box_85_1_mCTrnArG"; site "CCTGAAGG";
-emrK	MotifSampler	misc_feature	63	70	4484.48	+	.	id "box_85_1_mCTrnArG"; site "CCTACAGG";
-emrK	MotifSampler	misc_feature	42	49	1363.45	+	.	id "box_85_1_mCTrnArG"; site "ACTATAAG";
-evgA	MotifSampler	misc_feature	16	23	3940.28	+	.	id "box_85_1_mCTrnArG"; site "CCTGTAGG";
-evgA	MotifSampler	misc_feature	206	213	3727.02	+	.	id "box_85_1_mCTrnArG"; site "ACTACAGG";
-yfdX	MotifSampler	misc_feature	145	152	1876.32	+	.	id "box_85_1_mCTrnArG"; site "ACTGTAAG";
-#id: box_86_1_nGCCwmCn	consensus: nGCCwmCn	sequences: 5	instances: 6	cs: 1.01	ic: 1.20	ll: 37.49
-yneN	MotifSampler	misc_feature	123	130	804.589	+	.	id "box_86_1_nGCCwmCn"; site "TGCCTACA";
-yegR	MotifSampler	misc_feature	10	17	6056.33	+	.	id "box_86_1_nGCCwmCn"; site "TGCCACCG";
-yegR	MotifSampler	misc_feature	87	94	5011.39	+	.	id "box_86_1_nGCCwmCn"; site "AGCCCCCA";
-emrK	MotifSampler	misc_feature	139	146	1920.02	+	.	id "box_86_1_nGCCwmCn"; site "GGCCTCCA";
-evgA	MotifSampler	misc_feature	44	51	1541.09	+	.	id "box_86_1_nGCCwmCn"; site "TGCCAACT";
-yfdX	MotifSampler	misc_feature	268	275	859.96	+	.	id "box_86_1_nGCCwmCn"; site "TGGCCACG";
-#id: box_87_1_CAwCkrTA	consensus: CAwCkrTA	sequences: 5	instances: 6	cs: 1.15	ic: 1.15	ll: 43.24
-yneN	MotifSampler	misc_feature	293	300	1584.65	+	.	id "box_87_1_CAwCkrTA"; site "CAACTATA";
-yegR	MotifSampler	misc_feature	13	20	4318.95	+	.	id "box_87_1_CAwCkrTA"; site "CACCGATA";
-emrK	MotifSampler	misc_feature	93	100	2021.61	+	.	id "box_87_1_CAwCkrTA"; site "CCACGGTT";
-evgA	MotifSampler	misc_feature	65	72	40702.7	+	.	id "box_87_1_CAwCkrTA"; site "CATCGGTA";
-yfdX	MotifSampler	misc_feature	34	41	9629.4	+	.	id "box_87_1_CAwCkrTA"; site "CATCGATA";
-yfdX	MotifSampler	misc_feature	143	150	1882.25	+	.	id "box_87_1_CAwCkrTA"; site "CAACTGTA";
-#id: box_88_1_ArTCCTmT	consensus: ArTCCTmT	sequences: 5	instances: 5	cs: 1.24	ic: 1.20	ll: 41.86
-yneN	MotifSampler	misc_feature	164	171	5087.26	+	.	id "box_88_1_ArTCCTmT"; site "AGTCCTAT";
-yegR	MotifSampler	misc_feature	169	176	1566.89	+	.	id "box_88_1_ArTCCTmT"; site "AATCCTAT";
-emrK	MotifSampler	misc_feature	102	109	21206.5	+	.	id "box_88_1_ArTCCTmT"; site "AGTCCTCT";
-evgA	MotifSampler	misc_feature	274	281	2523.61	+	.	id "box_88_1_ArTCCTmT"; site "CATCCTCT";
-yfdX	MotifSampler	misc_feature	76	83	3715.8	+	.	id "box_88_1_ArTCCTmT"; site "AGTTCTCT";
-#id: box_89_1_ATTCCTAC	consensus: ATTCCTAC	sequences: 5	instances: 7	cs: 1.29	ic: 1.20	ll: 38.69
-yneN	MotifSampler	misc_feature	122	129	331.439	+	.	id "box_89_1_ATTCCTAC"; site "CTGCCTAC";
-yegR	MotifSampler	misc_feature	127	134	5120.92	+	.	id "box_89_1_ATTCCTAC"; site "ATTCCTAC";
-emrK	MotifSampler	misc_feature	60	67	2350.34	+	.	id "box_89_1_ATTCCTAC"; site "AATCCTAC";
-evgA	MotifSampler	misc_feature	203	210	2200.39	+	.	id "box_89_1_ATTCCTAC"; site "ATTACTAC";
-evgA	MotifSampler	misc_feature	7	14	1150.69	+	.	id "box_89_1_ATTCCTAC"; site "ATTCTTAC";
-yfdX	MotifSampler	misc_feature	98	105	5755.39	+	.	id "box_89_1_ATTCCTAC"; site "ATTCCTAC";
-yfdX	MotifSampler	misc_feature	136	143	629.031	+	.	id "box_89_1_ATTCCTAC"; site "ATAACTAC";
-#id: box_90_1_CAkGGAnw	consensus: CAkGGAnw	sequences: 5	instances: 6	cs: 1.19	ic: 1.25	ll: 41.89
-yneN	MotifSampler	misc_feature	82	89	2834.57	+	.	id "box_90_1_CAkGGAnw"; site "CATGGATT";
-yegR	MotifSampler	misc_feature	93	100	7438.06	+	.	id "box_90_1_CAkGGAnw"; site "CATGGAGT";
-emrK	MotifSampler	misc_feature	5	12	6279.15	+	.	id "box_90_1_CAkGGAnw"; site "CAGGGATT";
-emrK	MotifSampler	misc_feature	153	160	785.521	+	.	id "box_90_1_CAkGGAnw"; site "CTGGGATA";
-evgA	MotifSampler	misc_feature	210	217	3783.22	+	.	id "box_90_1_CAkGGAnw"; site "CAGGGAGA";
-yfdX	MotifSampler	misc_feature	34	41	3013.49	+	.	id "box_90_1_CAkGGAnw"; site "CATCGATA";
-#id: box_91_1_CTrTAnGA	consensus: CTrTAnGA	sequences: 5	instances: 6	cs: 1.31	ic: 1.28	ll: 41.21
-yneN	MotifSampler	misc_feature	132	139	6695.89	+	.	id "box_91_1_CTrTAnGA"; site "CTGTAAGA";
-yneN	MotifSampler	misc_feature	105	112	2231.22	+	.	id "box_91_1_CTrTAnGA"; site "CTATAAGA";
-yegR	MotifSampler	misc_feature	137	144	2021.21	+	.	id "box_91_1_CTrTAnGA"; site "ATGTAGGA";
-emrK	MotifSampler	misc_feature	230	237	993.646	+	.	id "box_91_1_CTrTAnGA"; site "CTATGAGA";
-evgA	MotifSampler	misc_feature	17	24	8435.85	+	.	id "box_91_1_CTrTAnGA"; site "CTGTAGGA";
-yfdX	MotifSampler	misc_feature	146	153	5815.95	+	.	id "box_91_1_CTrTAnGA"; site "CTGTAAGA";
-#id: box_92_1_CATTTCwT	consensus: CATTTCwT	sequences: 5	instances: 7	cs: 1.40	ic: 1.20	ll: 37.26
-yneN	MotifSampler	misc_feature	15	22	2319.2	+	.	id "box_92_1_CATTTCwT"; site "CATTTCTT";
-yegR	MotifSampler	misc_feature	159	166	592.134	+	.	id "box_92_1_CATTTCwT"; site "CATTTATT";
-emrK	MotifSampler	misc_feature	213	220	1044.34	+	.	id "box_92_1_CATTTCwT"; site "CAATTCAT";
-evgA	MotifSampler	misc_feature	95	102	3221.19	+	.	id "box_92_1_CATTTCwT"; site "CATTTCAT";
-evgA	MotifSampler	misc_feature	5	12	1467.24	+	.	id "box_92_1_CATTTCwT"; site "CAATTCTT";
-yfdX	MotifSampler	misc_feature	190	197	2223.89	+	.	id "box_92_1_CATTTCwT"; site "CATTTCAT";
-yfdX	MotifSampler	misc_feature	13	20	892.704	+	.	id "box_92_1_CATTTCwT"; site "CATTTAAT";
-#id: box_93_1_CTCATTTC	consensus: CTCATTTC	sequences: 5	instances: 7	cs: 1.31	ic: 1.22	ll: 37.14
-yneN	MotifSampler	misc_feature	13	20	2995.55	+	.	id "box_93_1_CTCATTTC"; site "CTCATTTC";
-yneN	MotifSampler	misc_feature	175	182	1935.41	+	.	id "box_93_1_CTCATTTC"; site "CTCTTTTC";
-yegR	MotifSampler	misc_feature	134	141	372.124	+	.	id "box_93_1_CTCATTTC"; site "CTTATGTA";
-emrK	MotifSampler	misc_feature	202	209	2588.61	+	.	id "box_93_1_CTCATTTC"; site "CTCTTTTC";
-emrK	MotifSampler	misc_feature	126	133	1215.46	+	.	id "box_93_1_CTCATTTC"; site "CTCATTTA";
-evgA	MotifSampler	misc_feature	192	199	954.973	+	.	id "box_93_1_CTCATTTC"; site "CTTATGTC";
-yfdX	MotifSampler	misc_feature	188	195	2995.55	+	.	id "box_93_1_CTCATTTC"; site "CTCATTTC";
-#id: box_94_1_nTkCCTAC	consensus: nTkCCTAC	sequences: 5	instances: 5	cs: 1.20	ic: 1.22	ll: 39.69
-yneN	MotifSampler	misc_feature	122	129	1321.64	+	.	id "box_94_1_nTkCCTAC"; site "CTGCCTAC";
-yegR	MotifSampler	misc_feature	127	134	3307.29	+	.	id "box_94_1_nTkCCTAC"; site "ATTCCTAC";
-emrK	MotifSampler	misc_feature	60	67	2249.98	+	.	id "box_94_1_nTkCCTAC"; site "AATCCTAC";
-evgA	MotifSampler	misc_feature	43	50	4980.37	+	.	id "box_94_1_nTkCCTAC"; site "GTGCCAAC";
-yfdX	MotifSampler	misc_feature	98	105	3717.06	+	.	id "box_94_1_nTkCCTAC"; site "ATTCCTAC";
-#id: box_95_1_wGAkATrA	consensus: wGAkATrA	sequences: 5	instances: 6	cs: 1.28	ic: 1.16	ll: 39.02
-yneN	MotifSampler	misc_feature	110	117	608.42	+	.	id "box_95_1_wGAkATrA"; site "AGATATAA";
-yegR	MotifSampler	misc_feature	248	255	6530.42	+	.	id "box_95_1_wGAkATrA"; site "TGAGATGA";
-emrK	MotifSampler	misc_feature	184	191	2590.15	+	.	id "box_95_1_wGAkATrA"; site "TGATATGA";
-emrK	MotifSampler	misc_feature	242	249	1177.79	+	.	id "box_95_1_wGAkATrA"; site "AGAGATAA";
-evgA	MotifSampler	misc_feature	181	188	2654.47	+	.	id "box_95_1_wGAkATrA"; site "TGAGATGA";
-yfdX	MotifSampler	misc_feature	37	44	2724.82	+	.	id "box_95_1_wGAkATrA"; site "CGATATAA";
-#id: box_96_1_CAwCkrTw	consensus: CAwCkrTw	sequences: 5	instances: 6	cs: 1.05	ic: 1.06	ll: 39.44
-yneN	MotifSampler	misc_feature	293	300	803.105	+	.	id "box_96_1_CAwCkrTw"; site "CAACTATA";
-yegR	MotifSampler	misc_feature	3	10	259.753	+	.	id "box_96_1_CAwCkrTw"; site "TAACGGCT";
-emrK	MotifSampler	misc_feature	93	100	4623.85	+	.	id "box_96_1_CAwCkrTw"; site "CCACGGTT";
-evgA	MotifSampler	misc_feature	65	72	30413.2	+	.	id "box_96_1_CAwCkrTw"; site "CATCGGTA";
-yfdX	MotifSampler	misc_feature	34	41	3703.54	+	.	id "box_96_1_CAwCkrTw"; site "CATCGATA";
-yfdX	MotifSampler	misc_feature	143	150	1853.27	+	.	id "box_96_1_CAwCkrTw"; site "CAACTGTA";
-#id: box_97_1_AwTCCTAy	consensus: AwTCCTAy	sequences: 5	instances: 6	cs: 1.33	ic: 1.23	ll: 40.35
-yneN	MotifSampler	misc_feature	164	171	1734.13	+	.	id "box_97_1_AwTCCTAy"; site "AGTCCTAT";
-yegR	MotifSampler	misc_feature	127	134	4230.71	+	.	id "box_97_1_AwTCCTAy"; site "ATTCCTAC";
-yegR	MotifSampler	misc_feature	169	176	1530.64	+	.	id "box_97_1_AwTCCTAy"; site "AATCCTAT";
-emrK	MotifSampler	misc_feature	60	67	7097.95	+	.	id "box_97_1_AwTCCTAy"; site "AATCCTAC";
-evgA	MotifSampler	misc_feature	7	14	1137.77	+	.	id "box_97_1_AwTCCTAy"; site "ATTCTTAC";
-yfdX	MotifSampler	misc_feature	98	105	4754.89	+	.	id "box_97_1_AwTCCTAy"; site "ATTCCTAC";
-#id: box_98_1_CAnnGnTw	consensus: CAnnGnTw	sequences: 5	instances: 6	cs: 1.07	ic: 1.10	ll: 42.17
-yneN	MotifSampler	misc_feature	82	89	790.061	+	.	id "box_98_1_CAnnGnTw"; site "CATGGATT";
-yegR	MotifSampler	misc_feature	13	20	5061.83	+	.	id "box_98_1_CAnnGnTw"; site "CACCGATA";
-yegR	MotifSampler	misc_feature	225	232	1523.5	+	.	id "box_98_1_CAnnGnTw"; site "CGTTGGTA";
-emrK	MotifSampler	misc_feature	94	101	1247.54	+	.	id "box_98_1_CAnnGnTw"; site "CACGGTTT";
-evgA	MotifSampler	misc_feature	65	72	32275.7	+	.	id "box_98_1_CAnnGnTw"; site "CATCGGTA";
-yfdX	MotifSampler	misc_feature	34	41	11321	+	.	id "box_98_1_CAnnGnTw"; site "CATCGATA";
-#id: box_99_1_CAyCGrTA	consensus: CAyCGrTA	sequences: 5	instances: 5	cs: 1.08	ic: 1.14	ll: 42.15
-yneN	MotifSampler	misc_feature	30	37	504.266	+	.	id "box_99_1_CAyCGrTA"; site "CATCCGCA";
-yegR	MotifSampler	misc_feature	13	20	9761.09	+	.	id "box_99_1_CAyCGrTA"; site "CACCGATA";
-emrK	MotifSampler	misc_feature	14	21	585.745	+	.	id "box_99_1_CAyCGrTA"; site "TACCGATG";
-evgA	MotifSampler	misc_feature	65	72	47231.8	+	.	id "box_99_1_CAyCGrTA"; site "CATCGGTA";
-yfdX	MotifSampler	misc_feature	34	41	16567	+	.	id "box_99_1_CAyCGrTA"; site "CATCGATA";
-#id: box_100_1_CATTTmwT	consensus: CATTTmwT	sequences: 5	instances: 6	cs: 1.39	ic: 1.19	ll: 37.16
-yneN	MotifSampler	misc_feature	15	22	1892.85	+	.	id "box_100_1_CATTTmwT"; site "CATTTCTT";
-yegR	MotifSampler	misc_feature	159	166	601.713	+	.	id "box_100_1_CATTTmwT"; site "CATTTATT";
-emrK	MotifSampler	misc_feature	204	211	973.058	+	.	id "box_100_1_CATTTmwT"; site "CTTTTCAT";
-evgA	MotifSampler	misc_feature	95	102	3853.42	+	.	id "box_100_1_CATTTmwT"; site "CATTTCAT";
-yfdX	MotifSampler	misc_feature	190	197	2660.39	+	.	id "box_100_1_CATTTmwT"; site "CATTTCAT";
-yfdX	MotifSampler	misc_feature	13	20	1329.63	+	.	id "box_100_1_CATTTmwT"; site "CATTTAAT";
+#id: box_1_1_GnGGGCGG	consensus: GnGGGCGG	sequences: 6	instances: 12	cs: 1.58	ic: 2.15	ll: 82.41
+SEQ1:	MotifSampler	misc_feature	2145	2152	713263	+	.	id "box_1_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	287100	+	.	id "box_1_1_GnGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1759	1766	77524.9	+	.	id "box_1_1_GnGGGCGG"; site "GCGGCCGG"; 
+SEQ2:	MotifSampler	misc_feature	1769	1776	34546.3	+	.	id "box_1_1_GnGGGCGG"; site "GCTGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	1.24071e+06	+	.	id "box_1_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2126	2133	198754	+	.	id "box_1_1_GnGGGCGG"; site "GGGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	1.24071e+06	+	.	id "box_1_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	287100	+	.	id "box_1_1_GnGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	1.24071e+06	+	.	id "box_1_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	1.24071e+06	+	.	id "box_1_1_GnGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	915188	+	.	id "box_1_1_GnGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	157710	+	.	id "box_1_1_GnGGGCGG"; site "GGGGGCGG"; 
+#id: box_2_1_GsGGGCGG	consensus: GsGGGCGG	sequences: 6	instances: 12	cs: 1.54	ic: 2.11	ll: 81.80
+SEQ1:	MotifSampler	misc_feature	2145	2152	568478	+	.	id "box_2_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	325408	+	.	id "box_2_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	117705	+	.	id "box_2_1_GsGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1867	1874	10125.4	+	.	id "box_2_1_GsGGGCGG"; site "GGGGGTGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	988857	+	.	id "box_2_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	297851	+	.	id "box_2_1_GsGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	988857	+	.	id "box_2_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	325408	+	.	id "box_2_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	988857	+	.	id "box_2_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	988857	+	.	id "box_2_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	729414	+	.	id "box_2_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	178753	+	.	id "box_2_1_GsGGGCGG"; site "GGGGGCGG"; 
+#id: box_3_1_GCGGCGGC	consensus: GCGGCGGC	sequences: 6	instances: 12	cs: 1.54	ic: 2.07	ll: 80.07
+SEQ1:	MotifSampler	misc_feature	2018	2025	984300	+	.	id "box_3_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ1:	MotifSampler	misc_feature	1949	1956	90593.8	+	.	id "box_3_1_GCGGCGGC"; site "TCGGCGGC"; 
+SEQ2:	MotifSampler	misc_feature	2594	2601	43942.7	+	.	id "box_3_1_GCGGCGGC"; site "GCAGCGGC"; 
+SEQ2:	MotifSampler	misc_feature	1763	1770	37007.4	+	.	id "box_3_1_GCGGCGGC"; site "CCGGCGGC"; 
+SEQ3:	MotifSampler	misc_feature	2440	2447	1.0496e+06	+	.	id "box_3_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ3:	MotifSampler	misc_feature	2428	2435	890929	+	.	id "box_3_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ4:	MotifSampler	misc_feature	2010	2017	774217	+	.	id "box_3_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ4:	MotifSampler	misc_feature	2048	2055	187824	+	.	id "box_3_1_GCGGCGGC"; site "GCGGCGGG"; 
+SEQ5:	MotifSampler	misc_feature	2035	2042	774217	+	.	id "box_3_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ5:	MotifSampler	misc_feature	1712	1719	600503	+	.	id "box_3_1_GCGGCGGC"; site "GCGGCGGC"; 
+	MotifSampler	misc_feature	1986	1993	246484	+	.	id "box_3_1_GCGGCGGC"; site "GCGGCGGG"; 
+	MotifSampler	misc_feature	2301	2308	56212.9	+	.	id "box_3_1_GCGGCGGC"; site "GCAGCGGC"; 
+#id: box_4_1_GsGGGCGG	consensus: GsGGGCGG	sequences: 6	instances: 12	cs: 1.54	ic: 2.11	ll: 82.03
+SEQ1:	MotifSampler	misc_feature	2145	2152	568444	+	.	id "box_4_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	325389	+	.	id "box_4_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	117698	+	.	id "box_4_1_GsGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	248	255	45897.7	+	.	id "box_4_1_GsGGGCGG"; site "GGGAGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	988798	+	.	id "box_4_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	297834	+	.	id "box_4_1_GsGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	988798	+	.	id "box_4_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	325389	+	.	id "box_4_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	988798	+	.	id "box_4_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	988798	+	.	id "box_4_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	729371	+	.	id "box_4_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	178743	+	.	id "box_4_1_GsGGGCGG"; site "GGGGGCGG"; 
+#id: box_5_1_GGsGGCGG	consensus: GGsGGCGG	sequences: 6	instances: 12	cs: 1.57	ic: 2.14	ll: 81.55
+SEQ1:	MotifSampler	misc_feature	2027	2034	357715	+	.	id "box_5_1_GGsGGCGG"; site "GGGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2474	2481	204574	+	.	id "box_5_1_GGsGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	60937	+	.	id "box_5_1_GGsGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	248	255	50457.6	+	.	id "box_5_1_GGsGGCGG"; site "GGGAGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	2.2194e+06	+	.	id "box_5_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2668	2675	621922	+	.	id "box_5_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2009	2016	1.1524e+06	+	.	id "box_5_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2047	2054	1.01051e+06	+	.	id "box_5_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1711	1718	1.08703e+06	+	.	id "box_5_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	2034	2041	837571	+	.	id "box_5_1_GGsGGCGG"; site "GGCGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	196500	+	.	id "box_5_1_GGsGGCGG"; site "GGGGGCGG"; 
+	MotifSampler	misc_feature	2005	2012	190367	+	.	id "box_5_1_GGsGGCGG"; site "GGGGGCGG"; 
+#id: box_6_1_GsGGGCGG	consensus: GsGGGCGG	sequences: 6	instances: 12	cs: 1.54	ic: 2.11	ll: 82.03
+SEQ1:	MotifSampler	misc_feature	2145	2152	568444	+	.	id "box_6_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	325389	+	.	id "box_6_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	117698	+	.	id "box_6_1_GsGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	248	255	45897.7	+	.	id "box_6_1_GsGGGCGG"; site "GGGAGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	988798	+	.	id "box_6_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	297834	+	.	id "box_6_1_GsGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	988798	+	.	id "box_6_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	325389	+	.	id "box_6_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	988798	+	.	id "box_6_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	988798	+	.	id "box_6_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	729371	+	.	id "box_6_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	178743	+	.	id "box_6_1_GsGGGCGG"; site "GGGGGCGG"; 
+#id: box_7_1_nGnnGGCG	consensus: nGnnGGCG	sequences: 6	instances: 12	cs: 1.46	ic: 2.02	ll: 78.92
+SEQ1:	MotifSampler	misc_feature	2186	2193	124794	+	.	id "box_7_1_nGnnGGCG"; site "GGCCGGCG"; 
+SEQ1:	MotifSampler	misc_feature	2161	2168	95948.6	+	.	id "box_7_1_nGnnGGCG"; site "CGCCGGCG"; 
+SEQ2:	MotifSampler	misc_feature	1761	1768	445343	+	.	id "box_7_1_nGnnGGCG"; site "GGCCGGCG"; 
+SEQ2:	MotifSampler	misc_feature	2384	2391	79069.9	+	.	id "box_7_1_nGnnGGCG"; site "CGCGGGCG"; 
+SEQ3:	MotifSampler	misc_feature	1361	1368	255268	+	.	id "box_7_1_nGnnGGCG"; site "GGCGGGCG"; 
+SEQ3:	MotifSampler	misc_feature	2438	2445	244839	+	.	id "box_7_1_nGnnGGCG"; site "CGGCGGCG"; 
+SEQ4:	MotifSampler	misc_feature	2050	2057	388127	+	.	id "box_7_1_nGnnGGCG"; site "GGCGGGCG"; 
+SEQ4:	MotifSampler	misc_feature	2011	2018	160519	+	.	id "box_7_1_nGnnGGCG"; site "CGGCGGCG"; 
+SEQ5:	MotifSampler	misc_feature	1926	1933	516805	+	.	id "box_7_1_nGnnGGCG"; site "GGCGGGCG"; 
+SEQ5:	MotifSampler	misc_feature	1710	1717	388127	+	.	id "box_7_1_nGnnGGCG"; site "GGGCGGCG"; 
+	MotifSampler	misc_feature	2306	2313	445343	+	.	id "box_7_1_nGnnGGCG"; site "GGCCGGCG"; 
+	MotifSampler	misc_feature	2150	2157	255268	+	.	id "box_7_1_nGnnGGCG"; site "GGGCGGCG"; 
+#id: box_8_1_GCGGsCGG	consensus: GCGGsCGG	sequences: 6	instances: 12	cs: 1.57	ic: 2.14	ll: 83.80
+SEQ1:	MotifSampler	misc_feature	2145	2152	624666	+	.	id "box_8_1_GCGGsCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2021	2028	450834	+	.	id "box_8_1_GCGGsCGG"; site "GCGGCCGG"; 
+SEQ2:	MotifSampler	misc_feature	1759	1766	502516	+	.	id "box_8_1_GCGGsCGG"; site "GCGGCCGG"; 
+SEQ2:	MotifSampler	misc_feature	2114	2121	22054.7	+	.	id "box_8_1_GCGGsCGG"; site "CCGGCCGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	1.0866e+06	+	.	id "box_8_1_GCGGsCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1849	1856	406348	+	.	id "box_8_1_GCGGsCGG"; site "GCGGCCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	1.0866e+06	+	.	id "box_8_1_GCGGsCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	48051.3	+	.	id "box_8_1_GCGGsCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	1.0866e+06	+	.	id "box_8_1_GCGGsCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	1.0866e+06	+	.	id "box_8_1_GCGGsCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	801509	+	.	id "box_8_1_GCGGsCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2304	2311	422787	+	.	id "box_8_1_GCGGsCGG"; site "GCGGCCGG"; 
+#id: box_9_1_GCGGnCGG	consensus: GCGGnCGG	sequences: 6	instances: 12	cs: 1.58	ic: 2.14	ll: 83.95
+SEQ1:	MotifSampler	misc_feature	2145	2152	713075	+	.	id "box_9_1_GCGGnCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2021	2028	361974	+	.	id "box_9_1_GCGGnCGG"; site "GCGGCCGG"; 
+SEQ2:	MotifSampler	misc_feature	1759	1766	403470	+	.	id "box_9_1_GCGGnCGG"; site "GCGGCCGG"; 
+SEQ2:	MotifSampler	misc_feature	1769	1776	34537.1	+	.	id "box_9_1_GCGGnCGG"; site "GCTGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	1.24038e+06	+	.	id "box_9_1_GCGGnCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1849	1856	326257	+	.	id "box_9_1_GCGGnCGG"; site "GCGGCCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	1.24038e+06	+	.	id "box_9_1_GCGGnCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	54852	+	.	id "box_9_1_GCGGnCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	1.24038e+06	+	.	id "box_9_1_GCGGnCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	1.24038e+06	+	.	id "box_9_1_GCGGnCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	914946	+	.	id "box_9_1_GCGGnCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2304	2311	339456	+	.	id "box_9_1_GCGGnCGG"; site "GCGGCCGG"; 
+#id: box_10_1_GsGGGCGG	consensus: GsGGGCGG	sequences: 6	instances: 12	cs: 1.54	ic: 2.11	ll: 81.80
+SEQ1:	MotifSampler	misc_feature	2145	2152	568478	+	.	id "box_10_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	325408	+	.	id "box_10_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	117705	+	.	id "box_10_1_GsGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1867	1874	10125.4	+	.	id "box_10_1_GsGGGCGG"; site "GGGGGTGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	988857	+	.	id "box_10_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	297851	+	.	id "box_10_1_GsGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	988857	+	.	id "box_10_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	325408	+	.	id "box_10_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	988857	+	.	id "box_10_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	988857	+	.	id "box_10_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	729414	+	.	id "box_10_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	178753	+	.	id "box_10_1_GsGGGCGG"; site "GGGGGCGG"; 
+#id: box_11_1_GGGCGGGG	consensus: GGGCGGGG	sequences: 6	instances: 12	cs: 1.53	ic: 2.08	ll: 78.09
+SEQ1:	MotifSampler	misc_feature	1700	1707	437257	+	.	id "box_11_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ1:	MotifSampler	misc_feature	1761	1768	250167	+	.	id "box_11_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ2:	MotifSampler	misc_feature	1761	1768	19138	+	.	id "box_11_1_GGGCGGGG"; site "GGCCGGCG"; 
+SEQ2:	MotifSampler	misc_feature	2737	2744	16055.2	+	.	id "box_11_1_GGGCGGGG"; site "GGGAGGGG"; 
+SEQ3:	MotifSampler	misc_feature	1368	1375	892749	+	.	id "box_11_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ3:	MotifSampler	misc_feature	1956	1963	587153	+	.	id "box_11_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ4:	MotifSampler	misc_feature	129	136	312468	+	.	id "box_11_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ4:	MotifSampler	misc_feature	2756	2763	100945	+	.	id "box_11_1_GGGCGGGG"; site "GGGCGTGG"; 
+SEQ5:	MotifSampler	misc_feature	1929	1936	892749	+	.	id "box_11_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ5:	MotifSampler	misc_feature	1974	1981	892749	+	.	id "box_11_1_GGGCGGGG"; site "GGGCGGGG"; 
+	MotifSampler	misc_feature	2150	2157	224533	+	.	id "box_11_1_GGGCGGGG"; site "GGGCGGCG"; 
+	MotifSampler	misc_feature	2426	2433	137462	+	.	id "box_11_1_GGGCGGGG"; site "GGGCGGTG"; 
+#id: box_12_1_GCGGCGGC	consensus: GCGGCGGC	sequences: 6	instances: 12	cs: 1.56	ic: 2.11	ll: 80.72
+SEQ1:	MotifSampler	misc_feature	2018	2025	974516	+	.	id "box_12_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ1:	MotifSampler	misc_feature	2277	2284	123877	+	.	id "box_12_1_GCGGCGGC"; site "GCGGCGCC"; 
+SEQ2:	MotifSampler	misc_feature	2597	2604	158467	+	.	id "box_12_1_GCGGCGGC"; site "GCGGCGCC"; 
+SEQ2:	MotifSampler	misc_feature	1763	1770	70768.5	+	.	id "box_12_1_GCGGCGGC"; site "CCGGCGGC"; 
+SEQ3:	MotifSampler	misc_feature	2440	2447	1.03916e+06	+	.	id "box_12_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ3:	MotifSampler	misc_feature	2428	2435	882073	+	.	id "box_12_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ4:	MotifSampler	misc_feature	2010	2017	766521	+	.	id "box_12_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ4:	MotifSampler	misc_feature	1982	1989	132525	+	.	id "box_12_1_GCGGCGGC"; site "CCGGCGGC"; 
+SEQ5:	MotifSampler	misc_feature	2035	2042	766521	+	.	id "box_12_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ5:	MotifSampler	misc_feature	1712	1719	594534	+	.	id "box_12_1_GCGGCGGC"; site "GCGGCGGC"; 
+	MotifSampler	misc_feature	1986	1993	114528	+	.	id "box_12_1_GCGGCGGC"; site "GCGGCGGG"; 
+	MotifSampler	misc_feature	2152	2159	96677.8	+	.	id "box_12_1_GCGGCGGC"; site "GCGGCGCC"; 
+#id: box_13_1_GCGGCGnC	consensus: GCGGCGnC	sequences: 6	instances: 12	cs: 1.55	ic: 2.09	ll: 80.96
+SEQ1:	MotifSampler	misc_feature	2018	2025	867134	+	.	id "box_13_1_GCGGCGnC"; site "GCGGCGGC"; 
+SEQ1:	MotifSampler	misc_feature	2277	2284	164202	+	.	id "box_13_1_GCGGCGnC"; site "GCGGCGCC"; 
+SEQ2:	MotifSampler	misc_feature	2597	2604	210053	+	.	id "box_13_1_GCGGCGnC"; site "GCGGCGCC"; 
+SEQ2:	MotifSampler	misc_feature	2166	2173	37809.2	+	.	id "box_13_1_GCGGCGnC"; site "GCGGTGCC"; 
+SEQ3:	MotifSampler	misc_feature	2440	2447	924657	+	.	id "box_13_1_GCGGCGnC"; site "GCGGCGGC"; 
+SEQ3:	MotifSampler	misc_feature	2428	2435	784877	+	.	id "box_13_1_GCGGCGnC"; site "GCGGCGGC"; 
+SEQ4:	MotifSampler	misc_feature	2010	2017	682058	+	.	id "box_13_1_GCGGCGnC"; site "GCGGCGGC"; 
+SEQ4:	MotifSampler	misc_feature	2048	2055	165466	+	.	id "box_13_1_GCGGCGnC"; site "GCGGCGGG"; 
+SEQ5:	MotifSampler	misc_feature	2035	2042	682058	+	.	id "box_13_1_GCGGCGnC"; site "GCGGCGGC"; 
+SEQ5:	MotifSampler	misc_feature	1712	1719	529022	+	.	id "box_13_1_GCGGCGnC"; site "GCGGCGGC"; 
+	MotifSampler	misc_feature	1986	1993	217143	+	.	id "box_13_1_GCGGCGnC"; site "GCGGCGGG"; 
+	MotifSampler	misc_feature	2152	2159	128149	+	.	id "box_13_1_GCGGCGnC"; site "GCGGCGCC"; 
+#id: box_14_1_GCGGCGGC	consensus: GCGGCGGC	sequences: 6	instances: 12	cs: 1.57	ic: 2.11	ll: 81.05
+SEQ1:	MotifSampler	misc_feature	2018	2025	974585	+	.	id "box_14_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ1:	MotifSampler	misc_feature	2277	2284	123886	+	.	id "box_14_1_GCGGCGGC"; site "GCGGCGCC"; 
+SEQ2:	MotifSampler	misc_feature	2597	2604	158478	+	.	id "box_14_1_GCGGCGGC"; site "GCGGCGCC"; 
+SEQ2:	MotifSampler	misc_feature	2357	2364	20506.4	+	.	id "box_14_1_GCGGCGGC"; site "GCGGCAGC"; 
+SEQ3:	MotifSampler	misc_feature	2440	2447	1.03924e+06	+	.	id "box_14_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ3:	MotifSampler	misc_feature	2428	2435	882135	+	.	id "box_14_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ4:	MotifSampler	misc_feature	2010	2017	766576	+	.	id "box_14_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ4:	MotifSampler	misc_feature	2048	2055	185970	+	.	id "box_14_1_GCGGCGGC"; site "GCGGCGGG"; 
+SEQ5:	MotifSampler	misc_feature	2035	2042	766576	+	.	id "box_14_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ5:	MotifSampler	misc_feature	1712	1719	594576	+	.	id "box_14_1_GCGGCGGC"; site "GCGGCGGC"; 
+	MotifSampler	misc_feature	1986	1993	244051	+	.	id "box_14_1_GCGGCGGC"; site "GCGGCGGG"; 
+	MotifSampler	misc_feature	2152	2159	96684.7	+	.	id "box_14_1_GCGGCGGC"; site "GCGGCGCC"; 
+#id: box_15_1_GGCnGGnG	consensus: GGCnGGnG	sequences: 6	instances: 12	cs: 1.52	ic: 2.09	ll: 80.30
+SEQ1:	MotifSampler	misc_feature	2023	2030	92853.1	+	.	id "box_15_1_GGCnGGnG"; site "GGCCGGGG"; 
+SEQ1:	MotifSampler	misc_feature	2477	2484	89160.9	+	.	id "box_15_1_GGCnGGnG"; site "GGCGGGGG"; 
+SEQ2:	MotifSampler	misc_feature	1761	1768	308277	+	.	id "box_15_1_GGCnGGnG"; site "GGCCGGCG"; 
+SEQ2:	MotifSampler	misc_feature	2215	2222	21262.8	+	.	id "box_15_1_GGCnGGnG"; site "GCCGGGCG"; 
+SEQ3:	MotifSampler	misc_feature	1361	1368	694769	+	.	id "box_15_1_GGCnGGnG"; site "GGCGGGCG"; 
+SEQ3:	MotifSampler	misc_feature	2939	2946	92853.1	+	.	id "box_15_1_GGCnGGnG"; site "GGCCGGGG"; 
+SEQ4:	MotifSampler	misc_feature	2050	2057	1.05637e+06	+	.	id "box_15_1_GGCnGGnG"; site "GGCGGGCG"; 
+SEQ4:	MotifSampler	misc_feature	130	137	89160.9	+	.	id "box_15_1_GGCnGGnG"; site "GGCGGGGG"; 
+SEQ5:	MotifSampler	misc_feature	1926	1933	1.4066e+06	+	.	id "box_15_1_GGCnGGnG"; site "GGCGGGCG"; 
+SEQ5:	MotifSampler	misc_feature	1707	1714	804461	+	.	id "box_15_1_GGCnGGnG"; site "GGCGGGCG"; 
+	MotifSampler	misc_feature	2129	2136	349851	+	.	id "box_15_1_GGCnGGnG"; site "GGCGGGCG"; 
+	MotifSampler	misc_feature	2306	2313	308277	+	.	id "box_15_1_GGCnGGnG"; site "GGCCGGCG"; 
+#id: box_16_1_GCGGCGGC	consensus: GCGGCGGC	sequences: 6	instances: 12	cs: 1.52	ic: 2.06	ll: 80.42
+SEQ1:	MotifSampler	misc_feature	2018	2025	893889	+	.	id "box_16_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ1:	MotifSampler	misc_feature	1949	1956	74837.6	+	.	id "box_16_1_GCGGCGGC"; site "TCGGCGGC"; 
+SEQ2:	MotifSampler	misc_feature	2597	2604	88321.4	+	.	id "box_16_1_GCGGCGGC"; site "GCGGCGCC"; 
+SEQ2:	MotifSampler	misc_feature	2262	2269	12036.1	+	.	id "box_16_1_GCGGCGGC"; site "GCCGCGGG"; 
+SEQ3:	MotifSampler	misc_feature	2440	2447	953187	+	.	id "box_16_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ3:	MotifSampler	misc_feature	2428	2435	809094	+	.	id "box_16_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ4:	MotifSampler	misc_feature	2010	2017	703103	+	.	id "box_16_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ4:	MotifSampler	misc_feature	2048	2055	281045	+	.	id "box_16_1_GCGGCGGC"; site "GCGGCGGG"; 
+SEQ5:	MotifSampler	misc_feature	2035	2042	703103	+	.	id "box_16_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ5:	MotifSampler	misc_feature	1712	1719	545345	+	.	id "box_16_1_GCGGCGGC"; site "GCGGCGGC"; 
+	MotifSampler	misc_feature	1986	1993	368818	+	.	id "box_16_1_GCGGCGGC"; site "GCGGCGGG"; 
+	MotifSampler	misc_feature	2152	2159	53883.2	+	.	id "box_16_1_GCGGCGGC"; site "GCGGCGCC"; 
+#id: box_17_1_CCCwCCCC	consensus: CCCwCCCC	sequences: 6	instances: 12	cs: 1.53	ic: 1.86	ll: 75.98
+SEQ1:	MotifSampler	misc_feature	1153	1160	71868.9	+	.	id "box_17_1_CCCwCCCC"; site "TCCACCCC"; 
+SEQ1:	MotifSampler	misc_feature	1729	1736	37020.3	+	.	id "box_17_1_CCCwCCCC"; site "CCCACGCC"; 
+SEQ2:	MotifSampler	misc_feature	2102	2109	249290	+	.	id "box_17_1_CCCwCCCC"; site "CCCTCCCC"; 
+SEQ2:	MotifSampler	misc_feature	2047	2054	245870	+	.	id "box_17_1_CCCwCCCC"; site "CCCTCCCC"; 
+SEQ3:	MotifSampler	misc_feature	1434	1441	483623	+	.	id "box_17_1_CCCwCCCC"; site "CCCACCCC"; 
+SEQ3:	MotifSampler	misc_feature	2470	2477	117906	+	.	id "box_17_1_CCCwCCCC"; site "CCCTCCCC"; 
+SEQ4:	MotifSampler	misc_feature	15	22	117906	+	.	id "box_17_1_CCCwCCCC"; site "CCCTCCCC"; 
+SEQ4:	MotifSampler	misc_feature	1802	1809	9142.27	+	.	id "box_17_1_CCCwCCCC"; site "TCCTCCCC"; 
+SEQ5:	MotifSampler	misc_feature	1748	1755	618416	+	.	id "box_17_1_CCCwCCCC"; site "CCCACCCC"; 
+SEQ5:	MotifSampler	misc_feature	1782	1789	249290	+	.	id "box_17_1_CCCwCCCC"; site "CCCTCCCC"; 
+	MotifSampler	misc_feature	1225	1232	283086	+	.	id "box_17_1_CCCwCCCC"; site "CCCACCCC"; 
+	MotifSampler	misc_feature	2788	2795	23563.2	+	.	id "box_17_1_CCCwCCCC"; site "CCCACGCC"; 
+#id: box_18_1_GGGGGCGG	consensus: GGGGGCGG	sequences: 6	instances: 12	cs: 1.61	ic: 2.20	ll: 80.60
+SEQ1:	MotifSampler	misc_feature	2027	2034	710834	+	.	id "box_18_1_GGGGGCGG"; site "GGGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2474	2481	406518	+	.	id "box_18_1_GGGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	2411	2418	44937.1	+	.	id "box_18_1_GGGGGCGG"; site "GGGGGCGC"; 
+SEQ2:	MotifSampler	misc_feature	1855	1862	23409.4	+	.	id "box_18_1_GGGGGCGG"; site "GGGGGGGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	650638	+	.	id "box_18_1_GGGGGCGG"; site "GGCGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2126	2133	492097	+	.	id "box_18_1_GGGGGCGG"; site "GGGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	710834	+	.	id "box_18_1_GGGGGCGG"; site "GGGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2009	2016	337836	+	.	id "box_18_1_GGGGGCGG"; site "GGCGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	2287	2294	823062	+	.	id "box_18_1_GGGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	2164	2171	710834	+	.	id "box_18_1_GGGGGCGG"; site "GGGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	390476	+	.	id "box_18_1_GGGGGCGG"; site "GGGGGCGG"; 
+	MotifSampler	misc_feature	2005	2012	378287	+	.	id "box_18_1_GGGGGCGG"; site "GGGGGCGG"; 
+#id: box_19_1_GsnGGCGG	consensus: GsnGGCGG	sequences: 6	instances: 12	cs: 1.51	ic: 2.08	ll: 81.72
+SEQ1:	MotifSampler	misc_feature	2145	2152	455497	+	.	id "box_19_1_GsnGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	260736	+	.	id "box_19_1_GsnGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	231222	+	.	id "box_19_1_GsnGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	2261	2268	23843.2	+	.	id "box_19_1_GsnGGCGG"; site "GGCCGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	792329	+	.	id "box_19_1_GsnGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	585101	+	.	id "box_19_1_GsnGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	792329	+	.	id "box_19_1_GsnGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2009	2016	303807	+	.	id "box_19_1_GsnGGCGG"; site "GGCGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	792329	+	.	id "box_19_1_GsnGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	792329	+	.	id "box_19_1_GsnGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	584449	+	.	id "box_19_1_GsnGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	143228	+	.	id "box_19_1_GsnGGCGG"; site "GGGGGCGG"; 
+#id: box_20_1_GCGGCGnC	consensus: GCGGCGnC	sequences: 6	instances: 12	cs: 1.52	ic: 2.07	ll: 80.43
+SEQ1:	MotifSampler	misc_feature	2018	2025	867134	+	.	id "box_20_1_GCGGCGnC"; site "GCGGCGGC"; 
+SEQ1:	MotifSampler	misc_feature	2277	2284	123893	+	.	id "box_20_1_GCGGCGnC"; site "GCGGCGCC"; 
+SEQ2:	MotifSampler	misc_feature	2597	2604	158488	+	.	id "box_20_1_GCGGCGnC"; site "GCGGCGCC"; 
+SEQ2:	MotifSampler	misc_feature	2151	2158	6177.53	+	.	id "box_20_1_GCGGCGnC"; site "GGGGCGTC"; 
+SEQ3:	MotifSampler	misc_feature	2440	2447	924657	+	.	id "box_20_1_GCGGCGnC"; site "GCGGCGGC"; 
+SEQ3:	MotifSampler	misc_feature	2428	2435	784877	+	.	id "box_20_1_GCGGCGnC"; site "GCGGCGGC"; 
+SEQ4:	MotifSampler	misc_feature	2010	2017	682058	+	.	id "box_20_1_GCGGCGnC"; site "GCGGCGGC"; 
+SEQ4:	MotifSampler	misc_feature	2048	2055	165466	+	.	id "box_20_1_GCGGCGnC"; site "GCGGCGGG"; 
+SEQ5:	MotifSampler	misc_feature	2035	2042	682058	+	.	id "box_20_1_GCGGCGnC"; site "GCGGCGGC"; 
+SEQ5:	MotifSampler	misc_feature	1712	1719	529022	+	.	id "box_20_1_GCGGCGnC"; site "GCGGCGGC"; 
+	MotifSampler	misc_feature	1986	1993	217143	+	.	id "box_20_1_GCGGCGnC"; site "GCGGCGGG"; 
+	MotifSampler	misc_feature	2152	2159	96690.4	+	.	id "box_20_1_GCGGCGnC"; site "GCGGCGCC"; 
+#id: box_21_1_GCGGnCGG	consensus: GCGGnCGG	sequences: 6	instances: 12	cs: 1.55	ic: 2.12	ll: 83.37
+SEQ1:	MotifSampler	misc_feature	2145	2152	648719	+	.	id "box_21_1_GCGGnCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2021	2028	329305	+	.	id "box_21_1_GCGGnCGG"; site "GCGGCCGG"; 
+SEQ2:	MotifSampler	misc_feature	1759	1766	367056	+	.	id "box_21_1_GCGGnCGG"; site "GCGGCCGG"; 
+SEQ2:	MotifSampler	misc_feature	1855	1862	3501.67	+	.	id "box_21_1_GCGGnCGG"; site "GGGGGGGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	1.12843e+06	+	.	id "box_21_1_GCGGnCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1849	1856	296811	+	.	id "box_21_1_GCGGnCGG"; site "GCGGCCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	1.12843e+06	+	.	id "box_21_1_GCGGnCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	106329	+	.	id "box_21_1_GCGGnCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	1.12843e+06	+	.	id "box_21_1_GCGGnCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	1.12843e+06	+	.	id "box_21_1_GCGGnCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	832371	+	.	id "box_21_1_GCGGnCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2304	2311	308819	+	.	id "box_21_1_GCGGnCGG"; site "GCGGCCGG"; 
+#id: box_22_1_GGsGGCGG	consensus: GGsGGCGG	sequences: 6	instances: 12	cs: 1.57	ic: 2.14	ll: 81.85
+SEQ1:	MotifSampler	misc_feature	2027	2034	354794	+	.	id "box_22_1_GGsGGCGG"; site "GGGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2474	2481	202903	+	.	id "box_22_1_GGsGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	2261	2268	98614.7	+	.	id "box_22_1_GGsGGCGG"; site "GGCCGCGG"; 
+SEQ2:	MotifSampler	misc_feature	248	255	55017.4	+	.	id "box_22_1_GGsGGCGG"; site "GGGAGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	2.20127e+06	+	.	id "box_22_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2668	2675	616843	+	.	id "box_22_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2009	2016	1.14299e+06	+	.	id "box_22_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2047	2054	1.00226e+06	+	.	id "box_22_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1711	1718	1.07816e+06	+	.	id "box_22_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	2034	2041	830731	+	.	id "box_22_1_GGsGGCGG"; site "GGCGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	194896	+	.	id "box_22_1_GGsGGCGG"; site "GGGGGCGG"; 
+	MotifSampler	misc_feature	2005	2012	188812	+	.	id "box_22_1_GGsGGCGG"; site "GGGGGCGG"; 
+#id: box_23_1_GGGCGGGG	consensus: GGGCGGGG	sequences: 6	instances: 12	cs: 1.55	ic: 2.13	ll: 77.77
+SEQ1:	MotifSampler	misc_feature	1700	1707	476847	+	.	id "box_23_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ1:	MotifSampler	misc_feature	1761	1768	272817	+	.	id "box_23_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ2:	MotifSampler	misc_feature	1855	1862	25735.1	+	.	id "box_23_1_GGGCGGGG"; site "GGGGGGGG"; 
+SEQ2:	MotifSampler	misc_feature	2737	2744	21368.2	+	.	id "box_23_1_GGGCGGGG"; site "GGGAGGGG"; 
+SEQ3:	MotifSampler	misc_feature	1368	1375	973579	+	.	id "box_23_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ3:	MotifSampler	misc_feature	1956	1963	640315	+	.	id "box_23_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ4:	MotifSampler	misc_feature	129	136	340759	+	.	id "box_23_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ4:	MotifSampler	misc_feature	97	104	39508.7	+	.	id "box_23_1_GGGCGGGG"; site "GGGTGGGG"; 
+SEQ5:	MotifSampler	misc_feature	1929	1936	973579	+	.	id "box_23_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ5:	MotifSampler	misc_feature	1974	1981	973579	+	.	id "box_23_1_GGGCGGGG"; site "GGGCGGGG"; 
+	MotifSampler	misc_feature	2150	2157	103862	+	.	id "box_23_1_GGGCGGGG"; site "GGGCGGCG"; 
+	MotifSampler	misc_feature	2038	2045	54576.9	+	.	id "box_23_1_GGGCGGGG"; site "GGGCCGGG"; 
+#id: box_24_1_GGGCGGGG	consensus: GGGCGGGG	sequences: 6	instances: 12	cs: 1.57	ic: 2.15	ll: 78.60
+SEQ1:	MotifSampler	misc_feature	1700	1707	472953	+	.	id "box_24_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ1:	MotifSampler	misc_feature	1761	1768	270589	+	.	id "box_24_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ2:	MotifSampler	misc_feature	1855	1862	49476.5	+	.	id "box_24_1_GGGCGGGG"; site "GGGGGGGG"; 
+SEQ2:	MotifSampler	misc_feature	1864	1871	21080.3	+	.	id "box_24_1_GGGCGGGG"; site "GGGGGGGG"; 
+SEQ3:	MotifSampler	misc_feature	1368	1375	965628	+	.	id "box_24_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ3:	MotifSampler	misc_feature	1956	1963	635085	+	.	id "box_24_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ4:	MotifSampler	misc_feature	129	136	337976	+	.	id "box_24_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ4:	MotifSampler	misc_feature	97	104	39186.1	+	.	id "box_24_1_GGGCGGGG"; site "GGGTGGGG"; 
+SEQ5:	MotifSampler	misc_feature	1929	1936	965628	+	.	id "box_24_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ5:	MotifSampler	misc_feature	1974	1981	965628	+	.	id "box_24_1_GGGCGGGG"; site "GGGCGGGG"; 
+	MotifSampler	misc_feature	2426	2433	133912	+	.	id "box_24_1_GGGCGGGG"; site "GGGCGGTG"; 
+	MotifSampler	misc_feature	2150	2157	113247	+	.	id "box_24_1_GGGCGGGG"; site "GGGCGGCG"; 
+#id: box_25_1_GsGGGCGG	consensus: GsGGGCGG	sequences: 6	instances: 12	cs: 1.54	ic: 2.12	ll: 81.81
+SEQ1:	MotifSampler	misc_feature	2145	2152	568478	+	.	id "box_25_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	325408	+	.	id "box_25_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	117705	+	.	id "box_25_1_GsGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1855	1862	10716.4	+	.	id "box_25_1_GsGGGCGG"; site "GGGGGGGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	988857	+	.	id "box_25_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	297851	+	.	id "box_25_1_GsGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	988857	+	.	id "box_25_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	325408	+	.	id "box_25_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	988857	+	.	id "box_25_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	988857	+	.	id "box_25_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	729414	+	.	id "box_25_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	178753	+	.	id "box_25_1_GsGGGCGG"; site "GGGGGCGG"; 
+#id: box_26_1_GGGGGCGG	consensus: GGGGGCGG	sequences: 6	instances: 12	cs: 1.59	ic: 2.17	ll: 81.12
+SEQ1:	MotifSampler	misc_feature	2027	2034	640176	+	.	id "box_26_1_GGGGGCGG"; site "GGGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2474	2481	366110	+	.	id "box_26_1_GGGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	248	255	90300.2	+	.	id "box_26_1_GGGGGCGG"; site "GGGAGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	26478	+	.	id "box_26_1_GGGGGCGG"; site "GCCGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	964359	+	.	id "box_26_1_GGGGGCGG"; site "GGCGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2126	2133	443183	+	.	id "box_26_1_GGGGGCGG"; site "GGGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	640176	+	.	id "box_26_1_GGGGGCGG"; site "GGGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2009	2016	500732	+	.	id "box_26_1_GGGGGCGG"; site "GGCGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	2287	2294	741249	+	.	id "box_26_1_GGGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	2164	2171	640176	+	.	id "box_26_1_GGGGGCGG"; site "GGGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	351662	+	.	id "box_26_1_GGGGGCGG"; site "GGGGGCGG"; 
+	MotifSampler	misc_feature	2005	2012	340685	+	.	id "box_26_1_GGGGGCGG"; site "GGGGGCGG"; 
+#id: box_27_1_GsGGGCGG	consensus: GsGGGCGG	sequences: 6	instances: 12	cs: 1.57	ic: 2.15	ll: 81.65
+SEQ1:	MotifSampler	misc_feature	2145	2152	624955	+	.	id "box_27_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	357736	+	.	id "box_27_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	60940.5	+	.	id "box_27_1_GsGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1855	1862	11781.1	+	.	id "box_27_1_GsGGGCGG"; site "GGGGGGGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	1.0871e+06	+	.	id "box_27_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2126	2133	247654	+	.	id "box_27_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	1.0871e+06	+	.	id "box_27_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	357736	+	.	id "box_27_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	1.0871e+06	+	.	id "box_27_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	1.0871e+06	+	.	id "box_27_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	801879	+	.	id "box_27_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	196512	+	.	id "box_27_1_GsGGGCGG"; site "GGGGGCGG"; 
+#id: box_28_1_GnGGGCGG	consensus: GnGGGCGG	sequences: 6	instances: 12	cs: 1.55	ic: 2.12	ll: 82.37
+SEQ1:	MotifSampler	misc_feature	2145	2152	648806	+	.	id "box_28_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	261155	+	.	id "box_28_1_GnGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	134338	+	.	id "box_28_1_GnGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	2341	2348	26535.2	+	.	id "box_28_1_GnGGGCGG"; site "GCGGGCCG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	1.12859e+06	+	.	id "box_28_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	239039	+	.	id "box_28_1_GnGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	1.12859e+06	+	.	id "box_28_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	261155	+	.	id "box_28_1_GnGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	1.12859e+06	+	.	id "box_28_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	1.12859e+06	+	.	id "box_28_1_GnGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	832483	+	.	id "box_28_1_GnGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	143458	+	.	id "box_28_1_GnGGGCGG"; site "GGGGGCGG"; 
+#id: box_29_1_GsGGGCGG	consensus: GsGGGCGG	sequences: 6	instances: 12	cs: 1.52	ic: 2.10	ll: 81.83
+SEQ1:	MotifSampler	misc_feature	2145	2152	511971	+	.	id "box_29_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	293062	+	.	id "box_29_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	174460	+	.	id "box_29_1_GsGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	2261	2268	17990	+	.	id "box_29_1_GsGGGCGG"; site "GGCCGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	890564	+	.	id "box_29_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	441467	+	.	id "box_29_1_GsGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	890564	+	.	id "box_29_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	293062	+	.	id "box_29_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	890564	+	.	id "box_29_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	890564	+	.	id "box_29_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	656910	+	.	id "box_29_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	160985	+	.	id "box_29_1_GsGGGCGG"; site "GGGGGCGG"; 
+#id: box_30_1_CGGCGGns	consensus: CGGCGGns	sequences: 6	instances: 12	cs: 1.39	ic: 1.94	ll: 76.86
+SEQ1:	MotifSampler	misc_feature	2019	2026	292431	+	.	id "box_30_1_CGGCGGns"; site "CGGCGGCC"; 
+SEQ1:	MotifSampler	misc_feature	2275	2282	155551	+	.	id "box_30_1_CGGCGGns"; site "CCGCGGCG"; 
+SEQ2:	MotifSampler	misc_feature	1757	1764	30399.1	+	.	id "box_30_1_CGGCGGns"; site "GCGCGGCC"; 
+SEQ2:	MotifSampler	misc_feature	2383	2390	23749.9	+	.	id "box_30_1_CGGCGGns"; site "CCGCGGGC"; 
+SEQ3:	MotifSampler	misc_feature	2438	2445	678711	+	.	id "box_30_1_CGGCGGns"; site "CGGCGGCG"; 
+SEQ3:	MotifSampler	misc_feature	2978	2985	400740	+	.	id "box_30_1_CGGCGGns"; site "CGGCGGGG"; 
+SEQ4:	MotifSampler	misc_feature	2011	2018	444970	+	.	id "box_30_1_CGGCGGns"; site "CGGCGGCG"; 
+SEQ4:	MotifSampler	misc_feature	1983	1990	236130	+	.	id "box_30_1_CGGCGGns"; site "CGGCGGCC"; 
+SEQ5:	MotifSampler	misc_feature	1713	1720	444970	+	.	id "box_30_1_CGGCGGns"; site "CGGCGGCG"; 
+SEQ5:	MotifSampler	misc_feature	1925	1932	179372	+	.	id "box_30_1_CGGCGGns"; site "CGGCGGGC"; 
+	MotifSampler	misc_feature	1987	1994	167620	+	.	id "box_30_1_CGGCGGns"; site "CGGCGGGC"; 
+	MotifSampler	misc_feature	2150	2157	73284.8	+	.	id "box_30_1_CGGCGGns"; site "GGGCGGCG"; 
+#id: box_31_1_CCCCGsGs	consensus: CCCCGsGs	sequences: 6	instances: 12	cs: 1.55	ic: 2.06	ll: 78.75
+SEQ1:	MotifSampler	misc_feature	2428	2435	337689	+	.	id "box_31_1_CCCCGsGs"; site "CCCCGCGC"; 
+SEQ1:	MotifSampler	misc_feature	2273	2280	165495	+	.	id "box_31_1_CCCCGsGs"; site "CCCCGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1622	1629	338684	+	.	id "box_31_1_CCCCGsGs"; site "CCCCGCGC"; 
+SEQ2:	MotifSampler	misc_feature	2441	2448	165191	+	.	id "box_31_1_CCCCGsGs"; site "CCCCGGGC"; 
+SEQ3:	MotifSampler	misc_feature	1893	1900	270535	+	.	id "box_31_1_CCCCGsGs"; site "CCCCGGGG"; 
+SEQ3:	MotifSampler	misc_feature	2224	2231	157628	+	.	id "box_31_1_CCCCGsGs"; site "CCCCGGGC"; 
+SEQ4:	MotifSampler	misc_feature	2263	2270	437555	+	.	id "box_31_1_CCCCGsGs"; site "CCCCGGGG"; 
+SEQ4:	MotifSampler	misc_feature	2095	2102	309345	+	.	id "box_31_1_CCCCGsGs"; site "CCCCGGGC"; 
+SEQ5:	MotifSampler	misc_feature	2312	2319	270535	+	.	id "box_31_1_CCCCGsGs"; site "CCCCGGGG"; 
+SEQ5:	MotifSampler	misc_feature	1817	1824	251774	+	.	id "box_31_1_CCCCGsGs"; site "CCCCGGGC"; 
+	MotifSampler	misc_feature	2915	2922	252237	+	.	id "box_31_1_CCCCGsGs"; site "CCCCGCGG"; 
+	MotifSampler	misc_feature	2458	2465	161938	+	.	id "box_31_1_CCCCGsGs"; site "CCCCGCGC"; 
+#id: box_32_1_GsnGGCGG	consensus: GsnGGCGG	sequences: 6	instances: 12	cs: 1.51	ic: 2.08	ll: 81.65
+SEQ1:	MotifSampler	misc_feature	2145	2152	455497	+	.	id "box_32_1_GsnGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	260736	+	.	id "box_32_1_GsnGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	231222	+	.	id "box_32_1_GsnGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	2356	2363	4658.92	+	.	id "box_32_1_GsnGGCGG"; site "GGCGGCAG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	792329	+	.	id "box_32_1_GsnGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	585101	+	.	id "box_32_1_GsnGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	792329	+	.	id "box_32_1_GsnGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2009	2016	303807	+	.	id "box_32_1_GsnGGCGG"; site "GGCGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	792329	+	.	id "box_32_1_GsnGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	792329	+	.	id "box_32_1_GsnGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	584449	+	.	id "box_32_1_GsnGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	143228	+	.	id "box_32_1_GsnGGCGG"; site "GGGGGCGG"; 
+#id: box_33_1_CCCCGsGs	consensus: CCCCGsGs	sequences: 6	instances: 12	cs: 1.55	ic: 2.06	ll: 78.75
+SEQ1:	MotifSampler	misc_feature	2428	2435	337689	+	.	id "box_33_1_CCCCGsGs"; site "CCCCGCGC"; 
+SEQ1:	MotifSampler	misc_feature	2273	2280	165495	+	.	id "box_33_1_CCCCGsGs"; site "CCCCGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1622	1629	338684	+	.	id "box_33_1_CCCCGsGs"; site "CCCCGCGC"; 
+SEQ2:	MotifSampler	misc_feature	2441	2448	165191	+	.	id "box_33_1_CCCCGsGs"; site "CCCCGGGC"; 
+SEQ3:	MotifSampler	misc_feature	1893	1900	270535	+	.	id "box_33_1_CCCCGsGs"; site "CCCCGGGG"; 
+SEQ3:	MotifSampler	misc_feature	2224	2231	157628	+	.	id "box_33_1_CCCCGsGs"; site "CCCCGGGC"; 
+SEQ4:	MotifSampler	misc_feature	2263	2270	437555	+	.	id "box_33_1_CCCCGsGs"; site "CCCCGGGG"; 
+SEQ4:	MotifSampler	misc_feature	2095	2102	309345	+	.	id "box_33_1_CCCCGsGs"; site "CCCCGGGC"; 
+SEQ5:	MotifSampler	misc_feature	2312	2319	270535	+	.	id "box_33_1_CCCCGsGs"; site "CCCCGGGG"; 
+SEQ5:	MotifSampler	misc_feature	1817	1824	251774	+	.	id "box_33_1_CCCCGsGs"; site "CCCCGGGC"; 
+	MotifSampler	misc_feature	2915	2922	252237	+	.	id "box_33_1_CCCCGsGs"; site "CCCCGCGG"; 
+	MotifSampler	misc_feature	2458	2465	161938	+	.	id "box_33_1_CCCCGsGs"; site "CCCCGCGC"; 
+#id: box_34_1_GsGGGCGG	consensus: GsGGGCGG	sequences: 6	instances: 12	cs: 1.54	ic: 2.11	ll: 82.03
+SEQ1:	MotifSampler	misc_feature	2145	2152	568444	+	.	id "box_34_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	325389	+	.	id "box_34_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	117698	+	.	id "box_34_1_GsGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	248	255	45897.7	+	.	id "box_34_1_GsGGGCGG"; site "GGGAGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	988798	+	.	id "box_34_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	297834	+	.	id "box_34_1_GsGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	988798	+	.	id "box_34_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	325389	+	.	id "box_34_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	988798	+	.	id "box_34_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	988798	+	.	id "box_34_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	729371	+	.	id "box_34_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	178743	+	.	id "box_34_1_GsGGGCGG"; site "GGGGGCGG"; 
+#id: box_35_1_GGsGGCGG	consensus: GGsGGCGG	sequences: 6	instances: 12	cs: 1.57	ic: 2.14	ll: 81.55
+SEQ1:	MotifSampler	misc_feature	2027	2034	357715	+	.	id "box_35_1_GGsGGCGG"; site "GGGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2474	2481	204574	+	.	id "box_35_1_GGsGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	60937	+	.	id "box_35_1_GGsGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	248	255	50457.6	+	.	id "box_35_1_GGsGGCGG"; site "GGGAGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	2.2194e+06	+	.	id "box_35_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2668	2675	621922	+	.	id "box_35_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2009	2016	1.1524e+06	+	.	id "box_35_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2047	2054	1.01051e+06	+	.	id "box_35_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1711	1718	1.08703e+06	+	.	id "box_35_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	2034	2041	837571	+	.	id "box_35_1_GGsGGCGG"; site "GGCGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	196500	+	.	id "box_35_1_GGsGGCGG"; site "GGGGGCGG"; 
+	MotifSampler	misc_feature	2005	2012	190367	+	.	id "box_35_1_GGsGGCGG"; site "GGGGGCGG"; 
+#id: box_36_1_GsGGGCGG	consensus: GsGGGCGG	sequences: 6	instances: 12	cs: 1.54	ic: 2.11	ll: 82.03
+SEQ1:	MotifSampler	misc_feature	2145	2152	568444	+	.	id "box_36_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	325389	+	.	id "box_36_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	117698	+	.	id "box_36_1_GsGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	248	255	45897.7	+	.	id "box_36_1_GsGGGCGG"; site "GGGAGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	988798	+	.	id "box_36_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	297834	+	.	id "box_36_1_GsGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	988798	+	.	id "box_36_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	325389	+	.	id "box_36_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	988798	+	.	id "box_36_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	988798	+	.	id "box_36_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	729371	+	.	id "box_36_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	178743	+	.	id "box_36_1_GsGGGCGG"; site "GGGGGCGG"; 
+#id: box_37_1_GGsGGCGG	consensus: GGsGGCGG	sequences: 6	instances: 12	cs: 1.57	ic: 2.14	ll: 81.55
+SEQ1:	MotifSampler	misc_feature	2027	2034	357715	+	.	id "box_37_1_GGsGGCGG"; site "GGGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2474	2481	204574	+	.	id "box_37_1_GGsGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	60937	+	.	id "box_37_1_GGsGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	248	255	50457.6	+	.	id "box_37_1_GGsGGCGG"; site "GGGAGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	2.2194e+06	+	.	id "box_37_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2668	2675	621922	+	.	id "box_37_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2009	2016	1.1524e+06	+	.	id "box_37_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2047	2054	1.01051e+06	+	.	id "box_37_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1711	1718	1.08703e+06	+	.	id "box_37_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	2034	2041	837571	+	.	id "box_37_1_GGsGGCGG"; site "GGCGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	196500	+	.	id "box_37_1_GGsGGCGG"; site "GGGGGCGG"; 
+	MotifSampler	misc_feature	2005	2012	190367	+	.	id "box_37_1_GGsGGCGG"; site "GGGGGCGG"; 
+#id: box_38_1_GsGGGCGG	consensus: GsGGGCGG	sequences: 6	instances: 12	cs: 1.54	ic: 2.11	ll: 82.03
+SEQ1:	MotifSampler	misc_feature	2145	2152	568444	+	.	id "box_38_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	325389	+	.	id "box_38_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	117698	+	.	id "box_38_1_GsGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	248	255	45897.7	+	.	id "box_38_1_GsGGGCGG"; site "GGGAGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	988798	+	.	id "box_38_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	297834	+	.	id "box_38_1_GsGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	988798	+	.	id "box_38_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	325389	+	.	id "box_38_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	988798	+	.	id "box_38_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	988798	+	.	id "box_38_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	729371	+	.	id "box_38_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	178743	+	.	id "box_38_1_GsGGGCGG"; site "GGGGGCGG"; 
+#id: box_39_1_GsGGGCGG	consensus: GsGGGCGG	sequences: 6	instances: 12	cs: 1.54	ic: 2.12	ll: 81.81
+SEQ1:	MotifSampler	misc_feature	2145	2152	568478	+	.	id "box_39_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	325408	+	.	id "box_39_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	117705	+	.	id "box_39_1_GsGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1855	1862	10716.4	+	.	id "box_39_1_GsGGGCGG"; site "GGGGGGGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	988857	+	.	id "box_39_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	297851	+	.	id "box_39_1_GsGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	988857	+	.	id "box_39_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	325408	+	.	id "box_39_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	988857	+	.	id "box_39_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	988857	+	.	id "box_39_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	729414	+	.	id "box_39_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	178753	+	.	id "box_39_1_GsGGGCGG"; site "GGGGGCGG"; 
+#id: box_40_1_GCGGnCGG	consensus: GCGGnCGG	sequences: 6	instances: 12	cs: 1.58	ic: 2.14	ll: 83.94
+SEQ1:	MotifSampler	misc_feature	2145	2152	713075	+	.	id "box_40_1_GCGGnCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2021	2028	361974	+	.	id "box_40_1_GCGGnCGG"; site "GCGGCCGG"; 
+SEQ2:	MotifSampler	misc_feature	1759	1766	403470	+	.	id "box_40_1_GCGGnCGG"; site "GCGGCCGG"; 
+SEQ2:	MotifSampler	misc_feature	2341	2348	29163.7	+	.	id "box_40_1_GCGGnCGG"; site "GCGGGCCG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	1.24038e+06	+	.	id "box_40_1_GCGGnCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1849	1856	326257	+	.	id "box_40_1_GCGGnCGG"; site "GCGGCCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	1.24038e+06	+	.	id "box_40_1_GCGGnCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	54852	+	.	id "box_40_1_GCGGnCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	1.24038e+06	+	.	id "box_40_1_GCGGnCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	1.24038e+06	+	.	id "box_40_1_GCGGnCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	914946	+	.	id "box_40_1_GCGGnCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2304	2311	339456	+	.	id "box_40_1_GCGGnCGG"; site "GCGGCCGG"; 
+#id: box_41_1_GGCGGnnG	consensus: GGCGGnnG	sequences: 6	instances: 12	cs: 1.47	ic: 2.04	ll: 80.04
+SEQ1:	MotifSampler	misc_feature	2020	2027	252559	+	.	id "box_41_1_GGCGGnnG"; site "GGCGGCCG"; 
+SEQ1:	MotifSampler	misc_feature	2477	2484	73046.1	+	.	id "box_41_1_GGCGGnnG"; site "GGCGGGGG"; 
+SEQ2:	MotifSampler	misc_feature	1761	1768	169540	+	.	id "box_41_1_GGCGGnnG"; site "GGCCGGCG"; 
+SEQ2:	MotifSampler	misc_feature	2261	2268	54786.7	+	.	id "box_41_1_GGCGGnnG"; site "GGCCGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1361	1368	569197	+	.	id "box_41_1_GGCGGnnG"; site "GGCGGGCG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	384724	+	.	id "box_41_1_GGCGGnnG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2050	2057	865447	+	.	id "box_41_1_GGCGGnnG"; site "GGCGGGCG"; 
+SEQ4:	MotifSampler	misc_feature	2009	2016	199764	+	.	id "box_41_1_GGCGGnnG"; site "GGCGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1926	1933	1.15237e+06	+	.	id "box_41_1_GGCGGnnG"; site "GGCGGGCG"; 
+SEQ5:	MotifSampler	misc_feature	1707	1714	659063	+	.	id "box_41_1_GGCGGnnG"; site "GGCGGGCG"; 
+	MotifSampler	misc_feature	2129	2136	286620	+	.	id "box_41_1_GGCGGnnG"; site "GGCGGGCG"; 
+	MotifSampler	misc_feature	2306	2313	169540	+	.	id "box_41_1_GGCGGnnG"; site "GGCCGGCG"; 
+#id: box_42_1_GnGGGCGG	consensus: GnGGGCGG	sequences: 6	instances: 12	cs: 1.55	ic: 2.12	ll: 82.42
+SEQ1:	MotifSampler	misc_feature	2145	2152	648806	+	.	id "box_42_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	261155	+	.	id "box_42_1_GnGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	134338	+	.	id "box_42_1_GnGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	2385	2392	35884.1	+	.	id "box_42_1_GnGGGCGG"; site "GCGGGCGC"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	1.12859e+06	+	.	id "box_42_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	239039	+	.	id "box_42_1_GnGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	1.12859e+06	+	.	id "box_42_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	261155	+	.	id "box_42_1_GnGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	1.12859e+06	+	.	id "box_42_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	1.12859e+06	+	.	id "box_42_1_GnGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	832483	+	.	id "box_42_1_GnGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	143458	+	.	id "box_42_1_GnGGGCGG"; site "GGGGGCGG"; 
+#id: box_43_1_GGsGGCGG	consensus: GGsGGCGG	sequences: 6	instances: 12	cs: 1.57	ic: 2.14	ll: 81.55
+SEQ1:	MotifSampler	misc_feature	2027	2034	357715	+	.	id "box_43_1_GGsGGCGG"; site "GGGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2474	2481	204574	+	.	id "box_43_1_GGsGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	60937	+	.	id "box_43_1_GGsGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	248	255	50457.6	+	.	id "box_43_1_GGsGGCGG"; site "GGGAGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	2.2194e+06	+	.	id "box_43_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2668	2675	621922	+	.	id "box_43_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2009	2016	1.1524e+06	+	.	id "box_43_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2047	2054	1.01051e+06	+	.	id "box_43_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1711	1718	1.08703e+06	+	.	id "box_43_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	2034	2041	837571	+	.	id "box_43_1_GGsGGCGG"; site "GGCGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	196500	+	.	id "box_43_1_GGsGGCGG"; site "GGGGGCGG"; 
+	MotifSampler	misc_feature	2005	2012	190367	+	.	id "box_43_1_GGsGGCGG"; site "GGGGGCGG"; 
+#id: box_44_1_GCGGnCGG	consensus: GCGGnCGG	sequences: 6	instances: 12	cs: 1.58	ic: 2.14	ll: 83.95
+SEQ1:	MotifSampler	misc_feature	2145	2152	713075	+	.	id "box_44_1_GCGGnCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2021	2028	361974	+	.	id "box_44_1_GCGGnCGG"; site "GCGGCCGG"; 
+SEQ2:	MotifSampler	misc_feature	1759	1766	403470	+	.	id "box_44_1_GCGGnCGG"; site "GCGGCCGG"; 
+SEQ2:	MotifSampler	misc_feature	1769	1776	34537.1	+	.	id "box_44_1_GCGGnCGG"; site "GCTGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	1.24038e+06	+	.	id "box_44_1_GCGGnCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1849	1856	326257	+	.	id "box_44_1_GCGGnCGG"; site "GCGGCCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	1.24038e+06	+	.	id "box_44_1_GCGGnCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	54852	+	.	id "box_44_1_GCGGnCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	1.24038e+06	+	.	id "box_44_1_GCGGnCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	1.24038e+06	+	.	id "box_44_1_GCGGnCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	914946	+	.	id "box_44_1_GCGGnCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2304	2311	339456	+	.	id "box_44_1_GCGGnCGG"; site "GCGGCCGG"; 
+#id: box_45_1_GGGGGCGG	consensus: GGGGGCGG	sequences: 6	instances: 12	cs: 1.55	ic: 2.12	ll: 80.39
+SEQ1:	MotifSampler	misc_feature	2027	2034	524472	+	.	id "box_45_1_GGGGGCGG"; site "GGGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2474	2481	299940	+	.	id "box_45_1_GGGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	75805.3	+	.	id "box_45_1_GGGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	248	255	73979.4	+	.	id "box_45_1_GGGGGCGG"; site "GGGAGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	790062	+	.	id "box_45_1_GGGGGCGG"; site "GGCGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	386962	+	.	id "box_45_1_GGGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	524472	+	.	id "box_45_1_GGGGGCGG"; site "GGGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2009	2016	410231	+	.	id "box_45_1_GGGGGCGG"; site "GGCGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	2287	2294	607277	+	.	id "box_45_1_GGGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	2164	2171	524472	+	.	id "box_45_1_GGGGGCGG"; site "GGGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	288103	+	.	id "box_45_1_GGGGGCGG"; site "GGGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	285436	+	.	id "box_45_1_GGGGGCGG"; site "GCGGGCGG"; 
+#id: box_46_1_GCGGCGnC	consensus: GCGGCGnC	sequences: 6	instances: 12	cs: 1.55	ic: 2.09	ll: 80.96
+SEQ1:	MotifSampler	misc_feature	2018	2025	867134	+	.	id "box_46_1_GCGGCGnC"; site "GCGGCGGC"; 
+SEQ1:	MotifSampler	misc_feature	2277	2284	164202	+	.	id "box_46_1_GCGGCGnC"; site "GCGGCGCC"; 
+SEQ2:	MotifSampler	misc_feature	2597	2604	210053	+	.	id "box_46_1_GCGGCGnC"; site "GCGGCGCC"; 
+SEQ2:	MotifSampler	misc_feature	2166	2173	37809.2	+	.	id "box_46_1_GCGGCGnC"; site "GCGGTGCC"; 
+SEQ3:	MotifSampler	misc_feature	2440	2447	924657	+	.	id "box_46_1_GCGGCGnC"; site "GCGGCGGC"; 
+SEQ3:	MotifSampler	misc_feature	2428	2435	784877	+	.	id "box_46_1_GCGGCGnC"; site "GCGGCGGC"; 
+SEQ4:	MotifSampler	misc_feature	2010	2017	682058	+	.	id "box_46_1_GCGGCGnC"; site "GCGGCGGC"; 
+SEQ4:	MotifSampler	misc_feature	2048	2055	165466	+	.	id "box_46_1_GCGGCGnC"; site "GCGGCGGG"; 
+SEQ5:	MotifSampler	misc_feature	2035	2042	682058	+	.	id "box_46_1_GCGGCGnC"; site "GCGGCGGC"; 
+SEQ5:	MotifSampler	misc_feature	1712	1719	529022	+	.	id "box_46_1_GCGGCGnC"; site "GCGGCGGC"; 
+	MotifSampler	misc_feature	1986	1993	217143	+	.	id "box_46_1_GCGGCGnC"; site "GCGGCGGG"; 
+	MotifSampler	misc_feature	2152	2159	128149	+	.	id "box_46_1_GCGGCGnC"; site "GCGGCGCC"; 
+#id: box_47_1_GsGGGCGG	consensus: GsGGGCGG	sequences: 6	instances: 12	cs: 1.57	ic: 2.15	ll: 81.74
+SEQ1:	MotifSampler	misc_feature	2145	2152	624955	+	.	id "box_47_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	357736	+	.	id "box_47_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1759	1766	67926.6	+	.	id "box_47_1_GsGGGCGG"; site "GCGGCCGG"; 
+SEQ2:	MotifSampler	misc_feature	1855	1862	11781.1	+	.	id "box_47_1_GsGGGCGG"; site "GGGGGGGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	1.0871e+06	+	.	id "box_47_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2126	2133	247654	+	.	id "box_47_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	1.0871e+06	+	.	id "box_47_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	357736	+	.	id "box_47_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	1.0871e+06	+	.	id "box_47_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	1.0871e+06	+	.	id "box_47_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	801879	+	.	id "box_47_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	196512	+	.	id "box_47_1_GsGGGCGG"; site "GGGGGCGG"; 
+#id: box_48_1_GCGGCGnC	consensus: GCGGCGnC	sequences: 6	instances: 12	cs: 1.56	ic: 2.07	ll: 80.19
+SEQ1:	MotifSampler	misc_feature	2018	2025	867083	+	.	id "box_48_1_GCGGCGnC"; site "GCGGCGGC"; 
+SEQ1:	MotifSampler	misc_feature	2277	2284	164192	+	.	id "box_48_1_GCGGCGnC"; site "GCGGCGCC"; 
+SEQ2:	MotifSampler	misc_feature	2597	2604	210040	+	.	id "box_48_1_GCGGCGnC"; site "GCGGCGCC"; 
+SEQ2:	MotifSampler	misc_feature	2166	2173	78197.5	+	.	id "box_48_1_GCGGCGnC"; site "GCGGTGCC"; 
+SEQ3:	MotifSampler	misc_feature	2440	2447	924603	+	.	id "box_48_1_GCGGCGnC"; site "GCGGCGGC"; 
+SEQ3:	MotifSampler	misc_feature	2428	2435	784830	+	.	id "box_48_1_GCGGCGnC"; site "GCGGCGGC"; 
+SEQ4:	MotifSampler	misc_feature	2010	2017	682018	+	.	id "box_48_1_GCGGCGnC"; site "GCGGCGGC"; 
+SEQ4:	MotifSampler	misc_feature	908	915	125882	+	.	id "box_48_1_GCGGCGnC"; site "GCGGTGGC"; 
+SEQ5:	MotifSampler	misc_feature	2035	2042	682018	+	.	id "box_48_1_GCGGCGnC"; site "GCGGCGGC"; 
+SEQ5:	MotifSampler	misc_feature	1712	1719	528991	+	.	id "box_48_1_GCGGCGnC"; site "GCGGCGGC"; 
+	MotifSampler	misc_feature	2152	2159	128142	+	.	id "box_48_1_GCGGCGnC"; site "GCGGCGCC"; 
+	MotifSampler	misc_feature	1941	1948	14606.8	+	.	id "box_48_1_GCGGCGnC"; site "GCGGCAGC"; 
+#id: box_49_1_GnGGGCGG	consensus: GnGGGCGG	sequences: 6	instances: 12	cs: 1.55	ic: 2.12	ll: 82.42
+SEQ1:	MotifSampler	misc_feature	2145	2152	648806	+	.	id "box_49_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	261155	+	.	id "box_49_1_GnGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	134338	+	.	id "box_49_1_GnGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	2385	2392	35884.1	+	.	id "box_49_1_GnGGGCGG"; site "GCGGGCGC"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	1.12859e+06	+	.	id "box_49_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	239039	+	.	id "box_49_1_GnGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	1.12859e+06	+	.	id "box_49_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	261155	+	.	id "box_49_1_GnGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	1.12859e+06	+	.	id "box_49_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	1.12859e+06	+	.	id "box_49_1_GnGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	832483	+	.	id "box_49_1_GnGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	143458	+	.	id "box_49_1_GnGGGCGG"; site "GGGGGCGG"; 
+#id: box_50_1_GnGGGCGG	consensus: GnGGGCGG	sequences: 6	instances: 12	cs: 1.58	ic: 2.15	ll: 82.29
+SEQ1:	MotifSampler	misc_feature	2145	2152	713263	+	.	id "box_50_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	287100	+	.	id "box_50_1_GnGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	69551.7	+	.	id "box_50_1_GnGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	2341	2348	29171.4	+	.	id "box_50_1_GnGGGCGG"; site "GCGGGCCG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	1.24071e+06	+	.	id "box_50_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2126	2133	198754	+	.	id "box_50_1_GnGGGCGG"; site "GGGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	1.24071e+06	+	.	id "box_50_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	287100	+	.	id "box_50_1_GnGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	1.24071e+06	+	.	id "box_50_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	1.24071e+06	+	.	id "box_50_1_GnGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	915188	+	.	id "box_50_1_GnGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	157710	+	.	id "box_50_1_GnGGGCGG"; site "GGGGGCGG"; 
+#id: box_51_1_GsGGGCGG	consensus: GsGGGCGG	sequences: 6	instances: 12	cs: 1.54	ic: 2.12	ll: 81.81
+SEQ1:	MotifSampler	misc_feature	2145	2152	568478	+	.	id "box_51_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	325408	+	.	id "box_51_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	117705	+	.	id "box_51_1_GsGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1855	1862	10716.4	+	.	id "box_51_1_GsGGGCGG"; site "GGGGGGGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	988857	+	.	id "box_51_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	297851	+	.	id "box_51_1_GsGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	988857	+	.	id "box_51_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	325408	+	.	id "box_51_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	988857	+	.	id "box_51_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	988857	+	.	id "box_51_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	729414	+	.	id "box_51_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	178753	+	.	id "box_51_1_GsGGGCGG"; site "GGGGGCGG"; 
+#id: box_52_1_GGsGGCGG	consensus: GGsGGCGG	sequences: 6	instances: 12	cs: 1.57	ic: 2.14	ll: 81.55
+SEQ1:	MotifSampler	misc_feature	2027	2034	357715	+	.	id "box_52_1_GGsGGCGG"; site "GGGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2474	2481	204574	+	.	id "box_52_1_GGsGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	60937	+	.	id "box_52_1_GGsGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	248	255	50457.6	+	.	id "box_52_1_GGsGGCGG"; site "GGGAGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	2.2194e+06	+	.	id "box_52_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2668	2675	621922	+	.	id "box_52_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2009	2016	1.1524e+06	+	.	id "box_52_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2047	2054	1.01051e+06	+	.	id "box_52_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1711	1718	1.08703e+06	+	.	id "box_52_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	2034	2041	837571	+	.	id "box_52_1_GGsGGCGG"; site "GGCGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	196500	+	.	id "box_52_1_GGsGGCGG"; site "GGGGGCGG"; 
+	MotifSampler	misc_feature	2005	2012	190367	+	.	id "box_52_1_GGsGGCGG"; site "GGGGGCGG"; 
+#id: box_53_1_GGCGGnnG	consensus: GGCGGnnG	sequences: 6	instances: 12	cs: 1.47	ic: 2.04	ll: 79.25
+SEQ1:	MotifSampler	misc_feature	2020	2027	252559	+	.	id "box_53_1_GGCGGnnG"; site "GGCGGCCG"; 
+SEQ1:	MotifSampler	misc_feature	2477	2484	73046.1	+	.	id "box_53_1_GGCGGnnG"; site "GGCGGGGG"; 
+SEQ2:	MotifSampler	misc_feature	2215	2222	60874.5	+	.	id "box_53_1_GGCGGnnG"; site "GCCGGGCG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	36913.7	+	.	id "box_53_1_GGCGGnnG"; site "GCCGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1361	1368	569197	+	.	id "box_53_1_GGCGGnnG"; site "GGCGGGCG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	384724	+	.	id "box_53_1_GGCGGnnG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2050	2057	865447	+	.	id "box_53_1_GGCGGnnG"; site "GGCGGGCG"; 
+SEQ4:	MotifSampler	misc_feature	2009	2016	199764	+	.	id "box_53_1_GGCGGnnG"; site "GGCGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1926	1933	1.15237e+06	+	.	id "box_53_1_GGCGGnnG"; site "GGCGGGCG"; 
+SEQ5:	MotifSampler	misc_feature	1707	1714	659063	+	.	id "box_53_1_GGCGGnnG"; site "GGCGGGCG"; 
+	MotifSampler	misc_feature	2129	2136	286620	+	.	id "box_53_1_GGCGGnnG"; site "GGCGGGCG"; 
+	MotifSampler	misc_feature	2147	2154	198472	+	.	id "box_53_1_GGCGGnnG"; site "GCCGGGCG"; 
+#id: box_54_1_GCGGsCGG	consensus: GCGGsCGG	sequences: 6	instances: 12	cs: 1.57	ic: 2.14	ll: 83.80
+SEQ1:	MotifSampler	misc_feature	2145	2152	624666	+	.	id "box_54_1_GCGGsCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2021	2028	450834	+	.	id "box_54_1_GCGGsCGG"; site "GCGGCCGG"; 
+SEQ2:	MotifSampler	misc_feature	1759	1766	502516	+	.	id "box_54_1_GCGGsCGG"; site "GCGGCCGG"; 
+SEQ2:	MotifSampler	misc_feature	2114	2121	22054.7	+	.	id "box_54_1_GCGGsCGG"; site "CCGGCCGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	1.0866e+06	+	.	id "box_54_1_GCGGsCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1849	1856	406348	+	.	id "box_54_1_GCGGsCGG"; site "GCGGCCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	1.0866e+06	+	.	id "box_54_1_GCGGsCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	48051.3	+	.	id "box_54_1_GCGGsCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	1.0866e+06	+	.	id "box_54_1_GCGGsCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	1.0866e+06	+	.	id "box_54_1_GCGGsCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	801509	+	.	id "box_54_1_GCGGsCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2304	2311	422787	+	.	id "box_54_1_GCGGsCGG"; site "GCGGCCGG"; 
+#id: box_55_1_GsGGGCGG	consensus: GsGGGCGG	sequences: 6	instances: 12	cs: 1.54	ic: 2.11	ll: 81.80
+SEQ1:	MotifSampler	misc_feature	2145	2152	568478	+	.	id "box_55_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	325408	+	.	id "box_55_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	117705	+	.	id "box_55_1_GsGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1867	1874	10125.4	+	.	id "box_55_1_GsGGGCGG"; site "GGGGGTGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	988857	+	.	id "box_55_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	297851	+	.	id "box_55_1_GsGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	988857	+	.	id "box_55_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	325408	+	.	id "box_55_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	988857	+	.	id "box_55_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	988857	+	.	id "box_55_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	729414	+	.	id "box_55_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	178753	+	.	id "box_55_1_GsGGGCGG"; site "GGGGGCGG"; 
+#id: box_56_1_GCGGCGGn	consensus: GCGGCGGn	sequences: 6	instances: 12	cs: 1.51	ic: 2.05	ll: 79.84
+SEQ1:	MotifSampler	misc_feature	2018	2025	795420	+	.	id "box_56_1_GCGGCGGn"; site "GCGGCGGC"; 
+SEQ1:	MotifSampler	misc_feature	1699	1706	46699	+	.	id "box_56_1_GCGGCGGn"; site "GGGGCGGG"; 
+SEQ2:	MotifSampler	misc_feature	2594	2601	35510.4	+	.	id "box_56_1_GCGGCGGn"; site "GCAGCGGC"; 
+SEQ2:	MotifSampler	misc_feature	1759	1766	32592	+	.	id "box_56_1_GCGGCGGn"; site "GCGGCCGG"; 
+SEQ3:	MotifSampler	misc_feature	2440	2447	848186	+	.	id "box_56_1_GCGGCGGn"; site "GCGGCGGC"; 
+SEQ3:	MotifSampler	misc_feature	2428	2435	719966	+	.	id "box_56_1_GCGGCGGn"; site "GCGGCGGC"; 
+SEQ4:	MotifSampler	misc_feature	2010	2017	625650	+	.	id "box_56_1_GCGGCGGn"; site "GCGGCGGC"; 
+SEQ4:	MotifSampler	misc_feature	2048	2055	372741	+	.	id "box_56_1_GCGGCGGn"; site "GCGGCGGG"; 
+SEQ5:	MotifSampler	misc_feature	2035	2042	625650	+	.	id "box_56_1_GCGGCGGn"; site "GCGGCGGC"; 
+SEQ5:	MotifSampler	misc_feature	1712	1719	485271	+	.	id "box_56_1_GCGGCGGn"; site "GCGGCGGC"; 
+	MotifSampler	misc_feature	1986	1993	489153	+	.	id "box_56_1_GCGGCGGn"; site "GCGGCGGG"; 
+	MotifSampler	misc_feature	2301	2308	45426.1	+	.	id "box_56_1_GCGGCGGn"; site "GCAGCGGC"; 
+#id: box_57_1_GnGGGCGG	consensus: GnGGGCGG	sequences: 6	instances: 12	cs: 1.58	ic: 2.15	ll: 82.39
+SEQ1:	MotifSampler	misc_feature	2145	2152	713263	+	.	id "box_57_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	287100	+	.	id "box_57_1_GnGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	69551.7	+	.	id "box_57_1_GnGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	2385	2392	39449.1	+	.	id "box_57_1_GnGGGCGG"; site "GCGGGCGC"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	1.24071e+06	+	.	id "box_57_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2126	2133	198754	+	.	id "box_57_1_GnGGGCGG"; site "GGGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	1.24071e+06	+	.	id "box_57_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	287100	+	.	id "box_57_1_GnGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	1.24071e+06	+	.	id "box_57_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	1.24071e+06	+	.	id "box_57_1_GnGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	915188	+	.	id "box_57_1_GnGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	157710	+	.	id "box_57_1_GnGGGCGG"; site "GGGGGCGG"; 
+#id: box_58_1_GGnGGCGG	consensus: GGnGGCGG	sequences: 6	instances: 12	cs: 1.57	ic: 2.14	ll: 80.72
+SEQ1:	MotifSampler	misc_feature	2027	2034	564910	+	.	id "box_58_1_GGnGGCGG"; site "GGGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2474	2481	323066	+	.	id "box_58_1_GGnGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	2261	2268	82762.9	+	.	id "box_58_1_GGnGGCGG"; site "GGCCGCGG"; 
+SEQ2:	MotifSampler	misc_feature	2162	2169	46005.1	+	.	id "box_58_1_GGnGGCGG"; site "GGTCGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	956483	+	.	id "box_58_1_GGnGGCGG"; site "GGCGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2126	2133	391077	+	.	id "box_58_1_GGnGGCGG"; site "GGGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	564910	+	.	id "box_58_1_GGnGGCGG"; site "GGGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2009	2016	496643	+	.	id "box_58_1_GGnGGCGG"; site "GGCGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	2287	2294	654099	+	.	id "box_58_1_GGnGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	2164	2171	564910	+	.	id "box_58_1_GGnGGCGG"; site "GGGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	310317	+	.	id "box_58_1_GGnGGCGG"; site "GGGGGCGG"; 
+	MotifSampler	misc_feature	2005	2012	300630	+	.	id "box_58_1_GGnGGCGG"; site "GGGGGCGG"; 
+#id: box_59_1_GCGGCGGC	consensus: GCGGCGGC	sequences: 6	instances: 12	cs: 1.55	ic: 2.05	ll: 79.61
+SEQ1:	MotifSampler	misc_feature	2018	2025	982598	+	.	id "box_59_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ1:	MotifSampler	misc_feature	1939	1946	45250.3	+	.	id "box_59_1_GCGGCGGC"; site "GTGGCGGC"; 
+SEQ2:	MotifSampler	misc_feature	2594	2601	71522.3	+	.	id "box_59_1_GCGGCGGC"; site "GCAGCGGC"; 
+SEQ2:	MotifSampler	misc_feature	2357	2364	20675	+	.	id "box_59_1_GCGGCGGC"; site "GCGGCAGC"; 
+SEQ3:	MotifSampler	misc_feature	2440	2447	1.04778e+06	+	.	id "box_59_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ3:	MotifSampler	misc_feature	2428	2435	889388	+	.	id "box_59_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ4:	MotifSampler	misc_feature	2010	2017	772878	+	.	id "box_59_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ4:	MotifSampler	misc_feature	2626	2633	99682.4	+	.	id "box_59_1_GCGGCGGC"; site "GCGGCGGA"; 
+SEQ5:	MotifSampler	misc_feature	2035	2042	772878	+	.	id "box_59_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ5:	MotifSampler	misc_feature	1712	1719	599465	+	.	id "box_59_1_GCGGCGGC"; site "GCGGCGGC"; 
+	MotifSampler	misc_feature	1983	1990	97563.1	+	.	id "box_59_1_GCGGCGGC"; site "GCAGCGGC"; 
+	MotifSampler	misc_feature	2301	2308	91493.6	+	.	id "box_59_1_GCGGCGGC"; site "GCAGCGGC"; 
+#id: box_60_1_GGnGGCGG	consensus: GGnGGCGG	sequences: 6	instances: 12	cs: 1.58	ic: 2.15	ll: 81.96
+SEQ1:	MotifSampler	misc_feature	2027	2034	287100	+	.	id "box_60_1_GGnGGCGG"; site "GGGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2474	2481	164189	+	.	id "box_60_1_GGnGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	2261	2268	103227	+	.	id "box_60_1_GGnGGCGG"; site "GGCCGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	69551.7	+	.	id "box_60_1_GGnGGCGG"; site "GCCGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	2.53316e+06	+	.	id "box_60_1_GGnGGCGG"; site "GGCGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2668	2675	709844	+	.	id "box_60_1_GGnGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2009	2016	1.31531e+06	+	.	id "box_60_1_GGnGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2047	2054	1.15337e+06	+	.	id "box_60_1_GGnGGCGG"; site "GGCGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1711	1718	1.24071e+06	+	.	id "box_60_1_GGnGGCGG"; site "GGCGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	2034	2041	955980	+	.	id "box_60_1_GGnGGCGG"; site "GGCGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	157710	+	.	id "box_60_1_GGnGGCGG"; site "GGGGGCGG"; 
+	MotifSampler	misc_feature	2005	2012	152787	+	.	id "box_60_1_GGnGGCGG"; site "GGGGGCGG"; 
+#id: box_61_1_GnGGGCGG	consensus: GnGGGCGG	sequences: 6	instances: 12	cs: 1.55	ic: 2.12	ll: 82.37
+SEQ1:	MotifSampler	misc_feature	2145	2152	648806	+	.	id "box_61_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	261155	+	.	id "box_61_1_GnGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	134338	+	.	id "box_61_1_GnGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	2341	2348	26535.2	+	.	id "box_61_1_GnGGGCGG"; site "GCGGGCCG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	1.12859e+06	+	.	id "box_61_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	239039	+	.	id "box_61_1_GnGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	1.12859e+06	+	.	id "box_61_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	261155	+	.	id "box_61_1_GnGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	1.12859e+06	+	.	id "box_61_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	1.12859e+06	+	.	id "box_61_1_GnGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	832483	+	.	id "box_61_1_GnGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	143458	+	.	id "box_61_1_GnGGGCGG"; site "GGGGGCGG"; 
+#id: box_62_1_GGGGGCGG	consensus: GGGGGCGG	sequences: 6	instances: 12	cs: 1.61	ic: 2.19	ll: 81.35
+SEQ1:	MotifSampler	misc_feature	2027	2034	710792	+	.	id "box_62_1_GGGGGCGG"; site "GGGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2474	2481	406494	+	.	id "box_62_1_GGGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	248	255	100261	+	.	id "box_62_1_GGGGGCGG"; site "GGGAGCGG"; 
+SEQ2:	MotifSampler	misc_feature	2411	2418	44934.5	+	.	id "box_62_1_GGGGGCGG"; site "GGGGGCGC"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	650599	+	.	id "box_62_1_GGGGGCGG"; site "GGCGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2126	2133	492068	+	.	id "box_62_1_GGGGGCGG"; site "GGGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	710792	+	.	id "box_62_1_GGGGGCGG"; site "GGGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2009	2016	337816	+	.	id "box_62_1_GGGGGCGG"; site "GGCGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	2287	2294	823014	+	.	id "box_62_1_GGGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	2164	2171	710792	+	.	id "box_62_1_GGGGGCGG"; site "GGGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	390453	+	.	id "box_62_1_GGGGGCGG"; site "GGGGGCGG"; 
+	MotifSampler	misc_feature	2005	2012	378265	+	.	id "box_62_1_GGGGGCGG"; site "GGGGGCGG"; 
+#id: box_63_1_CCCCGsGs	consensus: CCCCGsGs	sequences: 6	instances: 12	cs: 1.55	ic: 2.06	ll: 78.75
+SEQ1:	MotifSampler	misc_feature	2428	2435	337689	+	.	id "box_63_1_CCCCGsGs"; site "CCCCGCGC"; 
+SEQ1:	MotifSampler	misc_feature	2273	2280	165495	+	.	id "box_63_1_CCCCGsGs"; site "CCCCGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1622	1629	338684	+	.	id "box_63_1_CCCCGsGs"; site "CCCCGCGC"; 
+SEQ2:	MotifSampler	misc_feature	2441	2448	165191	+	.	id "box_63_1_CCCCGsGs"; site "CCCCGGGC"; 
+SEQ3:	MotifSampler	misc_feature	1893	1900	270535	+	.	id "box_63_1_CCCCGsGs"; site "CCCCGGGG"; 
+SEQ3:	MotifSampler	misc_feature	2224	2231	157628	+	.	id "box_63_1_CCCCGsGs"; site "CCCCGGGC"; 
+SEQ4:	MotifSampler	misc_feature	2263	2270	437555	+	.	id "box_63_1_CCCCGsGs"; site "CCCCGGGG"; 
+SEQ4:	MotifSampler	misc_feature	2095	2102	309345	+	.	id "box_63_1_CCCCGsGs"; site "CCCCGGGC"; 
+SEQ5:	MotifSampler	misc_feature	2312	2319	270535	+	.	id "box_63_1_CCCCGsGs"; site "CCCCGGGG"; 
+SEQ5:	MotifSampler	misc_feature	1817	1824	251774	+	.	id "box_63_1_CCCCGsGs"; site "CCCCGGGC"; 
+	MotifSampler	misc_feature	2915	2922	252237	+	.	id "box_63_1_CCCCGsGs"; site "CCCCGCGG"; 
+	MotifSampler	misc_feature	2458	2465	161938	+	.	id "box_63_1_CCCCGsGs"; site "CCCCGCGC"; 
+#id: box_64_1_CCCCGsGs	consensus: CCCCGsGs	sequences: 6	instances: 12	cs: 1.55	ic: 2.06	ll: 78.75
+SEQ1:	MotifSampler	misc_feature	2428	2435	337689	+	.	id "box_64_1_CCCCGsGs"; site "CCCCGCGC"; 
+SEQ1:	MotifSampler	misc_feature	2273	2280	165495	+	.	id "box_64_1_CCCCGsGs"; site "CCCCGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1622	1629	338684	+	.	id "box_64_1_CCCCGsGs"; site "CCCCGCGC"; 
+SEQ2:	MotifSampler	misc_feature	2441	2448	165191	+	.	id "box_64_1_CCCCGsGs"; site "CCCCGGGC"; 
+SEQ3:	MotifSampler	misc_feature	1893	1900	270535	+	.	id "box_64_1_CCCCGsGs"; site "CCCCGGGG"; 
+SEQ3:	MotifSampler	misc_feature	2224	2231	157628	+	.	id "box_64_1_CCCCGsGs"; site "CCCCGGGC"; 
+SEQ4:	MotifSampler	misc_feature	2263	2270	437555	+	.	id "box_64_1_CCCCGsGs"; site "CCCCGGGG"; 
+SEQ4:	MotifSampler	misc_feature	2095	2102	309345	+	.	id "box_64_1_CCCCGsGs"; site "CCCCGGGC"; 
+SEQ5:	MotifSampler	misc_feature	2312	2319	270535	+	.	id "box_64_1_CCCCGsGs"; site "CCCCGGGG"; 
+SEQ5:	MotifSampler	misc_feature	1817	1824	251774	+	.	id "box_64_1_CCCCGsGs"; site "CCCCGGGC"; 
+	MotifSampler	misc_feature	2915	2922	252237	+	.	id "box_64_1_CCCCGsGs"; site "CCCCGCGG"; 
+	MotifSampler	misc_feature	2458	2465	161938	+	.	id "box_64_1_CCCCGsGs"; site "CCCCGCGC"; 
+#id: box_65_1_GGGGGCGG	consensus: GGGGGCGG	sequences: 6	instances: 12	cs: 1.54	ic: 2.12	ll: 80.09
+SEQ1:	MotifSampler	misc_feature	2027	2034	524472	+	.	id "box_65_1_GGGGGCGG"; site "GGGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2474	2481	299940	+	.	id "box_65_1_GGGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	75805.3	+	.	id "box_65_1_GGGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	2411	2418	33155.8	+	.	id "box_65_1_GGGGGCGG"; site "GGGGGCGC"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	790062	+	.	id "box_65_1_GGGGGCGG"; site "GGCGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	386962	+	.	id "box_65_1_GGGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	524472	+	.	id "box_65_1_GGGGGCGG"; site "GGGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2009	2016	410231	+	.	id "box_65_1_GGGGGCGG"; site "GGCGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	2287	2294	607277	+	.	id "box_65_1_GGGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	2164	2171	524472	+	.	id "box_65_1_GGGGGCGG"; site "GGGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	288103	+	.	id "box_65_1_GGGGGCGG"; site "GGGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	285436	+	.	id "box_65_1_GGGGGCGG"; site "GCGGGCGG"; 
+#id: box_66_1_GGCGGnnG	consensus: GGCGGnnG	sequences: 6	instances: 12	cs: 1.47	ic: 2.04	ll: 80.04
+SEQ1:	MotifSampler	misc_feature	2020	2027	252559	+	.	id "box_66_1_GGCGGnnG"; site "GGCGGCCG"; 
+SEQ1:	MotifSampler	misc_feature	2477	2484	73046.1	+	.	id "box_66_1_GGCGGnnG"; site "GGCGGGGG"; 
+SEQ2:	MotifSampler	misc_feature	1761	1768	169540	+	.	id "box_66_1_GGCGGnnG"; site "GGCCGGCG"; 
+SEQ2:	MotifSampler	misc_feature	2261	2268	54786.7	+	.	id "box_66_1_GGCGGnnG"; site "GGCCGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1361	1368	569197	+	.	id "box_66_1_GGCGGnnG"; site "GGCGGGCG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	384724	+	.	id "box_66_1_GGCGGnnG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2050	2057	865447	+	.	id "box_66_1_GGCGGnnG"; site "GGCGGGCG"; 
+SEQ4:	MotifSampler	misc_feature	2009	2016	199764	+	.	id "box_66_1_GGCGGnnG"; site "GGCGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1926	1933	1.15237e+06	+	.	id "box_66_1_GGCGGnnG"; site "GGCGGGCG"; 
+SEQ5:	MotifSampler	misc_feature	1707	1714	659063	+	.	id "box_66_1_GGCGGnnG"; site "GGCGGGCG"; 
+	MotifSampler	misc_feature	2129	2136	286620	+	.	id "box_66_1_GGCGGnnG"; site "GGCGGGCG"; 
+	MotifSampler	misc_feature	2306	2313	169540	+	.	id "box_66_1_GGCGGnnG"; site "GGCCGGCG"; 
+#id: box_67_1_GCGGCGnC	consensus: GCGGCGnC	sequences: 6	instances: 12	cs: 1.55	ic: 2.10	ll: 80.84
+SEQ1:	MotifSampler	misc_feature	2018	2025	867134	+	.	id "box_67_1_GCGGCGnC"; site "GCGGCGGC"; 
+SEQ1:	MotifSampler	misc_feature	2277	2284	164202	+	.	id "box_67_1_GCGGCGnC"; site "GCGGCGCC"; 
+SEQ2:	MotifSampler	misc_feature	2597	2604	210053	+	.	id "box_67_1_GCGGCGnC"; site "GCGGCGCC"; 
+SEQ2:	MotifSampler	misc_feature	2412	2419	5271.25	+	.	id "box_67_1_GCGGCGnC"; site "GGGGCGCC"; 
+SEQ3:	MotifSampler	misc_feature	2440	2447	924657	+	.	id "box_67_1_GCGGCGnC"; site "GCGGCGGC"; 
+SEQ3:	MotifSampler	misc_feature	2428	2435	784877	+	.	id "box_67_1_GCGGCGnC"; site "GCGGCGGC"; 
+SEQ4:	MotifSampler	misc_feature	2010	2017	682058	+	.	id "box_67_1_GCGGCGnC"; site "GCGGCGGC"; 
+SEQ4:	MotifSampler	misc_feature	2048	2055	165466	+	.	id "box_67_1_GCGGCGnC"; site "GCGGCGGG"; 
+SEQ5:	MotifSampler	misc_feature	2035	2042	682058	+	.	id "box_67_1_GCGGCGnC"; site "GCGGCGGC"; 
+SEQ5:	MotifSampler	misc_feature	1712	1719	529022	+	.	id "box_67_1_GCGGCGnC"; site "GCGGCGGC"; 
+	MotifSampler	misc_feature	1986	1993	217143	+	.	id "box_67_1_GCGGCGnC"; site "GCGGCGGG"; 
+	MotifSampler	misc_feature	2152	2159	128149	+	.	id "box_67_1_GCGGCGnC"; site "GCGGCGCC"; 
+#id: box_68_1_GnGGGCGG	consensus: GnGGGCGG	sequences: 6	instances: 12	cs: 1.55	ic: 2.12	ll: 82.42
+SEQ1:	MotifSampler	misc_feature	2145	2152	648806	+	.	id "box_68_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	261155	+	.	id "box_68_1_GnGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	134338	+	.	id "box_68_1_GnGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	2385	2392	35884.1	+	.	id "box_68_1_GnGGGCGG"; site "GCGGGCGC"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	1.12859e+06	+	.	id "box_68_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	239039	+	.	id "box_68_1_GnGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	1.12859e+06	+	.	id "box_68_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	261155	+	.	id "box_68_1_GnGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	1.12859e+06	+	.	id "box_68_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	1.12859e+06	+	.	id "box_68_1_GnGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	832483	+	.	id "box_68_1_GnGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	143458	+	.	id "box_68_1_GnGGGCGG"; site "GGGGGCGG"; 
+#id: box_69_1_GsGGGCGG	consensus: GsGGGCGG	sequences: 6	instances: 12	cs: 1.54	ic: 2.11	ll: 82.03
+SEQ1:	MotifSampler	misc_feature	2145	2152	568444	+	.	id "box_69_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	325389	+	.	id "box_69_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	117698	+	.	id "box_69_1_GsGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	248	255	45897.7	+	.	id "box_69_1_GsGGGCGG"; site "GGGAGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	988798	+	.	id "box_69_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	297834	+	.	id "box_69_1_GsGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	988798	+	.	id "box_69_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	325389	+	.	id "box_69_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	988798	+	.	id "box_69_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	988798	+	.	id "box_69_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	729371	+	.	id "box_69_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	178743	+	.	id "box_69_1_GsGGGCGG"; site "GGGGGCGG"; 
+#id: box_70_1_GnCGGGCG	consensus: GnCGGGCG	sequences: 6	instances: 12	cs: 1.53	ic: 2.09	ll: 80.61
+SEQ1:	MotifSampler	misc_feature	2020	2027	66538.8	+	.	id "box_70_1_GnCGGGCG"; site "GGCGGCCG"; 
+SEQ1:	MotifSampler	misc_feature	2186	2193	65158.1	+	.	id "box_70_1_GnCGGGCG"; site "GGCCGGCG"; 
+SEQ2:	MotifSampler	misc_feature	1761	1768	232524	+	.	id "box_70_1_GnCGGGCG"; site "GGCCGGCG"; 
+SEQ2:	MotifSampler	misc_feature	2215	2222	124372	+	.	id "box_70_1_GnCGGGCG"; site "GCCGGGCG"; 
+SEQ3:	MotifSampler	misc_feature	1361	1368	780655	+	.	id "box_70_1_GnCGGGCG"; site "GGCGGGCG"; 
+SEQ3:	MotifSampler	misc_feature	1953	1960	189104	+	.	id "box_70_1_GnCGGGCG"; site "GCCGGGCG"; 
+SEQ4:	MotifSampler	misc_feature	2050	2057	1.18696e+06	+	.	id "box_70_1_GnCGGGCG"; site "GGCGGGCG"; 
+SEQ4:	MotifSampler	misc_feature	1980	1987	50707	+	.	id "box_70_1_GnCGGGCG"; site "GCCCGGCG"; 
+SEQ5:	MotifSampler	misc_feature	1926	1933	1.58048e+06	+	.	id "box_70_1_GnCGGGCG"; site "GGCGGGCG"; 
+SEQ5:	MotifSampler	misc_feature	1707	1714	903907	+	.	id "box_70_1_GnCGGGCG"; site "GGCGGGCG"; 
+	MotifSampler	misc_feature	2147	2154	405496	+	.	id "box_70_1_GnCGGGCG"; site "GCCGGGCG"; 
+	MotifSampler	misc_feature	2129	2136	393099	+	.	id "box_70_1_GnCGGGCG"; site "GGCGGGCG"; 
+#id: box_71_1_CGGCGGGC	consensus: CGGCGGGC	sequences: 6	instances: 12	cs: 1.50	ic: 2.02	ll: 78.88
+SEQ1:	MotifSampler	misc_feature	2019	2026	199337	+	.	id "box_71_1_CGGCGGGC"; site "CGGCGGCC"; 
+SEQ1:	MotifSampler	misc_feature	1950	1957	68787.8	+	.	id "box_71_1_CGGCGGGC"; site "CGGCGGCT"; 
+SEQ2:	MotifSampler	misc_feature	2383	2390	94823.5	+	.	id "box_71_1_CGGCGGGC"; site "CCGCGGGC"; 
+SEQ2:	MotifSampler	misc_feature	2339	2346	51436	+	.	id "box_71_1_CGGCGGGC"; site "CCGCGGGC"; 
+SEQ3:	MotifSampler	misc_feature	1360	1367	540388	+	.	id "box_71_1_CGGCGGGC"; site "CGGCGGGC"; 
+SEQ3:	MotifSampler	misc_feature	1614	1621	339667	+	.	id "box_71_1_CGGCGGGC"; site "CGGCGGGT"; 
+SEQ4:	MotifSampler	misc_feature	2049	2056	438758	+	.	id "box_71_1_CGGCGGGC"; site "CGGCGGGC"; 
+SEQ4:	MotifSampler	misc_feature	1983	1990	160958	+	.	id "box_71_1_CGGCGGGC"; site "CGGCGGCC"; 
+SEQ5:	MotifSampler	misc_feature	1925	1932	716155	+	.	id "box_71_1_CGGCGGGC"; site "CGGCGGGC"; 
+SEQ5:	MotifSampler	misc_feature	1706	1713	571831	+	.	id "box_71_1_CGGCGGGC"; site "CGGCGGGC"; 
+	MotifSampler	misc_feature	1987	1994	669235	+	.	id "box_71_1_CGGCGGGC"; site "CGGCGGGC"; 
+	MotifSampler	misc_feature	2057	2064	63905.6	+	.	id "box_71_1_CGGCGGGC"; site "CCGCGGGT"; 
+#id: box_72_1_GsGGGCGG	consensus: GsGGGCGG	sequences: 6	instances: 12	cs: 1.54	ic: 2.11	ll: 81.80
+SEQ1:	MotifSampler	misc_feature	2145	2152	568478	+	.	id "box_72_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	325408	+	.	id "box_72_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	117705	+	.	id "box_72_1_GsGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1867	1874	10125.4	+	.	id "box_72_1_GsGGGCGG"; site "GGGGGTGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	988857	+	.	id "box_72_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	297851	+	.	id "box_72_1_GsGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	988857	+	.	id "box_72_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	325408	+	.	id "box_72_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	988857	+	.	id "box_72_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	988857	+	.	id "box_72_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	729414	+	.	id "box_72_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	178753	+	.	id "box_72_1_GsGGGCGG"; site "GGGGGCGG"; 
+#id: box_73_1_GsGGGCGG	consensus: GsGGGCGG	sequences: 6	instances: 12	cs: 1.54	ic: 2.12	ll: 81.81
+SEQ1:	MotifSampler	misc_feature	2145	2152	568478	+	.	id "box_73_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	325408	+	.	id "box_73_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	117705	+	.	id "box_73_1_GsGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1855	1862	10716.4	+	.	id "box_73_1_GsGGGCGG"; site "GGGGGGGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	988857	+	.	id "box_73_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	297851	+	.	id "box_73_1_GsGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	988857	+	.	id "box_73_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	325408	+	.	id "box_73_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	988857	+	.	id "box_73_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	988857	+	.	id "box_73_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	729414	+	.	id "box_73_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	178753	+	.	id "box_73_1_GsGGGCGG"; site "GGGGGCGG"; 
+#id: box_74_1_GsCGGGCG	consensus: GsCGGGCG	sequences: 6	instances: 12	cs: 1.51	ic: 2.08	ll: 79.81
+SEQ1:	MotifSampler	misc_feature	2915	2922	64797.8	+	.	id "box_74_1_GsCGGGCG"; site "GCGGGGCG"; 
+SEQ1:	MotifSampler	misc_feature	1702	1709	51878.3	+	.	id "box_74_1_GsCGGGCG"; site "GCGGGGCG"; 
+SEQ2:	MotifSampler	misc_feature	2215	2222	187308	+	.	id "box_74_1_GsCGGGCG"; site "GCCGGGCG"; 
+SEQ2:	MotifSampler	misc_feature	1761	1768	107325	+	.	id "box_74_1_GsCGGGCG"; site "GGCCGGCG"; 
+SEQ3:	MotifSampler	misc_feature	1361	1368	593010	+	.	id "box_74_1_GsCGGGCG"; site "GGCGGGCG"; 
+SEQ3:	MotifSampler	misc_feature	1953	1960	284796	+	.	id "box_74_1_GsCGGGCG"; site "GCCGGGCG"; 
+SEQ4:	MotifSampler	misc_feature	2050	2057	901653	+	.	id "box_74_1_GsCGGGCG"; site "GGCGGGCG"; 
+SEQ4:	MotifSampler	misc_feature	1980	1987	46401.7	+	.	id "box_74_1_GsCGGGCG"; site "GCCCGGCG"; 
+SEQ5:	MotifSampler	misc_feature	1926	1933	1.20059e+06	+	.	id "box_74_1_GsCGGGCG"; site "GGCGGGCG"; 
+SEQ5:	MotifSampler	misc_feature	1707	1714	686636	+	.	id "box_74_1_GsCGGGCG"; site "GGCGGGCG"; 
+	MotifSampler	misc_feature	2147	2154	610689	+	.	id "box_74_1_GsCGGGCG"; site "GCCGGGCG"; 
+	MotifSampler	misc_feature	2129	2136	298610	+	.	id "box_74_1_GsCGGGCG"; site "GGCGGGCG"; 
+#id: box_75_1_GnGGGCGG	consensus: GnGGGCGG	sequences: 6	instances: 12	cs: 1.58	ic: 2.15	ll: 82.39
+SEQ1:	MotifSampler	misc_feature	2145	2152	713263	+	.	id "box_75_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	287100	+	.	id "box_75_1_GnGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	69551.7	+	.	id "box_75_1_GnGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	2385	2392	39449.1	+	.	id "box_75_1_GnGGGCGG"; site "GCGGGCGC"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	1.24071e+06	+	.	id "box_75_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2126	2133	198754	+	.	id "box_75_1_GnGGGCGG"; site "GGGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	1.24071e+06	+	.	id "box_75_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	287100	+	.	id "box_75_1_GnGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	1.24071e+06	+	.	id "box_75_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	1.24071e+06	+	.	id "box_75_1_GnGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	915188	+	.	id "box_75_1_GnGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	157710	+	.	id "box_75_1_GnGGGCGG"; site "GGGGGCGG"; 
+#id: box_76_1_GGsGGCGG	consensus: GGsGGCGG	sequences: 6	instances: 12	cs: 1.57	ic: 2.14	ll: 81.55
+SEQ1:	MotifSampler	misc_feature	2027	2034	357715	+	.	id "box_76_1_GGsGGCGG"; site "GGGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2474	2481	204574	+	.	id "box_76_1_GGsGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	60937	+	.	id "box_76_1_GGsGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	248	255	50457.6	+	.	id "box_76_1_GGsGGCGG"; site "GGGAGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	2.2194e+06	+	.	id "box_76_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2668	2675	621922	+	.	id "box_76_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2009	2016	1.1524e+06	+	.	id "box_76_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2047	2054	1.01051e+06	+	.	id "box_76_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1711	1718	1.08703e+06	+	.	id "box_76_1_GGsGGCGG"; site "GGCGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	2034	2041	837571	+	.	id "box_76_1_GGsGGCGG"; site "GGCGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	196500	+	.	id "box_76_1_GGsGGCGG"; site "GGGGGCGG"; 
+	MotifSampler	misc_feature	2005	2012	190367	+	.	id "box_76_1_GGsGGCGG"; site "GGGGGCGG"; 
+#id: box_77_1_GsGGGCGG	consensus: GsGGGCGG	sequences: 6	instances: 12	cs: 1.54	ic: 2.11	ll: 81.80
+SEQ1:	MotifSampler	misc_feature	2145	2152	568478	+	.	id "box_77_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	325408	+	.	id "box_77_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	117705	+	.	id "box_77_1_GsGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1867	1874	10125.4	+	.	id "box_77_1_GsGGGCGG"; site "GGGGGTGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	988857	+	.	id "box_77_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	297851	+	.	id "box_77_1_GsGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	988857	+	.	id "box_77_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	325408	+	.	id "box_77_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	988857	+	.	id "box_77_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	988857	+	.	id "box_77_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	729414	+	.	id "box_77_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	178753	+	.	id "box_77_1_GsGGGCGG"; site "GGGGGCGG"; 
+#id: box_78_1_GCGGsCGG	consensus: GCGGsCGG	sequences: 6	instances: 12	cs: 1.57	ic: 2.14	ll: 83.80
+SEQ1:	MotifSampler	misc_feature	2145	2152	624666	+	.	id "box_78_1_GCGGsCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2021	2028	450834	+	.	id "box_78_1_GCGGsCGG"; site "GCGGCCGG"; 
+SEQ2:	MotifSampler	misc_feature	1759	1766	502516	+	.	id "box_78_1_GCGGsCGG"; site "GCGGCCGG"; 
+SEQ2:	MotifSampler	misc_feature	2114	2121	22054.7	+	.	id "box_78_1_GCGGsCGG"; site "CCGGCCGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	1.0866e+06	+	.	id "box_78_1_GCGGsCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1849	1856	406348	+	.	id "box_78_1_GCGGsCGG"; site "GCGGCCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	1.0866e+06	+	.	id "box_78_1_GCGGsCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	48051.3	+	.	id "box_78_1_GCGGsCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	1.0866e+06	+	.	id "box_78_1_GCGGsCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	1.0866e+06	+	.	id "box_78_1_GCGGsCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	801509	+	.	id "box_78_1_GCGGsCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2304	2311	422787	+	.	id "box_78_1_GCGGsCGG"; site "GCGGCCGG"; 
+#id: box_79_1_GsGGGCGG	consensus: GsGGGCGG	sequences: 6	instances: 12	cs: 1.54	ic: 2.11	ll: 82.03
+SEQ1:	MotifSampler	misc_feature	2145	2152	568444	+	.	id "box_79_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	325389	+	.	id "box_79_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	117698	+	.	id "box_79_1_GsGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	248	255	45897.7	+	.	id "box_79_1_GsGGGCGG"; site "GGGAGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	988798	+	.	id "box_79_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	297834	+	.	id "box_79_1_GsGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	988798	+	.	id "box_79_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	325389	+	.	id "box_79_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	988798	+	.	id "box_79_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	988798	+	.	id "box_79_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	729371	+	.	id "box_79_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	178743	+	.	id "box_79_1_GsGGGCGG"; site "GGGGGCGG"; 
+#id: box_80_1_GsGGGCGG	consensus: GsGGGCGG	sequences: 6	instances: 12	cs: 1.57	ic: 2.14	ll: 82.03
+SEQ1:	MotifSampler	misc_feature	2145	2152	624918	+	.	id "box_80_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	357715	+	.	id "box_80_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	60937	+	.	id "box_80_1_GsGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	248	255	50457.6	+	.	id "box_80_1_GsGGGCGG"; site "GGGAGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	1.08703e+06	+	.	id "box_80_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2126	2133	247640	+	.	id "box_80_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	1.08703e+06	+	.	id "box_80_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	357715	+	.	id "box_80_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	1.08703e+06	+	.	id "box_80_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	1.08703e+06	+	.	id "box_80_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	801832	+	.	id "box_80_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	196500	+	.	id "box_80_1_GsGGGCGG"; site "GGGGGCGG"; 
+#id: box_81_1_GGGGGCGG	consensus: GGGGGCGG	sequences: 6	instances: 12	cs: 1.59	ic: 2.17	ll: 79.63
+SEQ1:	MotifSampler	misc_feature	2027	2034	635031	+	.	id "box_81_1_GGGGGCGG"; site "GGGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2474	2481	363167	+	.	id "box_81_1_GGGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1855	1862	22989.1	+	.	id "box_81_1_GGGGGCGG"; site "GGGGGGGG"; 
+SEQ2:	MotifSampler	misc_feature	1867	1874	21721.2	+	.	id "box_81_1_GGGGGCGG"; site "GGGGGTGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	468534	+	.	id "box_81_1_GGGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2126	2133	439620	+	.	id "box_81_1_GGGGGCGG"; site "GGGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	635031	+	.	id "box_81_1_GGGGGCGG"; site "GGGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	468534	+	.	id "box_81_1_GGGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	2287	2294	735291	+	.	id "box_81_1_GGGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	2164	2171	635031	+	.	id "box_81_1_GGGGGCGG"; site "GGGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	348836	+	.	id "box_81_1_GGGGGCGG"; site "GGGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	345607	+	.	id "box_81_1_GGGGGCGG"; site "GCGGGCGG"; 
+#id: box_82_1_GCGGCGGs	consensus: GCGGCGGs	sequences: 6	instances: 12	cs: 1.50	ic: 2.05	ll: 80.33
+SEQ1:	MotifSampler	misc_feature	2018	2025	696898	+	.	id "box_82_1_GCGGCGGs"; site "GCGGCGGC"; 
+SEQ1:	MotifSampler	misc_feature	1699	1706	58185.1	+	.	id "box_82_1_GCGGCGGs"; site "GGGGCGGG"; 
+SEQ2:	MotifSampler	misc_feature	1759	1766	86226.4	+	.	id "box_82_1_GCGGCGGs"; site "GCGGCCGG"; 
+SEQ2:	MotifSampler	misc_feature	2597	2604	32428.5	+	.	id "box_82_1_GCGGCGGs"; site "GCGGCGCC"; 
+SEQ3:	MotifSampler	misc_feature	2440	2447	743129	+	.	id "box_82_1_GCGGCGGs"; site "GCGGCGGC"; 
+SEQ3:	MotifSampler	misc_feature	2428	2435	630790	+	.	id "box_82_1_GCGGCGGs"; site "GCGGCGGC"; 
+SEQ4:	MotifSampler	misc_feature	2010	2017	548157	+	.	id "box_82_1_GCGGCGGs"; site "GCGGCGGC"; 
+SEQ4:	MotifSampler	misc_feature	2048	2055	464421	+	.	id "box_82_1_GCGGCGGs"; site "GCGGCGGG"; 
+SEQ5:	MotifSampler	misc_feature	2035	2042	548157	+	.	id "box_82_1_GCGGCGGs"; site "GCGGCGGC"; 
+SEQ5:	MotifSampler	misc_feature	1712	1719	425165	+	.	id "box_82_1_GCGGCGGs"; site "GCGGCGGC"; 
+	MotifSampler	misc_feature	1986	1993	609465	+	.	id "box_82_1_GCGGCGGs"; site "GCGGCGGG"; 
+	MotifSampler	misc_feature	2304	2311	72545.7	+	.	id "box_82_1_GCGGCGGs"; site "GCGGCCGG"; 
+#id: box_83_1_GGGCGGGG	consensus: GGGCGGGG	sequences: 6	instances: 12	cs: 1.57	ic: 2.12	ll: 79.64
+SEQ1:	MotifSampler	misc_feature	1700	1707	485489	+	.	id "box_83_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ1:	MotifSampler	misc_feature	1761	1768	277762	+	.	id "box_83_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ2:	MotifSampler	misc_feature	2147	2154	85303.4	+	.	id "box_83_1_GGGCGGGG"; site "GCGCGGGG"; 
+SEQ2:	MotifSampler	misc_feature	2737	2744	17826.2	+	.	id "box_83_1_GGGCGGGG"; site "GGGAGGGG"; 
+SEQ3:	MotifSampler	misc_feature	1368	1375	991224	+	.	id "box_83_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ3:	MotifSampler	misc_feature	1956	1963	651920	+	.	id "box_83_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ4:	MotifSampler	misc_feature	129	136	346935	+	.	id "box_83_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ4:	MotifSampler	misc_feature	2756	2763	112080	+	.	id "box_83_1_GGGCGGGG"; site "GGGCGTGG"; 
+SEQ5:	MotifSampler	misc_feature	1929	1936	991224	+	.	id "box_83_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ5:	MotifSampler	misc_feature	1974	1981	991224	+	.	id "box_83_1_GGGCGGGG"; site "GGGCGGGG"; 
+	MotifSampler	misc_feature	2426	2433	258642	+	.	id "box_83_1_GGGCGGGG"; site "GGGCGGTG"; 
+	MotifSampler	misc_feature	2007	2014	95172.8	+	.	id "box_83_1_GGGCGGGG"; site "GGGCGGTG"; 
+#id: box_84_1_GGGCGGGG	consensus: GGGCGGGG	sequences: 6	instances: 12	cs: 1.58	ic: 2.16	ll: 79.04
+SEQ1:	MotifSampler	misc_feature	1700	1707	481559	+	.	id "box_84_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ1:	MotifSampler	misc_feature	1761	1768	275513	+	.	id "box_84_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ2:	MotifSampler	misc_feature	1855	1862	45375.9	+	.	id "box_84_1_GGGCGGGG"; site "GGGGGGGG"; 
+SEQ2:	MotifSampler	misc_feature	1864	1871	19333.2	+	.	id "box_84_1_GGGCGGGG"; site "GGGGGGGG"; 
+SEQ3:	MotifSampler	misc_feature	1368	1375	983199	+	.	id "box_84_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ3:	MotifSampler	misc_feature	1956	1963	646642	+	.	id "box_84_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ4:	MotifSampler	misc_feature	129	136	344126	+	.	id "box_84_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ4:	MotifSampler	misc_feature	2053	2060	78110.7	+	.	id "box_84_1_GGGCGGGG"; site "GGGCGGGC"; 
+SEQ5:	MotifSampler	misc_feature	1929	1936	983199	+	.	id "box_84_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ5:	MotifSampler	misc_feature	1974	1981	983199	+	.	id "box_84_1_GGGCGGGG"; site "GGGCGGGG"; 
+	MotifSampler	misc_feature	2426	2433	256548	+	.	id "box_84_1_GGGCGGGG"; site "GGGCGGTG"; 
+	MotifSampler	misc_feature	2007	2014	94402.2	+	.	id "box_84_1_GGGCGGGG"; site "GGGCGGTG"; 
+#id: box_85_1_CCCCGsGs	consensus: CCCCGsGs	sequences: 6	instances: 12	cs: 1.55	ic: 2.06	ll: 78.75
+SEQ1:	MotifSampler	misc_feature	2428	2435	337689	+	.	id "box_85_1_CCCCGsGs"; site "CCCCGCGC"; 
+SEQ1:	MotifSampler	misc_feature	2273	2280	165495	+	.	id "box_85_1_CCCCGsGs"; site "CCCCGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1622	1629	338684	+	.	id "box_85_1_CCCCGsGs"; site "CCCCGCGC"; 
+SEQ2:	MotifSampler	misc_feature	2441	2448	165191	+	.	id "box_85_1_CCCCGsGs"; site "CCCCGGGC"; 
+SEQ3:	MotifSampler	misc_feature	1893	1900	270535	+	.	id "box_85_1_CCCCGsGs"; site "CCCCGGGG"; 
+SEQ3:	MotifSampler	misc_feature	2224	2231	157628	+	.	id "box_85_1_CCCCGsGs"; site "CCCCGGGC"; 
+SEQ4:	MotifSampler	misc_feature	2263	2270	437555	+	.	id "box_85_1_CCCCGsGs"; site "CCCCGGGG"; 
+SEQ4:	MotifSampler	misc_feature	2095	2102	309345	+	.	id "box_85_1_CCCCGsGs"; site "CCCCGGGC"; 
+SEQ5:	MotifSampler	misc_feature	2312	2319	270535	+	.	id "box_85_1_CCCCGsGs"; site "CCCCGGGG"; 
+SEQ5:	MotifSampler	misc_feature	1817	1824	251774	+	.	id "box_85_1_CCCCGsGs"; site "CCCCGGGC"; 
+	MotifSampler	misc_feature	2915	2922	252237	+	.	id "box_85_1_CCCCGsGs"; site "CCCCGCGG"; 
+	MotifSampler	misc_feature	2458	2465	161938	+	.	id "box_85_1_CCCCGsGs"; site "CCCCGCGC"; 
+#id: box_86_1_GnGGGCGG	consensus: GnGGGCGG	sequences: 6	instances: 12	cs: 1.55	ic: 2.12	ll: 82.42
+SEQ1:	MotifSampler	misc_feature	2145	2152	648806	+	.	id "box_86_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	261155	+	.	id "box_86_1_GnGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	134338	+	.	id "box_86_1_GnGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	2385	2392	35884.1	+	.	id "box_86_1_GnGGGCGG"; site "GCGGGCGC"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	1.12859e+06	+	.	id "box_86_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	239039	+	.	id "box_86_1_GnGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	1.12859e+06	+	.	id "box_86_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	261155	+	.	id "box_86_1_GnGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	1.12859e+06	+	.	id "box_86_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	1.12859e+06	+	.	id "box_86_1_GnGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	832483	+	.	id "box_86_1_GnGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	143458	+	.	id "box_86_1_GnGGGCGG"; site "GGGGGCGG"; 
+#id: box_87_1_GGGCGGGG	consensus: GGGCGGGG	sequences: 6	instances: 12	cs: 1.57	ic: 2.13	ll: 79.49
+SEQ1:	MotifSampler	misc_feature	1700	1707	481559	+	.	id "box_87_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ1:	MotifSampler	misc_feature	1761	1768	275513	+	.	id "box_87_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ2:	MotifSampler	misc_feature	2147	2154	84612.7	+	.	id "box_87_1_GGGCGGGG"; site "GCGCGGGG"; 
+SEQ2:	MotifSampler	misc_feature	1855	1862	23409.4	+	.	id "box_87_1_GGGCGGGG"; site "GGGGGGGG"; 
+SEQ3:	MotifSampler	misc_feature	1368	1375	983199	+	.	id "box_87_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ3:	MotifSampler	misc_feature	1956	1963	646642	+	.	id "box_87_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ4:	MotifSampler	misc_feature	129	136	344126	+	.	id "box_87_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ4:	MotifSampler	misc_feature	97	104	35938.4	+	.	id "box_87_1_GGGCGGGG"; site "GGGTGGGG"; 
+SEQ5:	MotifSampler	misc_feature	1929	1936	983199	+	.	id "box_87_1_GGGCGGGG"; site "GGGCGGGG"; 
+SEQ5:	MotifSampler	misc_feature	1974	1981	983199	+	.	id "box_87_1_GGGCGGGG"; site "GGGCGGGG"; 
+	MotifSampler	misc_feature	2426	2433	256548	+	.	id "box_87_1_GGGCGGGG"; site "GGGCGGTG"; 
+	MotifSampler	misc_feature	2007	2014	94402.2	+	.	id "box_87_1_GGGCGGGG"; site "GGGCGGTG"; 
+#id: box_88_1_GCGGnCGG	consensus: GCGGnCGG	sequences: 6	instances: 12	cs: 1.58	ic: 2.14	ll: 83.92
+SEQ1:	MotifSampler	misc_feature	2145	2152	713075	+	.	id "box_88_1_GCGGnCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2021	2028	361974	+	.	id "box_88_1_GCGGnCGG"; site "GCGGCCGG"; 
+SEQ2:	MotifSampler	misc_feature	1759	1766	403470	+	.	id "box_88_1_GCGGnCGG"; site "GCGGCCGG"; 
+SEQ2:	MotifSampler	misc_feature	2341	2348	29163.7	+	.	id "box_88_1_GCGGnCGG"; site "GCGGGCCG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	1.24038e+06	+	.	id "box_88_1_GCGGnCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1849	1856	326257	+	.	id "box_88_1_GCGGnCGG"; site "GCGGCCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	1.24038e+06	+	.	id "box_88_1_GCGGnCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	131	138	23370.7	+	.	id "box_88_1_GCGGnCGG"; site "GCGGGGGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	1.24038e+06	+	.	id "box_88_1_GCGGnCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	1.24038e+06	+	.	id "box_88_1_GCGGnCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	914946	+	.	id "box_88_1_GCGGnCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2304	2311	339456	+	.	id "box_88_1_GCGGnCGG"; site "GCGGCCGG"; 
+#id: box_89_1_GsGGGCGG	consensus: GsGGGCGG	sequences: 6	instances: 12	cs: 1.54	ic: 2.11	ll: 82.03
+SEQ1:	MotifSampler	misc_feature	2145	2152	568444	+	.	id "box_89_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	325389	+	.	id "box_89_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	117698	+	.	id "box_89_1_GsGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	248	255	45897.7	+	.	id "box_89_1_GsGGGCGG"; site "GGGAGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	988798	+	.	id "box_89_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	297834	+	.	id "box_89_1_GsGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	988798	+	.	id "box_89_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	325389	+	.	id "box_89_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	988798	+	.	id "box_89_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	988798	+	.	id "box_89_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	729371	+	.	id "box_89_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	178743	+	.	id "box_89_1_GsGGGCGG"; site "GGGGGCGG"; 
+#id: box_90_1_GsGGGCGG	consensus: GsGGGCGG	sequences: 6	instances: 12	cs: 1.54	ic: 2.11	ll: 82.03
+SEQ1:	MotifSampler	misc_feature	2145	2152	568444	+	.	id "box_90_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	325389	+	.	id "box_90_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	117698	+	.	id "box_90_1_GsGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	248	255	45897.7	+	.	id "box_90_1_GsGGGCGG"; site "GGGAGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	988798	+	.	id "box_90_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	297834	+	.	id "box_90_1_GsGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	988798	+	.	id "box_90_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	325389	+	.	id "box_90_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	988798	+	.	id "box_90_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	988798	+	.	id "box_90_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	729371	+	.	id "box_90_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	178743	+	.	id "box_90_1_GsGGGCGG"; site "GGGGGCGG"; 
+#id: box_91_1_GnGGGCGG	consensus: GnGGGCGG	sequences: 6	instances: 12	cs: 1.54	ic: 2.11	ll: 81.55
+SEQ1:	MotifSampler	misc_feature	2145	2152	624918	+	.	id "box_91_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	287100	+	.	id "box_91_1_GnGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1759	1766	67922.6	+	.	id "box_91_1_GnGGGCGG"; site "GCGGCCGG"; 
+SEQ2:	MotifSampler	misc_feature	1902	1909	12704.6	+	.	id "box_91_1_GnGGGCGG"; site "GAGCGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	1.08703e+06	+	.	id "box_91_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2126	2133	198754	+	.	id "box_91_1_GnGGGCGG"; site "GGGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	1.08703e+06	+	.	id "box_91_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	287100	+	.	id "box_91_1_GnGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	1.08703e+06	+	.	id "box_91_1_GnGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	1.08703e+06	+	.	id "box_91_1_GnGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	801832	+	.	id "box_91_1_GnGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	157710	+	.	id "box_91_1_GnGGGCGG"; site "GGGGGCGG"; 
+#id: box_92_1_nGGGCGGG	consensus: nGGGCGGG	sequences: 6	instances: 12	cs: 1.51	ic: 2.06	ll: 79.20
+SEQ1:	MotifSampler	misc_feature	1699	1706	401961	+	.	id "box_92_1_nGGGCGGG"; site "GGGGCGGG"; 
+SEQ1:	MotifSampler	misc_feature	1760	1767	109063	+	.	id "box_92_1_nGGGCGGG"; site "GGGGCGGG"; 
+SEQ2:	MotifSampler	misc_feature	2386	2393	55009.9	+	.	id "box_92_1_nGGGCGGG"; site "CGGGCGCG"; 
+SEQ2:	MotifSampler	misc_feature	2146	2153	6666.24	+	.	id "box_92_1_nGGGCGGG"; site "AGCGCGGG"; 
+SEQ3:	MotifSampler	misc_feature	1363	1370	651012	+	.	id "box_92_1_nGGGCGGG"; site "CGGGCGGG"; 
+SEQ3:	MotifSampler	misc_feature	1955	1962	459365	+	.	id "box_92_1_nGGGCGGG"; site "CGGGCGGG"; 
+SEQ4:	MotifSampler	misc_feature	2052	2059	651012	+	.	id "box_92_1_nGGGCGGG"; site "CGGGCGGG"; 
+SEQ4:	MotifSampler	misc_feature	128	135	137447	+	.	id "box_92_1_nGGGCGGG"; site "GGGGCGGG"; 
+SEQ5:	MotifSampler	misc_feature	1928	1935	651012	+	.	id "box_92_1_nGGGCGGG"; site "CGGGCGGG"; 
+SEQ5:	MotifSampler	misc_feature	1973	1980	621209	+	.	id "box_92_1_nGGGCGGG"; site "CGGGCGGG"; 
+	MotifSampler	misc_feature	2131	2138	651012	+	.	id "box_92_1_nGGGCGGG"; site "CGGGCGGG"; 
+	MotifSampler	misc_feature	2425	2432	105848	+	.	id "box_92_1_nGGGCGGG"; site "CGGGCGGT"; 
+#id: box_93_1_GCGGnCGG	consensus: GCGGnCGG	sequences: 6	instances: 12	cs: 1.58	ic: 2.14	ll: 83.97
+SEQ1:	MotifSampler	misc_feature	2145	2152	713075	+	.	id "box_93_1_GCGGnCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2021	2028	361974	+	.	id "box_93_1_GCGGnCGG"; site "GCGGCCGG"; 
+SEQ2:	MotifSampler	misc_feature	1759	1766	403470	+	.	id "box_93_1_GCGGnCGG"; site "GCGGCCGG"; 
+SEQ2:	MotifSampler	misc_feature	2385	2392	39438.6	+	.	id "box_93_1_GCGGnCGG"; site "GCGGGCGC"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	1.24038e+06	+	.	id "box_93_1_GCGGnCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1849	1856	326257	+	.	id "box_93_1_GCGGnCGG"; site "GCGGCCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	1.24038e+06	+	.	id "box_93_1_GCGGnCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	54852	+	.	id "box_93_1_GCGGnCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	1.24038e+06	+	.	id "box_93_1_GCGGnCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	1.24038e+06	+	.	id "box_93_1_GCGGnCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	914946	+	.	id "box_93_1_GCGGnCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2304	2311	339456	+	.	id "box_93_1_GCGGnCGG"; site "GCGGCCGG"; 
+#id: box_94_1_GsGGGCGG	consensus: GsGGGCGG	sequences: 6	instances: 12	cs: 1.54	ic: 2.11	ll: 82.03
+SEQ1:	MotifSampler	misc_feature	2145	2152	568444	+	.	id "box_94_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	325389	+	.	id "box_94_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	117698	+	.	id "box_94_1_GsGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	248	255	45897.7	+	.	id "box_94_1_GsGGGCGG"; site "GGGAGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	988798	+	.	id "box_94_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	297834	+	.	id "box_94_1_GsGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	988798	+	.	id "box_94_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	325389	+	.	id "box_94_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	988798	+	.	id "box_94_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	988798	+	.	id "box_94_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	729371	+	.	id "box_94_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	178743	+	.	id "box_94_1_GsGGGCGG"; site "GGGGGCGG"; 
+#id: box_95_1_CGGmCnCC	consensus: CGGmCnCC	sequences: 6	instances: 12	cs: 1.42	ic: 1.89	ll: 74.50
+SEQ1:	MotifSampler	misc_feature	2388	2395	416381	+	.	id "box_95_1_CGGmCnCC"; site "CGGACCCC"; 
+SEQ1:	MotifSampler	misc_feature	2270	2277	112076	+	.	id "box_95_1_CGGmCnCC"; site "CGGCCCCG"; 
+SEQ2:	MotifSampler	misc_feature	2119	2126	230294	+	.	id "box_95_1_CGGmCnCC"; site "CGGACCCC"; 
+SEQ2:	MotifSampler	misc_feature	2632	2639	122160	+	.	id "box_95_1_CGGmCnCC"; site "CGGACCCG"; 
+SEQ3:	MotifSampler	misc_feature	2721	2728	289465	+	.	id "box_95_1_CGGmCnCC"; site "CGGCCCCC"; 
+SEQ3:	MotifSampler	misc_feature	2309	2316	214050	+	.	id "box_95_1_CGGmCnCC"; site "CGGCCCCC"; 
+SEQ4:	MotifSampler	misc_feature	2297	2304	27554.8	+	.	id "box_95_1_CGGmCnCC"; site "CGGCCGCC"; 
+SEQ4:	MotifSampler	misc_feature	1983	1990	14673.1	+	.	id "box_95_1_CGGmCnCC"; site "CGGCGGCC"; 
+SEQ5:	MotifSampler	misc_feature	2095	2102	59563.9	+	.	id "box_95_1_CGGmCnCC"; site "CGGCCGCC"; 
+SEQ5:	MotifSampler	misc_feature	2470	2477	57463.3	+	.	id "box_95_1_CGGmCnCC"; site "CGGACGCG"; 
+	MotifSampler	misc_feature	2173	2180	311432	+	.	id "box_95_1_CGGmCnCC"; site "CGGACCCC"; 
+	MotifSampler	misc_feature	2446	2453	273709	+	.	id "box_95_1_CGGmCnCC"; site "CGGCCCCC"; 
+#id: box_96_1_GsGGGCGG	consensus: GsGGGCGG	sequences: 6	instances: 12	cs: 1.54	ic: 2.11	ll: 82.03
+SEQ1:	MotifSampler	misc_feature	2145	2152	568444	+	.	id "box_96_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	325389	+	.	id "box_96_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	117698	+	.	id "box_96_1_GsGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	248	255	45897.7	+	.	id "box_96_1_GsGGGCGG"; site "GGGAGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	988798	+	.	id "box_96_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	297834	+	.	id "box_96_1_GsGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	988798	+	.	id "box_96_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	325389	+	.	id "box_96_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	988798	+	.	id "box_96_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	988798	+	.	id "box_96_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	729371	+	.	id "box_96_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	178743	+	.	id "box_96_1_GsGGGCGG"; site "GGGGGCGG"; 
+#id: box_97_1_GsGGGCGG	consensus: GsGGGCGG	sequences: 6	instances: 12	cs: 1.54	ic: 2.11	ll: 82.03
+SEQ1:	MotifSampler	misc_feature	2145	2152	568444	+	.	id "box_97_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	325389	+	.	id "box_97_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	117698	+	.	id "box_97_1_GsGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	248	255	45897.7	+	.	id "box_97_1_GsGGGCGG"; site "GGGAGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	988798	+	.	id "box_97_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	297834	+	.	id "box_97_1_GsGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	988798	+	.	id "box_97_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	325389	+	.	id "box_97_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	988798	+	.	id "box_97_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	988798	+	.	id "box_97_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	729371	+	.	id "box_97_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	178743	+	.	id "box_97_1_GsGGGCGG"; site "GGGGGCGG"; 
+#id: box_98_1_GGGCGGnG	consensus: GGGCGGnG	sequences: 6	instances: 12	cs: 1.51	ic: 2.08	ll: 78.37
+SEQ1:	MotifSampler	misc_feature	1700	1707	353869	+	.	id "box_98_1_GGGCGGnG"; site "GGGCGGGG"; 
+SEQ1:	MotifSampler	misc_feature	1761	1768	202458	+	.	id "box_98_1_GGGCGGnG"; site "GGGCGGGG"; 
+SEQ2:	MotifSampler	misc_feature	1761	1768	72618	+	.	id "box_98_1_GGGCGGnG"; site "GGCCGGCG"; 
+SEQ2:	MotifSampler	misc_feature	1855	1862	15648.8	+	.	id "box_98_1_GGGCGGnG"; site "GGGGGGGG"; 
+SEQ3:	MotifSampler	misc_feature	1368	1375	722495	+	.	id "box_98_1_GGGCGGnG"; site "GGGCGGGG"; 
+SEQ3:	MotifSampler	misc_feature	1956	1963	475179	+	.	id "box_98_1_GGGCGGnG"; site "GGGCGGGG"; 
+SEQ4:	MotifSampler	misc_feature	129	136	252878	+	.	id "box_98_1_GGGCGGnG"; site "GGGCGGGG"; 
+SEQ4:	MotifSampler	misc_feature	2008	2015	31040.2	+	.	id "box_98_1_GGGCGGnG"; site "TGGCGGCG"; 
+SEQ5:	MotifSampler	misc_feature	1929	1936	722495	+	.	id "box_98_1_GGGCGGnG"; site "GGGCGGGG"; 
+SEQ5:	MotifSampler	misc_feature	1974	1981	722495	+	.	id "box_98_1_GGGCGGnG"; site "GGGCGGGG"; 
+	MotifSampler	misc_feature	2150	2157	401239	+	.	id "box_98_1_GGGCGGnG"; site "GGGCGGCG"; 
+	MotifSampler	misc_feature	2306	2313	72618	+	.	id "box_98_1_GGGCGGnG"; site "GGCCGGCG"; 
+#id: box_99_1_GCGGCGGC	consensus: GCGGCGGC	sequences: 6	instances: 12	cs: 1.57	ic: 2.11	ll: 81.05
+SEQ1:	MotifSampler	misc_feature	2018	2025	974585	+	.	id "box_99_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ1:	MotifSampler	misc_feature	2277	2284	123886	+	.	id "box_99_1_GCGGCGGC"; site "GCGGCGCC"; 
+SEQ2:	MotifSampler	misc_feature	2597	2604	158478	+	.	id "box_99_1_GCGGCGGC"; site "GCGGCGCC"; 
+SEQ2:	MotifSampler	misc_feature	2357	2364	20506.4	+	.	id "box_99_1_GCGGCGGC"; site "GCGGCAGC"; 
+SEQ3:	MotifSampler	misc_feature	2440	2447	1.03924e+06	+	.	id "box_99_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ3:	MotifSampler	misc_feature	2428	2435	882135	+	.	id "box_99_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ4:	MotifSampler	misc_feature	2010	2017	766576	+	.	id "box_99_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ4:	MotifSampler	misc_feature	2048	2055	185970	+	.	id "box_99_1_GCGGCGGC"; site "GCGGCGGG"; 
+SEQ5:	MotifSampler	misc_feature	2035	2042	766576	+	.	id "box_99_1_GCGGCGGC"; site "GCGGCGGC"; 
+SEQ5:	MotifSampler	misc_feature	1712	1719	594576	+	.	id "box_99_1_GCGGCGGC"; site "GCGGCGGC"; 
+	MotifSampler	misc_feature	1986	1993	244051	+	.	id "box_99_1_GCGGCGGC"; site "GCGGCGGG"; 
+	MotifSampler	misc_feature	2152	2159	96684.7	+	.	id "box_99_1_GCGGCGGC"; site "GCGGCGCC"; 
+#id: box_100_1_GsGGGCGG	consensus: GsGGGCGG	sequences: 6	instances: 12	cs: 1.54	ic: 2.11	ll: 82.03
+SEQ1:	MotifSampler	misc_feature	2145	2152	568444	+	.	id "box_100_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ1:	MotifSampler	misc_feature	2027	2034	325389	+	.	id "box_100_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	1762	1769	117698	+	.	id "box_100_1_GsGGGCGG"; site "GCCGGCGG"; 
+SEQ2:	MotifSampler	misc_feature	248	255	45897.7	+	.	id "box_100_1_GsGGGCGG"; site "GGGAGCGG"; 
+SEQ3:	MotifSampler	misc_feature	1362	1369	988798	+	.	id "box_100_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ3:	MotifSampler	misc_feature	2439	2446	297834	+	.	id "box_100_1_GsGGGCGG"; site "GGCGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2051	2058	988798	+	.	id "box_100_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ4:	MotifSampler	misc_feature	2267	2274	325389	+	.	id "box_100_1_GsGGGCGG"; site "GGGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1708	1715	988798	+	.	id "box_100_1_GsGGGCGG"; site "GCGGGCGG"; 
+SEQ5:	MotifSampler	misc_feature	1927	1934	988798	+	.	id "box_100_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2130	2137	729371	+	.	id "box_100_1_GsGGGCGG"; site "GCGGGCGG"; 
+	MotifSampler	misc_feature	2213	2220	178743	+	.	id "box_100_1_GsGGGCGG"; site "GGGGGCGG"; 
 
 #MotifSampler results summary :
 #number of reported motifs :100
 #convergence rate (%):100
-#maximal/minimal number of sequences with a motif :5/4
-#maximal/minimal number of instances in a motif :8/4
-#maximal/minimal motif Consensus score :1.40/0.95
-#maximal/minimal motif Information Content score :1.33/0.80
-#maximal/minimal motif LogLikelihood score :43/29
-#MotifSampler runtime information : 7sec (=~ 0hrs, 0min).
-#END - Application ends successfully.
-f :5/4
-#maximal/minimal number of instances in a motif :8/4
-#maximal/minimal motif Consensus score :1.40/0.92
-#maximal/minimal motif Information Content score :1.31/0.85
-#maximal/minimal motif LogLikelihood score :44/28
-#MotifSampler runtime information : 6sec (=~ 0hrs, 0min).
+#maximal/minimal number of sequences with a motif :6/6
+#maximal/minimal number of instances in a motif :12/12
+#maximal/minimal motif Consensus score :1.61/1.39
+#maximal/minimal motif Information Content score :2.20/1.86
+#maximal/minimal motif LogLikelihood score :83/74
+#MotifSampler runtime information : 70sec (=~ 0hrs, 1min).
 #END - Application ends successfully.

@@ -19,7 +19,7 @@ from core.config import settings
 
 def search_for_cre(session: Session, data_in: MotifSearch) -> MotifSearchOut:
     reverse_complement = rev_comp_st(data_in.sequence)
-    db_factors = session.exec(select(Factors)).all()
+    db_factors = session.exec(select(Factors).order_by(Factors.ft_id)).all()
     database = {factor.ac: factor.sq for factor in db_factors}
 
     # Find matches on both strands
@@ -105,7 +105,7 @@ def search_for_cre_and_save_history(
             detail="User not found.",
         )
     reverse_complement = rev_comp_st(data_in.sequence)
-    db_factors = session.exec(select(Factors)).all()
+    db_factors = session.exec(select(Factors).order_by(Factors.ft_id)).all()
     database = {factor.ac: factor.sq for factor in db_factors}
 
     # Find matches on both strands
