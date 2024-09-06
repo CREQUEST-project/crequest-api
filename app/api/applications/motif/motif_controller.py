@@ -48,10 +48,12 @@ async def motif_sampler(
             f_file_path, b_file_path, output_o, output_m, **parameters
         )
         # save to computational_motif table
-        db_computational_motif = ComputationalMotif(sequences=",".join(motifs))
-        session.add(db_computational_motif)
+        motif_in = []
+        for motif in motifs:
+            db_computational_motif = ComputationalMotif(sequences=motif)
+            motif_in.append(db_computational_motif)
+        session.add_all(motif_in)
         session.commit()
-        session.refresh(db_computational_motif)
     except Exception as e:
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
@@ -124,13 +126,15 @@ async def run_motif_sampler(
     command = " ".join(command)
     process = subprocess.run(command, capture_output=True, text=True, shell=True)
 
-    # Handle reusults
+    # Handle results
     if process.returncode == 0:
-        motifs = []
-        for line in process.stdout.splitlines():
-            if line.startswith("#Consensus"):
-                motif = line.split(":")[1].strip()
-                motifs.append(motif)
+        path_result = f"./app/media_motifsampler/{output_m}"
+        with open(path_result, "r") as f:
+            motifs = []
+            for line in f:
+                if line.startswith("#Consensus"):
+                    motif = line.split("=")[1].strip()  # Keep only the sequence part
+                    motifs.append(motif)
         return motifs
     else:
         error_message = process.stderr.strip()
