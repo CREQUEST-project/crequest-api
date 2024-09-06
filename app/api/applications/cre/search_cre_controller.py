@@ -13,6 +13,7 @@ from models.factors import (
     MotifSearchAndSaveHistoryOut,
     MotifSearchOut,
     QueryCreSearchIn,
+    Position,
 )
 from models.factors_function_labels import FactorsFunctionLabels
 from core.config import settings
@@ -27,10 +28,28 @@ def search_for_cre(session: Session, data_in: MotifSearch) -> MotifSearchOut:
     forward_matches = find_sequence_in_database(data_in.sequence, database)
     reverse_matches = find_sequence_in_database(reverse_complement, database)
 
-    # Prepare data for matches with color
-    forward_matches_with_color = []
+    # Group matches by factor_id
+    forward_matches_grouped = {}
     for match in forward_matches:
         factor_id = match[1]
+        if factor_id not in forward_matches_grouped:
+            forward_matches_grouped[factor_id] = []
+        forward_matches_grouped[factor_id].append(
+            Position(start=match[2], end=match[3])
+        )  # Store start, end
+
+    reverse_matches_grouped = {}
+    for match in reverse_matches:
+        factor_id = match[1]
+        if factor_id not in reverse_matches_grouped:
+            reverse_matches_grouped[factor_id] = []
+        reverse_matches_grouped[factor_id].append(
+            Position(start=match[2], end=match[3])
+        )  # Store start, end
+
+    # Prepare data for matches with color, only one entry per factor_id
+    forward_matches_with_color = []
+    for factor_id, positions in forward_matches_grouped.items():
         factor = session.exec(select(Factors).where(Factors.ac == factor_id)).first()
         if not factor:
             raise HTTPException(
@@ -52,15 +71,13 @@ def search_for_cre(session: Session, data_in: MotifSearch) -> MotifSearchOut:
                 "sq": factor.sq,
                 "de": factor.de,
                 "function_label": function_label,
-                "start": match[2],
-                "end": match[3],
+                "positions": positions,  # Store start, end as an array
                 "color": factor.color,
             }
         )
 
     reverse_matches_with_color = []
-    for match in reverse_matches:
-        factor_id = match[1]
+    for factor_id, positions in reverse_matches_grouped.items():
         factor = session.exec(select(Factors).where(Factors.ac == factor_id)).first()
         if not factor:
             raise HTTPException(
@@ -81,8 +98,7 @@ def search_for_cre(session: Session, data_in: MotifSearch) -> MotifSearchOut:
                 "sq": factor.sq,
                 "de": factor.de,
                 "function_label": function_label,
-                "start": match[2],
-                "end": match[3],
+                "positions": positions,  # Store start, end as an array
                 "color": factor.color,
             }
         )
@@ -123,10 +139,28 @@ def search_for_cre_and_save_history(
     forward_matches = find_sequence_in_database(data_in.sequence, database)
     reverse_matches = find_sequence_in_database(reverse_complement, database)
 
-    # Prepare data for matches with color
-    forward_matches_with_color = []
+    # Group matches by factor_id
+    forward_matches_grouped = {}
     for match in forward_matches:
         factor_id = match[1]
+        if factor_id not in forward_matches_grouped:
+            forward_matches_grouped[factor_id] = []
+        forward_matches_grouped[factor_id].append(
+            Position(start=match[2], end=match[3])
+        )  # Store start, end
+
+    reverse_matches_grouped = {}
+    for match in reverse_matches:
+        factor_id = match[1]
+        if factor_id not in reverse_matches_grouped:
+            reverse_matches_grouped[factor_id] = []
+        reverse_matches_grouped[factor_id].append(
+            Position(start=match[2], end=match[3])
+        )  # Store start, end
+
+    # Prepare data for matches with color, only one entry per factor_id
+    forward_matches_with_color = []
+    for factor_id, positions in forward_matches_grouped.items():
         factor = session.exec(select(Factors).where(Factors.ac == factor_id)).first()
         if not factor:
             raise HTTPException(
@@ -148,15 +182,13 @@ def search_for_cre_and_save_history(
                 "sq": factor.sq,
                 "de": factor.de,
                 "function_label": function_label,
-                "start": match[2],
-                "end": match[3],
+                "positions": positions,  # Store start, end as an array
                 "color": factor.color,
             }
         )
 
     reverse_matches_with_color = []
-    for match in reverse_matches:
-        factor_id = match[1]
+    for factor_id, positions in reverse_matches_grouped.items():
         factor = session.exec(select(Factors).where(Factors.ac == factor_id)).first()
         if not factor:
             raise HTTPException(
@@ -177,8 +209,7 @@ def search_for_cre_and_save_history(
                 "sq": factor.sq,
                 "de": factor.de,
                 "function_label": function_label,
-                "start": match[2],
-                "end": match[3],
+                "positions": positions,  # Store start, end as an array
                 "color": factor.color,
             }
         )
@@ -190,7 +221,6 @@ def search_for_cre_and_save_history(
         "reverse_strand_matches": reverse_matches_with_color,
         "history_id": db_search_history.id,
     }
-
     return data
 
 

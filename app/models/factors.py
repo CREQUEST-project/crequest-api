@@ -59,13 +59,17 @@ class MotifSearch(SQLModel):
     sequence: str
 
 
+class Position(SQLModel):
+    start: int
+    end: int
+
+
 class StrandMatch(SQLModel):
     factor_id: str
     sq: str
     de: str
     function_label: FactorsFunctionLabels | None = None
-    start: int
-    end: int
+    positions: list[Position]
     color: str
 
 
