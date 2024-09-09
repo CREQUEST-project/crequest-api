@@ -20,3 +20,19 @@ class FactorsFunctionLabels(FactorsFunctionLabelsBase, table=True):
 
     class Config:
         from_attributes: bool = True
+
+
+class FactorsFunctionLabelsItemOut(FactorsFunctionLabelsBase):
+    id: uuid.UUID
+    created_at: datetime
+    updated_at: datetime
+
+
+class FactorsFunctionLabelsListOut(SQLModel):
+    data: list[FactorsFunctionLabelsItemOut]
+    count: int
+
+
+class FactorsFunctionLabelsUpdate(SQLModel):
+    label: str | None = None
+    detail_label: str | None = None

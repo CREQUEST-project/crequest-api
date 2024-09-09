@@ -131,3 +131,19 @@ class MotifSamplerResponse(SQLModel):
 class CreResultSendEmail(SQLModel):
     receiver_email: list[str]
     sequence: str
+
+
+class CreUpdateIn(SQLModel):
+    ac: str | None = None
+    dt: str | None = None
+    de: str | None = None
+    kw: str | None = None
+    os: str | None = None
+    ra: str | None = None
+    rt: str | None = None
+    rl: str | None = None
+    rc: str | None = None
+    rd: str | None = None
+    sq: str | None = None
+    note: str | None = Field(default=None, nullable=True)
+    color: str | None = None
