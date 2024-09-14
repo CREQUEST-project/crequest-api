@@ -180,7 +180,7 @@ async def motif_sampler(
         MotifSamplerResponse: The response containing the results of motif sampling.
     """
     return await MotifController.motif_sampler(
-        session, f_file, b_file, output_o, output_m, r, s, w, n, x, M, p, Q, z
+        session, f_file, b_file, output_o, output_m, r, s, w, n, x, M, p, Q, z, False
     )
 
 
