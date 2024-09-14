@@ -44,10 +44,36 @@ def send_email_attach_file_stream(
     )
     message.attach(part)
 
-    print(settings.EMAIL_HOST, settings.EMAIL_PORT)
+    # Send email
+    with smtplib.SMTP(settings.EMAIL_HOST, settings.EMAIL_PORT) as server:
+        server.starttls()
+        server.login(settings.EMAIL_HOST_USER, settings.EMAIL_HOST_PASSWORD)
+        server.sendmail(sender_email, receiver_email, message.as_string())
+
+
+def send_simple_email(
+    receiver_email: list[str],
+    subject: str,
+    body: str,
+    sender_email: str,
+):
+    message = MIMEMultipart()
+    message["From"] = sender_email
+    message["To"] = ", ".join(receiver_email)
+    message["Subject"] = subject
+
+    # Attach the body to the email
+    message.attach(MIMEText(body, "plain"))
 
     # Send email
     with smtplib.SMTP(settings.EMAIL_HOST, settings.EMAIL_PORT) as server:
         server.starttls()
         server.login(settings.EMAIL_HOST_USER, settings.EMAIL_HOST_PASSWORD)
         server.sendmail(sender_email, receiver_email, message.as_string())
+
+
+def random_password():
+    return "".join(
+        random.choice("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz")
+        for i in range(12)
+    )

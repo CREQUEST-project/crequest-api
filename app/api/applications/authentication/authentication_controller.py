@@ -42,6 +42,15 @@ def register_user(session: Session, data_in: UserCreate) -> UserRegisterResponse
     if user:
         raise HTTPException(status_code=400, detail="User name already registered")
 
+    # check if valid email
+    if "@" not in data_in.email:
+        raise HTTPException(status_code=400, detail="Invalid email address")
+
+    # check if existed email
+    user = session.exec(select(User).where(User.email == data_in.email)).first()
+    if user:
+        raise HTTPException(status_code=400, detail="Email address already registered")
+
     valid_user_roles = [2, 3]
 
     if data_in.user_role_id not in valid_user_roles:
@@ -51,6 +60,7 @@ def register_user(session: Session, data_in: UserCreate) -> UserRegisterResponse
         user_name=data_in.user_name,
         user_role_id=data_in.user_role_id,
         hashed_password=hashed_password,
+        email=data_in.email,
     )
     session.add(user)
     session.commit()
