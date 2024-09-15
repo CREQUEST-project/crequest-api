@@ -49,9 +49,9 @@ class UserRegisterResponse(UserBase):
 
 
 class UserInfoUpdate(SQLModel):
-    email: str | None
-    location: str | None
-    phone: str | None
+    email: str | None = None
+    location: str | None = None
+    phone: str | None = None
 
 
 class ChangePassword(SQLModel):
