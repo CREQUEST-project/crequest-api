@@ -44,23 +44,24 @@ async def motif_sampler(
         "z": z,
     }
 
-    if is_biologist_action:
-        try:
-            motifs = await run_motif_sampler(
-                f_file_path, b_file_path, output_o, output_m, **parameters
-            )
-            # save to computational_motif table
+    motifs = []
+    try:
+        motifs = await run_motif_sampler(
+            f_file_path, b_file_path, output_o, output_m, **parameters
+        )
+        # save to computational_motif table
+        if is_biologist_action:
             motif_in = []
             for motif in motifs:
                 db_computational_motif = ComputationalMotif(sequences=motif)
                 motif_in.append(db_computational_motif)
             session.add_all(motif_in)
             session.commit()
-        except Exception as e:
-            raise HTTPException(
-                status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-                detail=str(e),
-            )
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=str(e),
+        )
 
     return MotifSamplerResponse(
         status="success",
