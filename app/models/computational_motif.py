@@ -24,3 +24,9 @@ class ComputationalMotifOut(ComputationalMotifBase):
 class ComputationalMotifListOut(SQLModel):
     data: list[ComputationalMotifOut]
     count: int
+
+class Sequences(SQLModel):
+    sequences: str
+
+class SaveComputationalMotifIn(SQLModel):
+    motifs: list[Sequences]

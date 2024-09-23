@@ -4,7 +4,7 @@ from fastapi import File, Form, HTTPException, UploadFile, status
 from sqlalchemy import func
 from sqlmodel import Session, select
 
-from models.computational_motif import ComputationalMotif, ComputationalMotifListOut
+from models.computational_motif import ComputationalMotif, ComputationalMotifListOut, SaveComputationalMotifIn
 from models.factors import FactorsIn, MotifSamplerResponse, Factors
 from models.base import Message
 from core.config import settings
@@ -50,13 +50,13 @@ async def motif_sampler(
             f_file_path, b_file_path, output_o, output_m, **parameters
         )
         # save to computational_motif table
-        if is_biologist_action:
-            motif_in = []
-            for motif in motifs:
-                db_computational_motif = ComputationalMotif(sequences=motif)
-                motif_in.append(db_computational_motif)
-            session.add_all(motif_in)
-            session.commit()
+        # if is_biologist_action:
+        #     motif_in = []
+        #     for motif in motifs:
+        #         db_computational_motif = ComputationalMotif(sequences=motif)
+        #         motif_in.append(db_computational_motif)
+        #     session.add_all(motif_in)
+        #     session.commit()
     except Exception as e:
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
@@ -69,6 +69,14 @@ async def motif_sampler(
         results=motifs,
     )
 
+def save_computational_motif(session: Session, data_in: list[str]) -> Message:
+    data_append = []
+    for motif in data_in:
+        db_computational_motif = ComputationalMotif(sequences=motif)
+        data_append.append(db_computational_motif)
+    session.add_all(data_append)
+    session.commit()
+    return Message(status_code=status.HTTP_200_OK, message="Items created")
 
 async def save_upload_file(uploaded_file: UploadFile):
     # Create media_motifsampler directory if not exists
