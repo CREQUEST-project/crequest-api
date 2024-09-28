@@ -1,7 +1,12 @@
 from fastapi import APIRouter, Depends, File, Form, UploadFile
 
 from api.deps import SessionDep
-from models.computational_motif import ComputationalMotifListOut, ComputationalMotifOut, SaveComputationalMotifIn
+from models.computational_motif import (
+    ComputationalMotifIn,
+    ComputationalMotifListOut,
+    ComputationalMotifOut,
+    SearchComputationalMotif,
+)
 from models.factors import FactorsIn, MotifSamplerResponse
 from models.base import Message
 import api.applications.motif.motif_controller as MotifController
@@ -99,10 +104,36 @@ async def motif_sampler(
         session, f_file, b_file, output_o, output_m, r, s, w, n, x, M, p, Q, z, True
     )
 
+
 @router.post(
     "/computational-motifs/save",
     response_model=Message,
     dependencies=[Depends(get_current_active_biologist)],
-) 
+)
 def save_computational_motif(session: SessionDep, data_in: list[str]) -> Message:
     return MotifController.save_computational_motif(session, data_in)
+
+
+@router.post(
+    "/computational-motifs/search",
+    response_model=ComputationalMotifListOut,
+    dependencies=[Depends(get_current_active_biologist)],
+)
+def search_computational_motif(
+    session: SessionDep,
+    data_in: SearchComputationalMotif,
+    skip: int = 0,
+    limit: int = settings.RECORD_LIMIT,
+) -> ComputationalMotifListOut:
+    return MotifController.search_computational_motif(session, data_in, skip, limit)
+
+
+@router.post(
+    "/computational-motifs",
+    response_model=ComputationalMotifOut,
+    dependencies=[Depends(get_current_active_biologist)],
+)
+def create_computational_motif(
+    session: SessionDep, data_in: ComputationalMotifIn
+) -> ComputationalMotifOut:
+    return MotifController.create_computational_motif(session, data_in)

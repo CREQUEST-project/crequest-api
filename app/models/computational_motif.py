@@ -15,6 +15,10 @@ class ComputationalMotif(ComputationalMotifBase, table=True):
         from_attributes = True
 
 
+class ComputationalMotifIn(ComputationalMotifBase):
+    pass
+
+
 class ComputationalMotifOut(ComputationalMotifBase):
     id: int
     created_at: datetime
@@ -25,8 +29,14 @@ class ComputationalMotifListOut(SQLModel):
     data: list[ComputationalMotifOut]
     count: int
 
+
 class Sequences(SQLModel):
     sequences: str
 
+
 class SaveComputationalMotifIn(SQLModel):
     motifs: list[Sequences]
+
+
+class SearchComputationalMotif(SQLModel):
+    sequence: str

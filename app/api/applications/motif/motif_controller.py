@@ -4,7 +4,13 @@ from fastapi import File, Form, HTTPException, UploadFile, status
 from sqlalchemy import func
 from sqlmodel import Session, select
 
-from models.computational_motif import ComputationalMotif, ComputationalMotifListOut, SaveComputationalMotifIn
+from models.computational_motif import (
+    ComputationalMotif,
+    ComputationalMotifIn,
+    ComputationalMotifListOut,
+    ComputationalMotifOut,
+    SearchComputationalMotif,
+)
 from models.factors import FactorsIn, MotifSamplerResponse, Factors
 from models.base import Message
 from core.config import settings
@@ -69,6 +75,7 @@ async def motif_sampler(
         results=motifs,
     )
 
+
 def save_computational_motif(session: Session, data_in: list[str]) -> Message:
     data_append = []
     for motif in data_in:
@@ -77,6 +84,7 @@ def save_computational_motif(session: Session, data_in: list[str]) -> Message:
     session.add_all(data_append)
     session.commit()
     return Message(status_code=status.HTTP_200_OK, message="Items created")
+
 
 async def save_upload_file(uploaded_file: UploadFile):
     # Create media_motifsampler directory if not exists
@@ -217,3 +225,43 @@ def validate_computational_motif(
     return Message(
         status_code=status.HTTP_200_OK, message="Validation completed successfully."
     )
+
+
+def search_computational_motif(
+    session: Session,
+    data_in: SearchComputationalMotif,
+    skip: int = 0,
+    limit: int = settings.RECORD_LIMIT,
+) -> ComputationalMotifListOut:
+    count_statement = (
+        select(func.count())
+        .select_from(ComputationalMotif)
+        .where(
+            func.lower(ComputationalMotif.sequences).ilike(
+                func.lower(f"%{data_in.sequence}%")
+            )
+        )
+    )
+    count = session.exec(count_statement).one()
+
+    db_computational_motifs = session.exec(
+        select(ComputationalMotif)
+        .where(
+            func.lower(ComputationalMotif.sequences).ilike(
+                func.lower(f"%{data_in.sequence}%")
+            )
+        )
+        .offset(skip)
+        .limit(limit)
+    ).all()
+    return ComputationalMotifListOut(data=db_computational_motifs, count=count)
+
+
+def create_computational_motif(
+    session: Session, data_in: ComputationalMotifIn
+) -> ComputationalMotifOut:
+    db_computational_motif = ComputationalMotif.model_validate(data_in)
+    session.add(db_computational_motif)
+    session.commit()
+    session.refresh(db_computational_motif)
+    return db_computational_motif
