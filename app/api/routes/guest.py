@@ -57,7 +57,7 @@ async def motif_sampler(
 
 
 @router.post("/cre/export-excel")
-def export_cre_excel(session: SessionDep, data_in: MotifSearch):
+def export_cre_excel(session: SessionDep, data_in: list[MotifSearch]):
     """
     Export CRE data to an Excel file.
 
