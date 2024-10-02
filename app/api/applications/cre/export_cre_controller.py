@@ -54,7 +54,7 @@ def export_excel(session: Session, data_in: list[MotifSearch]):
 
 
 def _add_header_row(sheet):
-    sheet.append(["original_sequence", "ac", "dt", "de", "kw", "os", "ra", "rt", "rl", "rd", "sq", "positions"])
+    sheet.append(["ac", "dt", "de", "kw", "os", "ra", "rt", "rl", "rd", "sq", "positions"])
 
     # Style header row
     for row in sheet.iter_rows(min_row=1, max_row=1):
@@ -68,7 +68,6 @@ def _add_factor_rows(sheet, matches):
         positions = "; ".join([f"{pos.start}-{pos.end}" for pos in match["positions"]])
         sheet.append(
             [
-                match["original_sequence"],  # Add original sequence
                 match["factor_id"],
                 match["dt"], 
                 match["de"],

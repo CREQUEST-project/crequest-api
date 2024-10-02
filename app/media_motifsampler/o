@@ -1,0 +1,9 @@
+#INCLUSive GFF File
+#
+#The results in this file are NOT complete as long as there is no END-sign at the bottom of this file!
+--Error-- BackgroundIO(): Uncorrect format of input file: EvgA.fna
+--Error-- BackgroundIO(): First line reads: 
+>yneN (file should start with '#INCLUSive')
+#Check our MotifSuite webpage for correct input format. Or contact us, we will be happy to help.
+
+#END - Application ends successfully.
