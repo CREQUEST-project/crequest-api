@@ -1,11 +1,14 @@
 from fastapi import APIRouter
 
 from api.deps import SessionDep
+from models.computational_motif import ComputationalMotifListOut, SearchComputationalMotif
 from core.config import settings
 from fastapi.params import Depends
-from models.factors import FactorsListOut, CreUpdateIn, FactorsOut
+from models.factors import FactorsListOut, CreUpdateIn, FactorsOut, MotifSearch, MotifSearchOut
 
 import api.applications.cre.cre_controller as CreController
+import api.applications.cre.search_cre_controller as SearchMotifController
+import api.applications.motif.motif_controller as MotifController
 
 import uuid
 
@@ -102,3 +105,21 @@ def update_function_label(
 )
 def delete_function_label(session: SessionDep, ft_id: uuid.UUID) -> Message:
     return CreController.delete_function_label(session, ft_id)
+
+
+@router.post("/search-for-cre", response_model=MotifSearchOut, dependencies=[Depends(get_current_active_admin)])
+def search_for_cre(*, session: SessionDep, data_in: MotifSearch):
+    return SearchMotifController.search_for_cre(session, data_in)
+
+@router.post(
+    "/computational-motifs/search",
+    response_model=ComputationalMotifListOut,
+    dependencies=[Depends(get_current_active_admin)],
+)
+def search_computational_motif(
+    session: SessionDep,
+    data_in: SearchComputationalMotif,
+    skip: int = 0,
+    limit: int = settings.RECORD_LIMIT,
+) -> ComputationalMotifListOut:
+    return MotifController.search_computational_motif(session, data_in, skip, limit)
