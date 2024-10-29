@@ -103,8 +103,11 @@ def _format_sheet(sheet):
         sheet.column_dimensions[column_letter].width = adjusted_width
 
 
-def send_cre_excel_email(session: Session, data_in: list[CreResultSendEmail]):
-    output = export_excel(session, data_in)
+def send_cre_excel_email(session: Session, data_in: CreResultSendEmail):
+    list_sequence = []
+    list_sequence.append(MotifSearch(sequence=data_in.sequence))
+
+    output = export_excel(session, list_sequence)
 
     # Send email with attachment
     send_email_attach_file_stream(
